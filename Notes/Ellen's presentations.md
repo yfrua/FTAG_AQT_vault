@@ -2,15 +2,20 @@
 - Negative tag method:
 	- Tracks with negative IPs and secondary vertices with negative lifetimes are used by flipped taggers to obtain light-jet enriched tagged samples.  
 - [[Dijet (CaloJets) selection]] 
-
 - Trigger and pT binning
 ![[Pasted image 20260226182439.png]]
-- Control plots (2021.10.04 slides):  
-	- leading jet pT  
-	- SV mass  
+- Control plots (2021.10.04 slides):
+	- leading jet pT
+	- SV mass
 	- leading jet DL1r/DL1rFlip discriminant  
 - Template fit (see [[Investigating the negative-tag method to calibrate the GN3 light-jet efficiency]] for better understanding)  
 	- fit SV mass distribution in data, extract data light-jet efficiency.  
 	- fits are performed in bins of jet pT.
 	- get SF and uncertainty. 
+-  Gluon splitting studies (2022.09.05 slides)
+	- b-veto: veto subleading b-tagged jets
+	- 5 stands for b-jets with one b-quarks, 55 for b-jet with two b-quarks.
+	- Gluon splitting might change the SV mass distribution
+	- The b-veto rejects events with two b-jets (5), but not events with two b-quarks in one jet (55)
+	- Purity of light jets changes
 - 
