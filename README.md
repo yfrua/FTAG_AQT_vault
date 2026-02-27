@@ -32,12 +32,19 @@ To restore notes on a new device, clone the repository and open the folder in Ob
 
 ## Structure
 
-```
+```text
 FTAG_AQT_vault/
 ├── .obsidian/          # Obsidian configuration (themes, plugins, settings)
-├── README.md           # This file
-└── ...                 # Your notes (.md files)
+├── Notes/              # Research notes and documentation
+├── attachments/        # Images and media files
+└── README.md           # This file
 ```
+
+## Content Overview
+
+The vault currently contains research notes focused on FTAG (Flavour Tagging) and jet calibration:
+- **Light-jet calibration**: Investigating methods for calibrating GN3 light-jet efficiency using di-jet samples and negative-tag methods.
+- **Presentations**: Documentation of presentations and meetings (e.g., Ellen's presentations).
 
 ## Notes
 
