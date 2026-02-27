@@ -6,10 +6,7 @@
 	- Download all of them to ui or submit event selection to grid?
 	- Or download a part of files, make sure selection code works fine and then submit grid job.
 - [ ] Study [[Ellen's presentations]] to understand which event selection you want to apply.
-	- Recommended basic selection
-	- Leading jet pT > 110 GeV
-	- No leptons
-	- ![[Pasted image 20260226181049.png|300]]
+	- [[Dijet (CaloJets) selection]]
 - [ ] Produce a first set of nominal only ntuples.
 - [ ] make control plot
 - [ ] Do template fit on secondary mass distribution, get SF 

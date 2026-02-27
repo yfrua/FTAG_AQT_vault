@@ -1,12 +1,8 @@
 - The current b-tagging algorithms reject too much light jets to calibrate the mistag rate using data.  
-- Negative tag method:  
+- Negative tag method:
 	- Tracks with negative IPs and secondary vertices with negative lifetimes are used by flipped taggers to obtain light-jet enriched tagged samples.  
-- Dijet (CaloJets) selection  
-	- Recommended basic selection  
-	- Leading jet pT > 110 GeV
-	- No electrons or muons in event
-	- No subleading b-tagged jets
-		- reduce the number of leading jets being truth b-jets since b-jets might be coming from gluon splitting  
+- [[Dijet (CaloJets) selection]] 
+
 - Trigger and pT binning
 ![[Pasted image 20260226182439.png]]
 - Control plots (2021.10.04 slides):  
@@ -15,5 +11,6 @@
 	- leading jet DL1r/DL1rFlip discriminant  
 - Template fit (see [[Investigating the negative-tag method to calibrate the GN3 light-jet efficiency]] for better understanding)  
 	- fit SV mass distribution in data, extract data light-jet efficiency.  
-	- fits are performed in bins of jet pT.	
+	- fits are performed in bins of jet pT.
+	- get SF and uncertainty. 
 - 
