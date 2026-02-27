@@ -2,8 +2,10 @@
 - Negative tag method:
 	- Tracks with negative IPs and secondary vertices with negative lifetimes are used by flipped taggers to obtain light-jet enriched tagged samples.  
 - [[Dijet (CaloJets) selection]] 
-- Trigger and pT binning
+- Trigger and pT binning (before)
 ![[Pasted image 20260226182439.png]]
+- binning (new)
+![[Pasted image 20260227181700.png]]
 - Control plots (2021.10.04 slides):
 	- leading jet pT
 	- SV mass
@@ -20,4 +22,5 @@
 	- Purity of light jets changes
 		- With veto, leading light-jets to b-jets ratio increases, but relatively also more 55 jets.
 	- increase $g \to bb$ or $g \to cc$ sample fraction, get new set of SFs.
-- 
+		- No idea about the motivation to do so.
+- Use Herwig generator, compare efficiency with Pythia.
