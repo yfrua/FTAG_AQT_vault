@@ -19,4 +19,5 @@
 	- The b-veto rejects events with two b-jets (5), but not events with two b-quarks in one jet (55)
 	- Purity of light jets changes
 		- With veto, leading light-jets to b-jets ratio increases, but relatively also more 55 jets.
+	- increase $g \to bb$ or $g \to cc$ sample fraction, get new set of SFs.
 - 
