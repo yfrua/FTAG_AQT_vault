@@ -1,7 +1,11 @@
+---
+aliases:
+  - previous AQP task
+---
 - The current b-tagging algorithms reject too much light jets to calibrate the mistag rate using data.  
 - Negative tag method:
 	- Tracks with negative IPs and secondary vertices with negative lifetimes are used by flipped taggers to obtain light-jet enriched tagged samples.  
-- [[Dijet (CaloJets) selection]] 
+- [[Dijet (CaloJets) event selection]] 
 - Trigger and pT binning (before)
 ![[Pasted image 20260226182439.png]]
 - binning (new)
