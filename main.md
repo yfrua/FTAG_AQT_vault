@@ -1,4 +1,5 @@
-# TODO
+# Light-jet calibration on di-jet sample
+## TODO
 - [ ] Check out the CNF
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 - [ ] Get in touch with Teresa to see her sample lists. You want the unfiltered di-jet samples.
@@ -11,7 +12,7 @@
 - [ ] make control plot
 - [ ] Do template fit on secondary mass distribution, get SF 
 
-# Resources
+## Resources
 - [[jira page]]: [jira](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples) 
 
