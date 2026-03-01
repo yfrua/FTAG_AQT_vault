@@ -12,6 +12,7 @@
 - [ ] make control plot
 - [ ] Do template fit on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
+	- [ ] calculate [[SF Uncertainty]]
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
