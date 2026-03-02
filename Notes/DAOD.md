@@ -1,4 +1,4 @@
-DAOD request from Teressa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
+DAOD request from Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
 # mc23a
 ## Muon filtered
 ```
