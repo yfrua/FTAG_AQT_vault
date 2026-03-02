@@ -5,7 +5,7 @@
 - a new p-tag is available now, p7017
 ![[Pasted image 20260302212253.png]]
 
-# JZx slice defination
+# JZx slice definition
 samples list below are up to JZ9.
 
 | JZx | pT_min | pT_max |
@@ -23,7 +23,7 @@ samples list below are up to JZ9.
 | 10  | 3900   | 4600   |
 | 11  | 4600   | 5300   |
 | 12  | 5300   | 7000   |
-
+	
 # p6697
 ## mc23a
 ### Unfiltered
@@ -50,7 +50,6 @@ mc23_13p6TeV.801947.Py8EG_A14N23LO_jetjet_JZ5WithSW_xAODMuFilt.deriv.DAOD_PHYS.e
 mc23_13p6TeV.801948.Py8EG_A14N23LO_jetjet_JZ6WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4162_r14622
 mc23_13p6TeV.801949.Py8EG_A14N23LO_jetjet_JZ7WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4162_r14622
 ```
-
 
 ## mc23d
 ### Unfiltered

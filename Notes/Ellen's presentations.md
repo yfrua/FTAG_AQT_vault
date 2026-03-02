@@ -16,7 +16,7 @@ aliases:
 	- leading jet pT
 	- SV mass
 	- leading jet DL1r/DL1rFlip discriminant  
-- Template fit (see [[SV Mass Fitting Methodology]] for better understanding)  
+- Template fit, [[SV Mass Fitting Methodology]]
 	- fit SV mass distribution in data, extract data light-jet efficiency.  
 	- fits are performed in bins of jet pT.
 	- get SF and uncertainty. 
