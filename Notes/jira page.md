@@ -7,7 +7,7 @@ For the standard calibrations, the SFs for pT > 300 GeV are estimated using a MC
 - The existing light mistag calibration on dijet events in Rel.21 will be ported to **Rel.25** and the selection will be adapted to the current recommendations. Especially, it should be investigated ==how low in pT the selection can be expanded== to have maximum overlap with the Z+jets calibration
 - The composition in quarks and gluons of the selected sample will be studied, as well the composition in $g\to bb$, $g\to cc$ which are counted as b- and c-jets, respectively, and which might have an impact on the calibration according to previous studies.
 - ==Using both direct tag and negative tag methods==, light mistag efficiency scale factors will be extracted as a function of the jet pT and the uncertainties should be estimated, similarly to the standard light mistag calibration
-- Compare the SFs obtained with 150 < pT < 300 GeV with those obtained with the standard Z+jets calibration using Run3 data up to 2024
+- Compare the SFs obtained with 150 < pT < 300 GeV with those obtained with the standard Z+jets calibration **using Run3 data up to 2024**
 - Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 - [if time allows] extend the calibration to the 2025 and 2026 datasets
 
