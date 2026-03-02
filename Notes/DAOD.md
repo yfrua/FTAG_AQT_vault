@@ -1,4 +1,9 @@
-DAOD request from Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
+# General info
+- DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
+- AMI page or p6697: https://ami.in2p3.fr/?subapp=tagsShow&userdata=p6697
+![[Pasted image 20260302212326.png]]
+- a new p-tag is available now, p7017
+![[Pasted image 20260302212253.png]]
 
 # JZx slice defination
 samples list below are up to JZ9.
@@ -19,8 +24,9 @@ samples list below are up to JZ9.
 | 11  | 4600   | 5300   |
 | 12  | 5300   | 7000   |
 
-# mc23a
-## Unfiltered
+# p6697
+## mc23a
+### Unfiltered
 ```
 mc23_13p6TeV.801165.Py8EG_A14NNPDF23LO_jj_JZ0.deriv.DAOD_PHYS.e8514_s4162_r14622_p6697
 mc23_13p6TeV.801166.Py8EG_A14NNPDF23LO_jj_JZ1.deriv.DAOD_PHYS.e8514_s4162_r14622_p6697
@@ -33,7 +39,7 @@ mc23_13p6TeV.801172.Py8EG_A14NNPDF23LO_jj_JZ7.deriv.DAOD_PHYS.e8514_s4162_r14622
 mc23_13p6TeV.801173.Py8EG_A14NNPDF23LO_jj_JZ8.deriv.DAOD_PHYS.e8514_s4162_r14622_p6697
 mc23_13p6TeV.801174.Py8EG_A14NNPDF23LO_jj_JZ9incl.deriv.DAOD_PHYS.e8514_s4162_r14622_p6697
 ```
-## Muon filtered
+### Muon filtered
 ```
 mc23_13p6TeV.801950.Py8EG_A14N23LO_jetjet_JZ1WithSW_HardQCD_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4162_r14622
 mc23_13p6TeV.801951.Py8EG_A14N23LO_jetjet_JZ1WithSW_SoftQCD_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4162_r14622
@@ -46,8 +52,8 @@ mc23_13p6TeV.801949.Py8EG_A14N23LO_jetjet_JZ7WithSW_xAODMuFilt.deriv.DAOD_PHYS.e
 ```
 
 
-# mc23d
-## Unfiltered
+## mc23d
+### Unfiltered
 ```
 mc23_13p6TeV.801165.Py8EG_A14NNPDF23LO_jj_JZ0.deriv.DAOD_PHYS.e8514_s4159_r15224_p6697
 mc23_13p6TeV.801166.Py8EG_A14NNPDF23LO_jj_JZ1.deriv.DAOD_PHYS.e8514_s4159_r15224_p6697
@@ -60,7 +66,7 @@ mc23_13p6TeV.801172.Py8EG_A14NNPDF23LO_jj_JZ7.deriv.DAOD_PHYS.e8514_s4159_r15224
 mc23_13p6TeV.801173.Py8EG_A14NNPDF23LO_jj_JZ8.deriv.DAOD_PHYS.e8514_s4159_r15224_p6697
 mc23_13p6TeV.801174.Py8EG_A14NNPDF23LO_jj_JZ9incl.deriv.DAOD_PHYS.e8514_s4159_r15224_p6697
 ```
-## Muon filtered
+### Muon filtered
 ```
 mc23_13p6TeV.801950.Py8EG_A14N23LO_jetjet_JZ1WithSW_HardQCD_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4159_r15224
 mc23_13p6TeV.801951.Py8EG_A14N23LO_jetjet_JZ1WithSW_SoftQCD_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4159_r15224
@@ -72,8 +78,8 @@ mc23_13p6TeV.801948.Py8EG_A14N23LO_jetjet_JZ6WithSW_xAODMuFilt.deriv.DAOD_PHYS.e
 mc23_13p6TeV.801949.Py8EG_A14N23LO_jetjet_JZ7WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4159_r15224
 ```
 
-# mc23e
-## Unfiltered
+## mc23e
+### Unfiltered
 ```
 mc23_13p6TeV.801165.Py8EG_A14NNPDF23LO_jj_JZ0.deriv.DAOD_PHYS.e8514_s4369_r16083_p6697
 mc23_13p6TeV.801166.Py8EG_A14NNPDF23LO_jj_JZ1.deriv.DAOD_PHYS.e8514_s4369_r16083_p6697
@@ -86,7 +92,7 @@ mc23_13p6TeV.801172.Py8EG_A14NNPDF23LO_jj_JZ7.deriv.DAOD_PHYS.e8514_s4369_r16083
 mc23_13p6TeV.801173.Py8EG_A14NNPDF23LO_jj_JZ8.deriv.DAOD_PHYS.e8514_s4369_r16083_p6697
 mc23_13p6TeV.801174.Py8EG_A14NNPDF23LO_jj_JZ9incl.deriv.DAOD_PHYS.e8514_s4369_r16083_p6697
 ```
-## Muon filtered
+### Muon filtered
 ```
 mc23_13p6TeV.801950.Py8EG_A14N23LO_jetjet_JZ1WithSW_HardQCD_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4369_r16083
 mc23_13p6TeV.801951.Py8EG_A14N23LO_jetjet_JZ1WithSW_SoftQCD_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4369_r16083
