@@ -2,7 +2,7 @@
 aliases:
   - previous AQP task
 ---
-[Jira page](https://its.cern.ch/jira/browse/AFT-530)
+[Jira page](https://its.cern.ch/jira/browse/AFT-530) for Ellen's work.
 
 - The current b-tagging algorithms reject too much light jets to calibrate the mistag rate using data.  
 - Negative tag method:
