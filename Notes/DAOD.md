@@ -1,6 +1,7 @@
 DAOD request from Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
 
 # JZx slice defination
+samples list below are up to JZ9.
 
 | JZx | pT_min | pT_max |
 | --- | ------ | ------ |
