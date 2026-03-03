@@ -3,8 +3,8 @@
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 - [ ] Get Teresa's unfiltered di-jet samples.
 	- [[DAOD]]
-	- Download all of them to ui or submit event selection to grid?
-	- Or download a part of files, make sure selection code works fine and then submit grid job.
+	- Download all of them to ui and run on ui,
+	- or download a part of files, make sure selection code works fine and then submit grid job.
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
