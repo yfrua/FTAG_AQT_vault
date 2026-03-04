@@ -1,14 +1,14 @@
 # TODO
 - [ ] Check out the CNF
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
-- [ ] Get Teresa's unfiltered di-jet samples.
-	- [[DAOD]]
-	- Download all of them to ui and run on ui,
-	- or download a part of files, make sure selection code works fine and then submit grid job.
+- [ ] Get Teresa's unfiltered di-jet samples, [[DAOD list]].
+	- [ ] download one DAOD file for every JZx slice from all champaigns
+	- [ ] data?
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
+	- [ ] locally make sure selection code works fine
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
-- [ ] Produce a first set of nominal only ntuples.
+- [ ] submit job to the Grid, produce a first set of nominal only ntuples.
 - [ ] make control plot
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
