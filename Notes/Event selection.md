@@ -8,6 +8,6 @@
 - No electrons or muons in event
 - select jets with $|\eta|<2.5$
 - No subleading b-tagged jets
-	- reduce the number of leading jets being truth b-jets since b-jets might be coming from gluon splitting  
+	- reduce the number of leading jets being truth b-jets since b-jets might be coming from gluon splitting
 
 ![[Pasted image 20260226181049.png|300]]
