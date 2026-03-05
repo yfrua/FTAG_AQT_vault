@@ -1,4 +1,4 @@
-## In Ellen's case
+# In Ellen's case
 - Recommended basic selection  
 	- GRL: Select events only on the specified good runs list 
 	- GOODCALO: Ensure that the LAr and Tile are working properly for the event (no noise bursts) 
