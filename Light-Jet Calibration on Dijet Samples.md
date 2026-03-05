@@ -1,8 +1,10 @@
 # TODO
-- [ ] Check out the CNF
+- [x] Check out the Common Ntuple Framework
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
+	- Use latest version: toptoolkit-ntuples v15.0.0 TopCPToolkit v2.23.0 AthAnalysis 25.2.74
 - [ ] Get Teresa's unfiltered di-jet samples, [[DAOD list]].
-	- [ ] download one DAOD file for every JZx slice from all champaigns
+	- [ ] download one DAOD file for every JZx slice for all champaigns
+		- mc23a, mc23d, mc23e.
 	- [ ] data?
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- [ ] locally make sure selection code works fine
@@ -16,6 +18,7 @@
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
+- repo for this vault: [github](https://github.com/yfrua/FTAG_AQT_vault)
 - AQT jira (AFT-840): [[jira page]], [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [url](https://topcptoolkit.docs.cern.ch/latest/)
