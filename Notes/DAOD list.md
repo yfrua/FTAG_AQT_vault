@@ -1,6 +1,7 @@
 # General info
 - DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
-- AMI page or p6697: https://ami.in2p3.fr/?subapp=tagsShow&userdata=p6697
+- full list of p-tags and patterns r22: [url](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
+- AMI page for p6697: https://ami.in2p3.fr/?subapp=tagsShow&userdata=p6697
 ![[Pasted image 20260302212326.png]]
 - a new p-tag is available now, p7017
 ![[Pasted image 20260302212253.png]]
