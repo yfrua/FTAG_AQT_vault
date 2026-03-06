@@ -3,9 +3,9 @@
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 	- Use latest version: toptoolkit-ntuples v15.0.0 TopCPToolkit v2.23.0 AthAnalysis 25.2.74
 - [ ] Get Teresa's unfiltered di-jet samples, [[DAOD list]].
-	- [ ] download one DAOD file for every JZx slice for all champaigns
+	- [x] download one DAOD file for every JZx slice for all champaigns
 		- mc23a, mc23d, mc23e.
-	- [ ] data?
+	- [ ] data and trigger
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- [ ] locally make sure selection code works fine
 	- selection will be adapted to the current recommendations.
