@@ -6,6 +6,13 @@
 - a new p-tag is available now, p7017
 ![[Pasted image 20260302212253.png]]
 
+# Data
+```
+"data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700",
+"data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p6700",  "data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p6700",
+```
+## Trigger and binning
+
 # JZx slice definition
 samples list below are up to JZ9.
 

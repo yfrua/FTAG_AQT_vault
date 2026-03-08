@@ -10,12 +10,12 @@ aliases:
 - [[Event selection]] 
 - Trigger and pT binning (before)
 ![[Pasted image 20260226182439.png]]
-- binning (new)
-![[Pasted image 20260227181700.png]]
+- binning (now)
+![[Pasted image 20260227181700.png|697]]
 - Control plots (2021.10.04 slides):
 	- leading jet pT
 	- SV mass
-	- leading jet DL1r/DL1rFlip discriminant  
+	- leading jet DL1r/DL1rFlip discriminant
 - Template fit, [[SV Mass Fitting Methodology]]
 	- fit SV mass distribution in data, extract data light-jet efficiency.  
 	- fits are performed in bins of jet pT.

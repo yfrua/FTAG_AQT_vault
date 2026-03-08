@@ -1,10 +1,12 @@
 # Current
+- GRL
+- Trigger
 - Baseline Jvt Jet
 	- At least two jets with pT > 20 GeV
 	- Leading jet pT > 110 GeV
 	- (not implemented) <= 1 b-tagged jet
-- tight electron and tight muon
-	- No electrons or muons in event
+	- (not implemented) jet cleaning
+- No electrons or muons in event
 - 
 # In Ellen's case
 - Recommended basic selection  
