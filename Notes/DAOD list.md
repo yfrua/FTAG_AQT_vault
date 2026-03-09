@@ -1,8 +1,11 @@
+- [full list of p-tags and patterns r22](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
+
 # Data
 - [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
 - [Data and Monte Carlo Datasets for Analysis](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/DataMCForAnalysis)
-	- 
-## Sample name
+
+## p6700
+![[Pasted image 20260309183431.png]]
 ```
 "data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700",
 "data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p6700",  "data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p6700",
@@ -14,7 +17,6 @@
 
 # MC
 - DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
-- full list of p-tags and patterns r22: [url](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
 ## JZx slice definition
 samples list below are up to JZ9.
 
