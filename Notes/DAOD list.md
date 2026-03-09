@@ -1,12 +1,14 @@
 # Data
+- [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
+- 
 ## Sample name
 ```
 "data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700",
 "data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p6700",  "data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p6700",
 ```
 ## Trigger and binning
-- unprescaled trigger: [twiki](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
-- prescaled trigger: [COMA](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
+- [unprescaled trigger](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
+- [search for prescaled trigger](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
 - 
 
 # MC
