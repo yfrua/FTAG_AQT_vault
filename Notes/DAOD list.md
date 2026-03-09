@@ -40,7 +40,9 @@ data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.
 ## Trigger and binning
 - [unprescaled trigger](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
 - [search for prescaled trigger](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
-- 
+- why do we need trigger as selection condition? #Question
+	- It is necessary for data taking, but may be not necessary for event selection.
+	- Is that a faster way to avoid comparation calculation
 
 # MC
 - DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)

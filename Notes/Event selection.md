@@ -4,8 +4,8 @@
 - Baseline Jvt Jet
 	- At least two jets with pT > 20 GeV
 	- Leading jet pT > 110 GeV
-	- (not implemented) <= 1 b-tagged jet
-	- (not implemented) jet cleaning
+	- (not implemented) <= 1 b-tagged jet #TODO 
+	- (not implemented) jet cleaning #TODO 
 - No electrons or muons in event
 - 
 # In Ellen's case

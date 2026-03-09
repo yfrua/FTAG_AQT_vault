@@ -7,7 +7,7 @@
 		- mc23a, mc23d, mc23e.
 	- [ ] data and trigger
 		- data22, data23, data24
-	- [ ] separate data by pT
+	- [ ] separate data by pT #Question
 		- do pT binning in fitting procedure?
 		- separate into different files, instead of a whole?
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
