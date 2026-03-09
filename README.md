@@ -39,13 +39,6 @@ FTAG_AQT_vault/
 ├── attachments/        # Images and media files
 └── README.md           # This file
 ```
-
-## Content Overview
-
-The vault currently contains research notes focused on FTAG (Flavour Tagging) and jet calibration:
-- **Light-jet calibration**: Investigating methods for calibrating GN3 light-jet efficiency using di-jet samples and negative-tag methods.
-- **Presentations**: Documentation of presentations and meetings (e.g., Ellen's presentations).
-
 ## Notes
 
 - The `.obsidian/workspace.json` file is excluded from tracking as it contains per-device window state.
