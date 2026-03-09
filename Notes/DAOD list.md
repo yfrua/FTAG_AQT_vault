@@ -1,20 +1,17 @@
-# General info
-- DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
-- full list of p-tags and patterns r22: [url](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
-- AMI page for p6697: https://ami.in2p3.fr/?subapp=tagsShow&userdata=p6697
-![[Pasted image 20260302212326.png]]
-- a new p-tag is available now, p7017
-![[Pasted image 20260302212253.png]]
-
 # Data
+## Sample name
 ```
 "data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700",
 "data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p6700",  "data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p6700",
 ```
 ## Trigger and binning
-- website for unprescaled trigger: [url](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
+- unprescaled trigger: [twiki](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
+- prescaled trigger: [COMA](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
+- 
 
 # MC
+- DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
+- full list of p-tags and patterns r22: [url](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
 ## JZx slice definition
 samples list below are up to JZ9.
 
@@ -35,6 +32,8 @@ samples list below are up to JZ9.
 | 12  | 5300   | 7000   |
 
 ## p6697
+AMI page for p6697: https://ami.in2p3.fr/?subapp=tagsShow&userdata=p6697
+![[Pasted image 20260302212326.png]]
 ### mc23a
 #### Unfiltered
 ```
@@ -113,3 +112,7 @@ mc23_13p6TeV.801947.Py8EG_A14N23LO_jetjet_JZ5WithSW_xAODMuFilt.deriv.DAOD_PHYS.e
 mc23_13p6TeV.801948.Py8EG_A14N23LO_jetjet_JZ6WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4369_r16083
 mc23_13p6TeV.801949.Py8EG_A14N23LO_jetjet_JZ7WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4369_r16083
 ```
+
+## p7017
+AMI page:
+![[Pasted image 20260302212253.png]]
