@@ -36,7 +36,7 @@ data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.
 ```
 - If I were to use `PHYS` DAOD, that will lead to the same choice as Teresa.
 	- `VBFDelayed` looks like a bad guy, let's skip it.
-- What about `PHYSLITE`? Will it lack some of vars for my task?
+- What about `PHYSLITE`? Will it lack some of vars for my task? #Question 
 ## Trigger and binning
 - [unprescaled trigger](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
 - [search for prescaled trigger](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
