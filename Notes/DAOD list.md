@@ -6,10 +6,37 @@
 
 ## p6700
 ![[Pasted image 20260309183431.png]]
+
+### Sample used by Teresa:
 ```
 "data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700",
 "data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p6700",  "data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p6700",
 ```
+
+### What I found in rucio:
+- data22
+```
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v01_p6700 (empty after examination)
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.grp22_v02_p6700
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYS.grp22_v01_p6700
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYSLITE.grp22_v01_p6700
+```
+- data23
+```
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p6700
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.grp23_v01_p6700
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYS.grp23_v01_p6700
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYSLITE.grp23_v01_p6700
+```
+- data24
+```
+data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p6700
+data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.grp24_v01_p6700
+```
+- If I were to use `PHYS` DAOD, that will lead to the same choice as Teresa.
+	- `VBFDelayed` looks like a bad guy, let's skip it.
+- What about `PHYSLITE`? Will it lack some of vars for my task?
 ## Trigger and binning
 - [unprescaled trigger](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
 - [search for prescaled trigger](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
