@@ -3,10 +3,11 @@
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 	- Use latest version: toptoolkit-ntuples v15.0.0 TopCPToolkit v2.23.0 AthAnalysis 25.2.74
 - [ ] Get Teresa's unfiltered di-jet samples, [[DAOD list]].
-	- [x] download one DAOD file for every JZx slice for all champaigns
+	- [x] download one MC DAOD file for every JZx slice for all champaigns
 		- mc23a, mc23d, mc23e.
 	- [ ] data and trigger
 		- data22, data23, data24
+		- one file for each data taking year
 	- [ ] separate data by pT #Question
 		- do pT binning in fitting procedure?
 		- separate into different files, instead of a whole?
