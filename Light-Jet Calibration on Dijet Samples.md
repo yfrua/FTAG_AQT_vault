@@ -8,11 +8,11 @@
 	- [ ] data and trigger
 		- data22, data23, data24
 		- one file for each data taking year
-	- [ ] separate data by pT #Question
-		- do pT binning in fitting procedure?
-		- separate into different files, instead of a whole?
+	- [ ] 
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- [ ] locally make sure selection code works fine
+	- [ ] separate data by jet pT 
+		- separate into different files, apply different trigger selection for each pT bin.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
