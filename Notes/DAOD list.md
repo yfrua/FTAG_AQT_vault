@@ -36,9 +36,11 @@ data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.
 ```
 - If I were to use `PHYS` DAOD, that will lead to the same choice as Teresa.
 	- `VBFDelayed` looks like a bad guy, let's skip it.
-- What about `PHYSLITE`? #TODO 
+- What about `PHYSLITE`? 
 	- Better if it fits my task
 	- check if it lack some of vars
+		- Yse, it miss `SV1_masssvx`
+	- Not to use this
 
 # MC
 - DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)

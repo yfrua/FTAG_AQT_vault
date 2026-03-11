@@ -10,11 +10,12 @@
 	- [ ] `PHYSLITE` version of those datasets
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- [ ] locally make sure selection code works fine
-	- [ ] separate data by jet pT, [[Trigger and pT binning]]
+	- [ ] separate data by jet pT, [[Trigger and pT binning|pT binning]]
 		- separate into different files, apply different trigger selection for each pT bin.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
+	- [ ] Calculate luminosity to scale MC, [[Trigger and pT binning|trigger prescale]]
 - [ ] make control plot
 	- leading jet pT
 	- SV mass

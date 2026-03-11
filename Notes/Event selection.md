@@ -5,9 +5,8 @@
 	- At least two jets with pT > 20 GeV
 	- Leading jet pT > 110 GeV
 	- (not implemented) <= 1 b-tagged jet #TODO 
-	- (not implemented) jet cleaning #TODO 
 - No electrons or muons in event
-- 
+
 # In Ellen's case
 - Recommended basic selection  
 	- GRL: Select events only on the specified good runs list 
