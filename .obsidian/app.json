@@ -3,5 +3,5 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "attachments",
   "focusNewTab": true,
-  "spellcheck": false
+  "spellcheck": true
 }

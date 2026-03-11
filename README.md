@@ -18,13 +18,15 @@ This repository serves as a backup for the FTAG_AQT Obsidian vault. It stores no
 
 ### Syncing Changes
 
-To back up your latest notes, commit and push your changes:
+To mannally back up your latest notes, commit and push your changes:
 
 ```bash
 git add .
 git commit -m "Update notes"
 git push
 ```
+
+`Git source control` plugin offers an automation solution, which is already included in `.obsidian`. And the only tricky part is to get access to github via proxy.
 
 ### Restoring Notes
 
