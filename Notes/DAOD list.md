@@ -38,13 +38,7 @@ data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.
 	- `VBFDelayed` looks like a bad guy, let's skip it.
 - What about `PHYSLITE`? #TODO 
 	- Better if it fits my task
-	- If it doesn't lack some of vars
-## Trigger and binning
-- [unprescaled trigger](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
-- [search for prescaled trigger](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
-- why do we need trigger for evnet selection?
-	- It is necessary for data taking
-	- To make sure all selected events come from expected physics process.
+	- check if it lack some of vars
 
 # MC
 - DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)

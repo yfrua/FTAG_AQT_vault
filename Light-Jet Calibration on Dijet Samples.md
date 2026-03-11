@@ -5,18 +5,20 @@
 - [ ] Get Teresa's unfiltered di-jet samples, [[DAOD list]].
 	- [x] download one MC DAOD file for every JZx slice for all champaigns
 		- mc23a, mc23d, mc23e.
-	- [ ] data and trigger
+	- [x]  one data file for each data taking year
 		- data22, data23, data24
-		- one file for each data taking year
-	- [ ] 
+	- [ ] `PHYSLITE` version of those datasets
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- [ ] locally make sure selection code works fine
-	- [ ] separate data by jet pT 
+	- [ ] separate data by jet pT, [[Trigger and pT binning]]
 		- separate into different files, apply different trigger selection for each pT bin.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
 - [ ] make control plot
+	- leading jet pT
+	- SV mass
+	- leading jet NN discriminant
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] calculate [[SF Uncertainty]]
