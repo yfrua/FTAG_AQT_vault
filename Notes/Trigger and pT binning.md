@@ -86,17 +86,17 @@ L1jJ trigger? #Question
 ## Data leading jet pT binning
 #TODO Find trigger efficiency plots before choosing?
 
-| bin | pT range [GeV] | 2022 | 2023 | 2024 |
-| --- | -------------- | ---- | ---- | ---- |
-| 1   | 110 - 150      |      |      |      |
-| 2   | 150 - 300      |      |      |      |
-| 3   | 300 - 400      |      |      |      |
-| 4   | 400 - 500      |      |      |      |
-| 5   | 500 - 700      |      |      |      |
-| 6   | 700 - 900      |      |      |      |
-| 7   | 900 - 1200     |      |      |      |
-| 8   | 1200 - 1500    |      |      |      |
-| 9   | 1500 - 3000    |      |      |      |
+| bin | pT range [GeV] | 2022            | 2023            | 2024             |
+| --- | -------------- | --------------- | --------------- | ---------------- |
+| 1   | 110 - 150      | HLT_j85_L1J20   | HLT_j85_L1J20   | HLT_j110_L1jJ60  |
+| 2   | 150 - 300      | HLT_j110_L1J30  | HLT_j110_L1J30  | HLT_j110_L1jJ60  |
+| 3   | 300 - 400      | HLT_j260_L1J75  | HLT_j260_L1J75  | HLT_j260_L1jJ125 |
+| 4   | 400 - 500      | HLT_j360_L1J100 | HLT_j360_L1J100 | HLT_j360_L1jJ160 |
+| 5   | 500 - 700      | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j480_L1J100  |
+| 6   | 700 - 900      | HLT_j520_L1J100 | HLT_j520_L1J100 | HLT_j500_L1J100  |
+| 7   | 900 - 1200     | same as above   | same as above   | same as above    |
+| 8   | 1200 - 1500    | same as above   | same as above   | same as above    |
+| 9   | 1500 - 3000    | same as above   | same as above   | same as above    |
 
 
 # Ellen's case
