@@ -22,6 +22,7 @@
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] calculate [[SF Uncertainty]]
+		- #Question no systematic uncertainty found in ntuples.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
