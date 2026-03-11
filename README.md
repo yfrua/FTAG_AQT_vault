@@ -45,3 +45,4 @@ FTAG_AQT_vault/
 
 - The `.obsidian/workspace.json` file is excluded from tracking as it contains per-device window state.
 - Plugin data stored under `.obsidian/plugins/` is tracked to preserve plugin configurations.
+- Tag #Question and #TODO are added to locate notes easier.
