@@ -12,7 +12,7 @@
 | 1   | 110 - 150      | [HLT_j60_L1J20](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j60_L1J20 "link to COMA Chain/Item Report for HLT_j60_L1J20")    |      |      |
 | 2   | 150 - 300      | [HLT_j110_L1J30](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j110_L1J30 "link to COMA Chain/Item Report for HLT_j110_L1J30") |      |      |
 | 3   | 300 - 400      | [HLT_j175_L1J50](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j175_L1J50 "link to COMA Chain/Item Report for HLT_j175_L1J50") |      |      |
-| 4   | 400 - 500      |                                                                                                                                                                                        |      |      |
+| 4   | 400 - 500      | [HLT_j260_L1J75](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j260_L1J75 "link to COMA Chain/Item Report for HLT_j260_L1J75") |      |      |
 | 5   | 500 - 700      |                                                                                                                                                                                        |      |      |
 | 6   | 700 - 900      |                                                                                                                                                                                        |      |      |
 | 7   | 900 - 1200     |                                                                                                                                                                                        |      |      |
@@ -21,17 +21,17 @@
 
 ## Ready [PSCorr StableLum (nb-1)](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserLib/helpme.php?inname=Luminosity "Click here to describe Luminosity ... There are many luminosity related quantites shown in COMA Reports so they are described collectively ...")
 
-| bin | pT range [GeV] | 2022    | 2023 | 2024 |
-| --- | -------------- | ------- | ---- | ---- |
-| 1   | 110 - 150      | 4,882   |      |      |
-| 2   | 150 - 300      | 34,827  |      |      |
-| 3   | 300 - 400      | 172,445 |      |      |
-| 4   | 400 - 500      |         |      |      |
-| 5   | 500 - 700      |         |      |      |
-| 6   | 700 - 900      |         |      |      |
-| 7   | 900 - 1200     |         |      |      |
-| 8   | 1200 - 1500    |         |      |      |
-| 9   | 1500 - 3000    |         |      |      |
+| bin | pT range [GeV] | 2022      | 2023 | 2024 |
+| --- | -------------- | --------- | ---- | ---- |
+| 1   | 110 - 150      | 4,882     |      |      |
+| 2   | 150 - 300      | 34,827    |      |      |
+| 3   | 300 - 400      | 172,445   |      |      |
+| 4   | 400 - 500      | 1,154,264 |      |      |
+| 5   | 500 - 700      |           |      |      |
+| 6   | 700 - 900      |           |      |      |
+| 7   | 900 - 1200     |           |      |      |
+| 8   | 1200 - 1500    |           |      |      |
+| 9   | 1500 - 3000    |           |      |      |
 
 # Ellen's case
 - latest
