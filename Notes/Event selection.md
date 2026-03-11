@@ -1,6 +1,6 @@
 # Current
 - GRL
-- Trigger
+- [[Trigger and pT binning|Trigger]]
 - Baseline Jvt Jet
 	- At least two jets with pT > 20 GeV
 	- Leading jet pT > 110 GeV
