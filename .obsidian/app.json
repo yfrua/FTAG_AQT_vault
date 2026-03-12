@@ -3,5 +3,7 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "attachments",
   "focusNewTab": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "propertiesInDocument": "hidden",
+  "showLineNumber": false
 }

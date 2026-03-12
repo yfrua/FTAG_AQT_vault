@@ -12,6 +12,8 @@
 	- **PS Corr Ready Lumi:** is the PS Corr Stable Lumi, but only during LB Ranges when the ATLAS Ready flag was true.
 # Current 
 ## Available triggers
+- L1jJ trigger? #Question 
+
 ### data22_13p6TeV
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) |
@@ -54,7 +56,6 @@
 | [HLT_j500_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j500_L1J100 "link to COMA Chain/Item Report for HLT_j500_L1J100")    | 31,212,704                            |
 | [HLT_j520_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j520_L1J100 "link to COMA Chain/Item Report for HLT_j520_L1J100")    | 31,212,704                            |
 ### data24_13p6TeV
-L1jJ trigger? #Question 
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
