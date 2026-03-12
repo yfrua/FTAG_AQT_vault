@@ -9,9 +9,11 @@
 		- data22, data23, data24
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- [x] separate data by jet pT, [[Trigger and pT binning|pT binning]]
-		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files. 
-	- [ ] locally make sure selection code works fine- selection will be adapted to the current recommendations.
+		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
+	- [ ] locally make sure selection code works fine
+	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
+		- depend on the lowest pT trigger, check trigger efficiency plots.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
 	- [ ] Calculate luminosity to scale MC, [[Trigger and pT binning|trigger prescale]]
 - [ ] make control plot
@@ -29,4 +31,3 @@
 - AQT jira (AFT-840): [[jira page]], [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [url](https://topcptoolkit.docs.cern.ch/latest/)
-
