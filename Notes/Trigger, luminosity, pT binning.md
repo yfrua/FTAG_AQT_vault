@@ -101,6 +101,11 @@
 
 # Good Run List
 - base path to GRL file: ``/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/`
+- command to get run number after opening a root file using root: 
+```
+CollectionTree->Scan("EventInfoAuxDyn.runNumber", "", "", 1)
+```
+
 ## data22
 - from `GoodRunsLists/data22_13p6TeV/20250321/data22_13p6TeV.periodAllYear_DetStatus-v134-pro28-10_MERGED_PHYS_StandardGRL_All_Good_25ns_ignore_TRIGLAR.xml`
 ```
@@ -117,7 +122,7 @@
 - downloaded run: 
 	- [p] 436496
 ## data23
-from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStatus-v133-pro31-11_MERGED_PHYS_StandardGRL_All_Good_25ns_ignoreTRIG_JETCTPIN.xml`
+- from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStatus-v133-pro31-11_MERGED_PHYS_StandardGRL_All_Good_25ns_ignoreTRIG_JETCTPIN.xml`
 ```
 451587,451595,451611,451618,451735,451794,451804,451866,451896,452028,
 452163,452202,452241,452463,452533,452573,452624,452640,452669,452696,
@@ -127,7 +132,8 @@ from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStat
 456016,456110,456118,456126,456151,456164,456225,456273,456303,456314,
 456316,456346,456386,456409,456522,456665,456685,456714,456729,456749
 ```
-
+- downloaded run:
+	- [p] 451896
 ## data24
 - from `GoodRunsLists/data24_13p6TeV/20260127/data24_13p6TeV.periodsEtoO_DetStatus-v140-pro36-13_MERGED_PHYS_StandardGRL_All_Good_25ns.xml`
 	- periods E to O is actually all year for 2024.
@@ -156,7 +162,8 @@ from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStat
 486179,486205,486211,486224,486253,486262,486273,486295,486310,486315,
 486376,486384,486475,486640,486658,486689,486706
 ```
-- 
+- downloaded run:
+	- [p] 473235
 
 # Ellen's case
 - latest
