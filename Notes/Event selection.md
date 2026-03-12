@@ -1,11 +1,13 @@
 # Current
 - #TODO GRL
+	- Download two data files, one in GRL, the other not, to test this.
 - [[Trigger and pT binning|Trigger]]
 - Baseline Jvt Jet
+	- pT > 20 GeV, |eta| < 2.5
 	- At least two jets with pT > 20 GeV
 	- Leading jet pT > 110 GeV
 	- <= 1 b-tagged jet 
-- No electrons or muons in event
+- No electrons or muons 
 
 # In Ellen's case
 - Recommended basic selection  

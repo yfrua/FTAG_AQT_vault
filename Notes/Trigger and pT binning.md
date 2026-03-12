@@ -4,7 +4,7 @@
 - why do we need trigger for event selection?
 	- It is necessary for data taking
 	- To make sure all selected events come from expected physics process.
-- Luminosity stuff: [COMA help](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserLib/helpme.php?inname=Luminosity)
+- Luminosity stuff naming: [COMA help](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserLib/helpme.php?inname=Luminosity)
 	- **LB**: Luminosity Block, about 1 minute of data taking, have ~100K events.
 	- **Stable Lumi:** integrated luminosity over all Stable Beam LBs for the LB Range, Run, or Period (as indicated in the report).
 	- **Ready Lumi:** integrated luminosity over all Stable Beam LBs when the ATLAS Ready flag was true.
