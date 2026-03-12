@@ -1,8 +1,6 @@
 [
-  "obsidian-zotero-desktop-connector",
   "obsidian-git",
   "settings-search",
   "omnisearch",
-  "global-proxy",
-  "multi-state-checkbox-switcher"
+  "global-proxy"
 ]
