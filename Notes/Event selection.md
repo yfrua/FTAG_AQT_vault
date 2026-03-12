@@ -1,7 +1,7 @@
 # Current
 - #TODO GRL
 	- Download two data files, one in GRL, the other not, to test this.
-- [[Trigger and pT binning|Trigger]]
+- [[Trigger, luminosity, pT binning|Trigger]]
 - Baseline Jvt Jet
 	- pT > 20 GeV, |eta| < 2.5
 	- At least two jets with pT > 20 GeV

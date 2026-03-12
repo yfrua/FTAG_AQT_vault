@@ -8,14 +8,14 @@
 	- [x]  one data file for each data taking year
 		- data22, data23, data24
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
-	- [x] separate data by jet pT, [[Trigger and pT binning|pT binning]]
+	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 	- [ ] locally make sure selection code works fine
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- depend on the lowest pT trigger, check trigger efficiency plots.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
-	- [ ] Calculate luminosity to scale MC, [[Trigger and pT binning|trigger prescale]]
+	- [ ] Calculate luminosity to scale MC, [[Trigger, luminosity, pT binning]]
 - [ ] make control plot
 	- leading jet pT
 	- SV mass

@@ -8,7 +8,7 @@ aliases:
 - Negative tag method:
 	- Tracks with negative IPs and secondary vertices with negative lifetimes are used by flipped taggers to obtain light-jet enriched tagged samples.  
 - [[Event selection]] 
-- [[Trigger and pT binning]]
+- [[Trigger, luminosity, pT binning|pT binning]]
 - Control plots (2021.10.04 slides):
 	- leading jet pT
 	- SV mass
