@@ -1,6 +1,7 @@
 # Current
-- #TODO GRL
+- GRL: Good Run List
 	- Download two data files, one in GRL, the other not, to test this.
+		- It works.
 - [[Trigger, luminosity, pT binning|Trigger]]
 - Baseline Jvt Jet
 	- pT > 20 GeV, |eta| < 2.5

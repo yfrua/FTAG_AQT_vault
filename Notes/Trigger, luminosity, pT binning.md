@@ -124,8 +124,9 @@ CollectionTree->GetEntries()
 440447,440499,440543,440570,440613
 ```
 - downloaded run: 
-	- [p] 436496, 103508 events
-	- [c] 430897, 152071 events
+	- [p] DAOD_PHYS.43636795: 436496, 103508 events
+	- [c] DAOD_PHYS.43636728: 430897, 152071 events
+
 ## data23
 - from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStatus-v133-pro31-11_MERGED_PHYS_StandardGRL_All_Good_25ns_ignoreTRIG_JETCTPIN.xml`
 ```
