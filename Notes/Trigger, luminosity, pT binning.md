@@ -109,16 +109,18 @@
 
 # Good Run List
 - base path to GRL file: ``/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/`
-- command to get run number after opening a root file using root: 
+- recommended lumi tag
+	- OflLumi-Run3-008 (OflLumi-Run3-003 or later)
+- get run number after opening a root file by root: 
 ```
 CollectionTree->Scan("EventInfoAuxDyn.runNumber", "", "", 1)
 ```
-- and get number of events:
+- get number of events:
 ```
 CollectionTree->GetEntries()
 ```
 
-## data22
+## data22_13p6TeV
 - from `GoodRunsLists/data22_13p6TeV/20250321/data22_13p6TeV.periodAllYear_DetStatus-v134-pro28-10_MERGED_PHYS_StandardGRL_All_Good_25ns_ignore_TRIGLAR.xml`
 ```
 430536,430542,430580,430648,430896,431037,431178,431179,431215,431228,
@@ -135,7 +137,7 @@ CollectionTree->GetEntries()
 	- [p] DAOD_PHYS.43636795: 436496, 103508 events
 	- [c] DAOD_PHYS.43636728: 430897, 152071 events
 
-## data23
+## data23_13p6TeV
 - from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStatus-v133-pro31-11_MERGED_PHYS_StandardGRL_All_Good_25ns_ignoreTRIG_JETCTPIN.xml`
 ```
 451587,451595,451611,451618,451735,451794,451804,451866,451896,452028,
@@ -148,7 +150,7 @@ CollectionTree->GetEntries()
 ```
 - downloaded run:
 	- [p] 451896
-## data24
+## data24_13p6TeV
 - from `GoodRunsLists/data24_13p6TeV/20260127/data24_13p6TeV.periodsEtoO_DetStatus-v140-pro36-13_MERGED_PHYS_StandardGRL_All_Good_25ns.xml`
 	- periods E to O is actually all year for 2024.
 ```
