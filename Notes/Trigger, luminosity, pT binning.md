@@ -1,4 +1,5 @@
-- unprescaled trigger: [Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
+- unprescaled trigger: [TWiki](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
+- Run 3 trigger naming convention: [TWiki](https://twiki.cern.ch/twiki/bin/view/Atlas/TriggerNamingRun3)
 - search for prescaled trigger: [COMA](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
 - ATLAS Luminosity Calculator: [lumicalc](https://atlas-lumicalc.cern.ch/), [tutorial](https://twiki.cern.ch/twiki/bin/view/AtlasComputing/CoolLumiCalcTutorial)
 - why do we need trigger for event selection?
@@ -12,7 +13,13 @@
 	- **PS Corr Ready Lumi:** is the PS Corr Stable Lumi, but only during LB Ranges when the ATLAS Ready flag was true.
  
 # Available triggers
-- L1jJ trigger? #Question 
+- L1jJ trigger?
+	- Small-R jets are denoted jJ and gJ, for gFEX and jFEX, respectively
+		- FEX: Feature EXtractor
+		- The jFEX is intended to receive high granularity data from the calorimeters (0.1×0.1 in η × φ for the central calorimeter, larger in the forward regions) and identify jets and large-area taus. It also calculates global variables like the total transverse energy and the missing transverse energy. [ref](https://cds.cern.ch/record/2289210/files/ATL-DAQ-PROC-2017-032.pdf)
+	- by default, jJ jets are defined in |eta|<3.1
+-  New naming for Calo items (w.r.t. Run 2)
+![[Pasted image 20260313192534.png]]
 
 ## data22_13p6TeV
 
