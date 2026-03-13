@@ -105,6 +105,10 @@
 ```
 CollectionTree->Scan("EventInfoAuxDyn.runNumber", "", "", 1)
 ```
+- and get number of events:
+```
+CollectionTree->GetEntries()
+```
 
 ## data22
 - from `GoodRunsLists/data22_13p6TeV/20250321/data22_13p6TeV.periodAllYear_DetStatus-v134-pro28-10_MERGED_PHYS_StandardGRL_All_Good_25ns_ignore_TRIGLAR.xml`
@@ -120,8 +124,8 @@ CollectionTree->Scan("EventInfoAuxDyn.runNumber", "", "", 1)
 440447,440499,440543,440570,440613
 ```
 - downloaded run: 
-	- [p] 436496, 94731 events
-	- [c] 430897, 
+	- [p] 436496, 103508 events
+	- [c] 430897, 152071 events
 ## data23
 - from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStatus-v133-pro31-11_MERGED_PHYS_StandardGRL_All_Good_25ns_ignoreTRIG_JETCTPIN.xml`
 ```
