@@ -15,7 +15,7 @@
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- [ ] depend on the lowest pT trigger, check trigger efficiency plots.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
-	- [ ] Data reweighting, [[Trigger, luminosity, pT binning]]
+	- [ ] #Question Data reweighting, [[Trigger, luminosity, pT binning]]
 		- [ ] reweight data by trigger prescale.
 		- [ ] reweight MC by JZx slice luminosity.
 	- [ ] get physically-correct ntuples.
