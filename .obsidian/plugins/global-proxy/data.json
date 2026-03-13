@@ -1,8 +1,8 @@
 {
   "enableProxy": true,
-  "httpProxy": "http://127.0.0.1:10809",
+  "httpProxy": "",
   "httpsProxy": "",
-  "socksProxy": "",
+  "socksProxy": "socks://127.0.0.1:10808",
   "bypassRules": "",
   "pluginTokens": "persist:surfing-vault-${appId}"
 }
