@@ -120,7 +120,8 @@ CollectionTree->Scan("EventInfoAuxDyn.runNumber", "", "", 1)
 440447,440499,440543,440570,440613
 ```
 - downloaded run: 
-	- [p] 436496
+	- [p] 436496, 94731 events
+	- [c] 430897, 
 ## data23
 - from `GoodRunsLists/data23_13p6TeV/20250321/data23_13p6TeV.periodAllYear_DetStatus-v133-pro31-11_MERGED_PHYS_StandardGRL_All_Good_25ns_ignoreTRIG_JETCTPIN.xml`
 ```

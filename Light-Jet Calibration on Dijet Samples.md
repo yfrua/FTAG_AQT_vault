@@ -13,9 +13,12 @@
 	- [ ] locally make sure selection code works fine
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
-		- depend on the lowest pT trigger, check trigger efficiency plots.
+		- [ ] depend on the lowest pT trigger, check trigger efficiency plots.
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
-	- [ ] Calculate luminosity to scale MC, [[Trigger, luminosity, pT binning]]
+	- [ ] Data reweighting, [[Trigger, luminosity, pT binning]]
+		- [ ] reweight data by trigger prescale.
+		- [ ] reweight MC by JZx slice luminosity.
+	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
 	- SV mass
@@ -23,7 +26,7 @@
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] calculate [[SF Uncertainty]]
-		- #Question no systematic uncertainty found in ntuples.
+		- #Question no systematic uncertainty found in ntuples production.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
