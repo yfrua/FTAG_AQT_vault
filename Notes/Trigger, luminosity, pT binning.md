@@ -1,3 +1,4 @@
+# Basic Info
 - unprescaled trigger: [TWiki](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/LowestUnprescaled#Triggers_in_2023)
 - Run 3 trigger naming convention: [TWiki](https://twiki.cern.ch/twiki/bin/view/Atlas/TriggerNamingRun3)
 - search for prescaled trigger: [COMA](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.html)
@@ -98,6 +99,7 @@
 
 # Leading jet pT binning and triggers
 #TODO Find trigger efficiency plots?
+## trigger
 
 | bin | pT range [GeV] | 2022            | 2023            | 2024             |
 | --- | -------------- | --------------- | --------------- | ---------------- |
@@ -110,9 +112,23 @@
 | 7   | 900 - 1200     | same as above   | same as above   | same as above    |
 | 8   | 1200 - 1500    | same as above   | same as above   | same as above    |
 | 9   | 1500 - 3000    | same as above   | same as above   | same as above    |
+## total luminosity in GRL
+- in the unit of $\text{nb}^{-1}$
+
+| bin | pT range [GeV] | 2022          | 2023          | 2024          |
+| --- | -------------- | ------------- | ------------- | ------------- |
+| 1   | 110 - 150      | 6,245         | 1,053.49      | 3,708.03      |
+| 2   | 150 - 300      | 18,667.1      | 3,252.29      | 12,091.9      |
+| 3   | 300 - 400      | 709,172       | 158,262       | 560,656       |
+| 4   | 400 - 500      | 4,525,930     | 808,378       | 2,818,510     |
+| 5   | 500 - 700      | 29.294,400    | 26,647,100    | 22,533,400    |
+| 6   | 700 - 900      | same as above | same as above | same as above |
+| 7   | 900 - 1200     | same as above | same as above | same as above |
+| 8   | 1200 - 1500    | same as above | same as above | same as above |
+| 9   | 1500 - 3000    | same as above | same as above | same as above |
 
 # Good Run List
-- base path to GRL file: ``/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/`
+- base path to GRL file: `/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/`
 - recommended lumi tag
 	- OflLumi-Run3-008 (OflLumi-Run3-003 or later)
 - get run number after opening a root file by root: 

@@ -18,6 +18,7 @@
 	- [ ] #Question Data reweighting, [[Trigger, luminosity, pT binning]]
 		- [ ] reweight data by trigger prescale.
 		- [ ] reweight MC by JZx slice luminosity.
+			- go down to `mcWeight` in ntuples?
 	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
