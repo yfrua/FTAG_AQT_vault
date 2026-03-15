@@ -34,3 +34,4 @@
 - AQT jira (AFT-840): [[jira page]], [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [url](https://topcptoolkit.docs.cern.ch/latest/)
+- TRExFitter: [gitlab](https://gitlab.cern.ch/TRExStats/TRExFitter), [documentation](https://trexfitter-docs.web.cern.ch/trexfitter-docs/latest/)
