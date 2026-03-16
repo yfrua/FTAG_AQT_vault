@@ -1,13 +1,12 @@
 # Current
 - GRL: Good Run List
-	- Download two data files, one in GRL, the other not, to test this.
-		- It works.
 - [[Trigger, luminosity, pT binning|Trigger]]
 - Baseline Jvt Jet
 	- pT > 20 GeV, |eta| < 2.5
 	- At least two jets with pT > 20 GeV
 	- Leading jet pT > 110 GeV
-	- <= 1 b-tagged jet 
+	- <= 1 b-tagged jet
+		- use GN2v01 at WP=0.85
 - No electrons or muons 
 
 # In Ellen's case

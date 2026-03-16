@@ -2,20 +2,21 @@
 - [x] Check out the Common Ntuple Framework
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 	- Use latest version: toptoolkit-ntuples v15.0.0 TopCPToolkit v2.23.0 AthAnalysis 25.2.74
-- [x] Get Teresa's unfiltered di-jet samples, [[DAOD list]].
-	- [x] download one MC DAOD file for every JZx slice for all champaigns
-		- mc23a, mc23d, mc23e.
-	- [x]  one data file for each data taking year
+- [x] Get unfiltered di-jet samples, see [[DAOD list]].
+	- [x] download one MC DAOD for every JZx slice for all champaigns
+		- JZ0 to JZ9 for mc23a, mc23d, mc23e.
+	- [x]  one data DAOD for each data taking year
 		- data22, data23, data24
 - [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
-	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
-		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
-	- [ ] locally make sure selection code works fine
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- [ ] depend on the lowest pT trigger, check trigger efficiency plots.
+		- [ ] ask about current Z+jets pT binning
+	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
+		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
+	- [ ] locally make sure selection code works fine
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
-	- [ ] #Question Data reweighting, [[Trigger, luminosity, pT binning]]
+	- [ ] #Question Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- [ ] reweight data by trigger prescale.
 		- [ ] reweight MC by JZx slice luminosity.
 			- go down to `mcWeight` in ntuples?
@@ -26,6 +27,7 @@
 	- leading jet NN discriminant
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
+	- [ ] ask which software to use
 	- [ ] calculate [[SF Uncertainty]]
 		- #Question no systematic uncertainty found in ntuples production.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
