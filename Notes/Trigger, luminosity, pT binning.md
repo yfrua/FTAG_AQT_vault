@@ -25,6 +25,15 @@
 
 ## data22_13p6TeV
 - Live fraction trigger: L1_EM22VHI
+- unprescaled trigger total lumi
+	- 75 bunches only
+		- HLT_j175f_L1J50p31ETA49: 
+	- 75, 300 bunches
+		- HLT_j420_L1J100: 
+		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1J100: 
+	- From 400 bunches:
+		- HLT_j420_pf_ftf_preselj225_L1J100: 
+		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: 
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
@@ -46,6 +55,15 @@
 | [HLT_j520_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j520_L1J100 "link to COMA Chain/Item Report for HLT_j520_L1J100")    | 40,022,750                            | [29.294,400](https://atlas-lumicalc.cern.ch/results/634bdb/result.html) | 1.37  |
 ## data23_13p6TeV
 - Live fraction trigger: L1_eEM26M
+- unprescaled trigger total lumi
+	- 75 bunches only
+		- HLT_j175f_L1J50p31ETA49
+	- 75, 400 bunches
+		- HLT_j420_L1J100
+		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1J100
+	- From 400 bunches
+		- HLT_j420_pf_ftf_preselj225_L1J100: 
+		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
@@ -69,6 +87,15 @@
 
 ## data24_13p6TeV
 - Live fraction trigger: L1_eEM26M
+- unprescaled trigger total lumi
+	- 75 bunches only
+		- HLT_j175f_L1jJ90p30ETA49: 
+	- 75, 400 bunches
+		- HLT_j420_L1jJ160: 
+		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1jJ160: 
+	- From 400 bunches
+		- HLT_j400_pf_ftf_preselj225_L1jJ160: [107,377.0 pb-1](https://atlas-lumicalc.cern.ch/results/cc42b8/result.html)
+		- HLT_2j235c_j115c_pf_ftf_presel2j180XXj80_L1jJ160: 
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |

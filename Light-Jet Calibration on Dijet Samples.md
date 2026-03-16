@@ -16,10 +16,13 @@
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 	- [ ] locally make sure selection code works fine
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
-	- [ ] #Question Data reweighting, see [[Trigger, luminosity, pT binning]]
+	- [ ] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- [ ] reweight data by trigger prescale.
-		- [ ] reweight MC by JZx slice luminosity.
-			- go down to `mcWeight` in ntuples?
+			- prescale = lumi(unprescaled trigger) / lumi(trigger), a value < 1
+			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
+		- [ ] reweight MC by JZx slice.
+			- use cross section and data lumi to scale
+			- ideally, only need to extract `mcEventWeight` in DAOD
 	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
