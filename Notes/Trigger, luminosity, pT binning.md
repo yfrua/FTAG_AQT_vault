@@ -32,8 +32,9 @@
 		- HLT_j420_L1J100: [14,647.2 pb-1](https://atlas-lumicalc.cern.ch/results/348ff0/result.html)
 		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1J100: [14,647.2 pb-1](https://atlas-lumicalc.cern.ch/results/6a9550/result.html)
 	- From 400 bunches:
-		- HLT_j420_pf_ftf_preselj225_L1J100: 
-		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: 
+		- HLT_j420_pf_ftf_preselj225_L1J100: [29,294.4 pb-1](https://atlas-lumicalc.cern.ch/results/1c4c93/result.html)
+		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: [29,294.4 pb-1](https://atlas-lumicalc.cern.ch/results/5fda56/result.html)
+	- so, unprescaled lumi should be 29,294.4 $\text{pb}^{-1}$
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
@@ -64,6 +65,7 @@
 	- From 400 bunches
 		- HLT_j420_pf_ftf_preselj225_L1J100: [26,647.1 pb-1](https://atlas-lumicalc.cern.ch/results/8395ca/result.html)
 		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: [26,647.1 pb-1](https://atlas-lumicalc.cern.ch/results/91ec45/result.html)
+	- so, unprescaled lumi should be 26,647.1 $\text{pb}^{-1}$
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
@@ -96,6 +98,7 @@
 	- From 400 bunches
 		- HLT_j400_pf_ftf_preselj225_L1jJ160: [107,377.0 pb-1](https://atlas-lumicalc.cern.ch/results/cc42b8/result.html)
 		- HLT_2j235c_j115c_pf_ftf_presel2j180XXj80_L1jJ160: [107,890.0 pb-1](https://atlas-lumicalc.cern.ch/results/c5432f/result.html)
+	- so, unprescaled lumi should be 53,945.1 $\text{pb}^{-1}$
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
