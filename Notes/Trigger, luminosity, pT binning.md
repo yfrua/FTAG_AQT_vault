@@ -59,7 +59,7 @@
 	- 75 bunches only
 		- HLT_j175f_L1J50p31ETA49
 	- 75, 400 bunches
-		- HLT_j420_L1J100: 
+		- HLT_j420_L1J100: [13,323.6 pb-1](https://atlas-lumicalc.cern.ch/results/7c8a9e/result.html)
 		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1J100
 	- From 400 bunches
 		- HLT_j420_pf_ftf_preselj225_L1J100: [26,647.1 pb-1](https://atlas-lumicalc.cern.ch/results/8395ca/result.html)
