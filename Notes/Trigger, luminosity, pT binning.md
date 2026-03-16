@@ -95,7 +95,7 @@
 		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1jJ160: 
 	- From 400 bunches
 		- HLT_j400_pf_ftf_preselj225_L1jJ160: [107,377.0 pb-1](https://atlas-lumicalc.cern.ch/results/cc42b8/result.html)
-		- HLT_2j235c_j115c_pf_ftf_presel2j180XXj80_L1jJ160: 
+		- HLT_2j235c_j115c_pf_ftf_presel2j180XXj80_L1jJ160: [107,890.0 pb-1](https://atlas-lumicalc.cern.ch/results/c5432f/result.html)
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
