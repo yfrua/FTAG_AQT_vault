@@ -27,7 +27,7 @@
 - Live fraction trigger: L1_EM22VHI
 - unprescaled trigger total lumi
 	- 75 bunches only
-		- HLT_j175f_L1J50p31ETA49: 
+		- HLT_j175f_L1J50p31ETA49: [1,585.42 pb-1](https://atlas-lumicalc.cern.ch/results/cc5f47/result.html)
 	- 75, 300 bunches
 		- HLT_j420_L1J100: 
 		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1J100: 
