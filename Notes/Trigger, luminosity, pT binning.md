@@ -59,11 +59,11 @@
 	- 75 bunches only
 		- HLT_j175f_L1J50p31ETA49
 	- 75, 400 bunches
-		- HLT_j420_L1J100
+		- HLT_j420_L1J100: 
 		- HLT_2j250c_j120c_ftf_presel2j180XXj80_L1J100
 	- From 400 bunches
-		- HLT_j420_pf_ftf_preselj225_L1J100: 
-		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100
+		- HLT_j420_pf_ftf_preselj225_L1J100: [26,647.1 pb-1](https://atlas-lumicalc.cern.ch/results/8395ca/result.html)
+		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: [26,647.1 pb-1](https://atlas-lumicalc.cern.ch/results/91ec45/result.html)
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |

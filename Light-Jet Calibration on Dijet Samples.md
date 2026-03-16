@@ -18,7 +18,7 @@
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
 	- [ ] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- [ ] reweight data by trigger prescale.
-			- prescale = lumi(unprescaled trigger) / lumi(trigger), a value < 1
+			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
 		- [ ] reweight MC by JZx slice.
 			- use cross section and data lumi to scale
