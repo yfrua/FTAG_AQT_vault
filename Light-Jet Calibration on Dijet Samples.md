@@ -23,7 +23,7 @@
 		- [ ] reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
-			- `EventInfoAuxDyn.mcEventWeight` is a vector, need to sum up its elements.
+			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
 	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
