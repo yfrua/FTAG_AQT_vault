@@ -23,7 +23,7 @@
 		- [ ] reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
-			- #Question `mcEventWeight` is a vector and its length is different from `AntiKt4EMPFlowJetsAuxDyn.JetConstitScaleMomentum_pt`.
+			- #Question `EventInfoAuxDyn.mcEventWeight` is a vector and its length is different from `AntiKt4EMPFlowJetsAuxDyn.JetConstitScaleMomentum_pt`.
 	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
