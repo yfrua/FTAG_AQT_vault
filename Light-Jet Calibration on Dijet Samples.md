@@ -17,12 +17,13 @@
 	- [ ] locally make sure selection code works fine
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
 	- [ ] Data reweighting, see [[Trigger, luminosity, pT binning]]
-		- [ ] reweight data by trigger prescale.
+		- [x] reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
 		- [ ] reweight MC by JZx slice.
-			- use cross section and data lumi to scale
+			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
+			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
 	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
@@ -32,7 +33,7 @@
 	- Use both direct tag and negative tag methods
 	- [ ] ask which software to use
 	- [ ] calculate [[SF Uncertainty]]
-		- #Question no systematic uncertainty found in ntuples production.
+		- #Question no systematic uncertainty found in ntuples production, only a list of systematic is shown.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
