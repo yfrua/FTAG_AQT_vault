@@ -15,7 +15,7 @@
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 	- [ ] locally make sure selection code works fine
-- [ ] submit job to the Grid, produce a first set of nominal only ntuples.
+- [ ] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
 	- [ ] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- [x] reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
