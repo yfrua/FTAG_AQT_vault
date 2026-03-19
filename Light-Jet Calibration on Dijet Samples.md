@@ -20,7 +20,7 @@
 		- [x] reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
-		- [ ] reweight MC by JZx slice.
+		- [x] reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
 			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
