@@ -16,11 +16,11 @@
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 	- [ ] locally make sure selection code works fine
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples.
-	- [ ] Data reweighting, see [[Trigger, luminosity, pT binning]]
+	- [x] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- [x] reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
-		- [ ] reweight MC by JZx slice.
+		- [x] reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
 			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
