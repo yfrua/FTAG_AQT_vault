@@ -7,24 +7,23 @@
 		- JZ0 to JZ9 for mc23a, mc23d, mc23e.
 	- [x]  one data DAOD for each data taking year
 		- data22, data23, data24
-- [ ] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
+- [x] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- DL1r Z+jets pT binning: 20-50, 50-100, 100-150, 150-300
-		- [ ] depend on the lowest pT trigger, check trigger efficiency plots.
+		- [x] depend on the lowest pT trigger, check trigger efficiency plots.
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
-	- [ ] locally make sure selection code works fine
+	- [x] locally make sure selection code works fine
 - [ ] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
-	- [ ] Data reweighting, see [[Trigger, luminosity, pT binning]]
-		- [x] reweight data by trigger prescale.
+	- [x] Data reweighting, see [[Trigger, luminosity, pT binning]]
+		- reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
-		- [x] reweight MC by JZx slice.
+		- reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
 			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
-	- [ ] get physically-correct ntuples.
 - [ ] make control plot
 	- leading jet pT
 	- SV mass
