@@ -19,7 +19,8 @@
 		- FEX: Feature EXtractor
 		- The jFEX is intended to receive high granularity data from the calorimeters (0.1×0.1 in η × φ for the central calorimeter, larger in the forward regions) and identify jets and large-area taus. It also calculates global variables like the total transverse energy and the missing transverse energy. [ref](https://cds.cern.ch/record/2289210/files/ATL-DAQ-PROC-2017-032.pdf)
 	- by default, jJ jets are defined in |eta|<3.1
--  New naming for Calo items (w.r.t. Run 2)
+- ftf: fast track finding
+- New naming for Calo items (w.r.t. Run 2)
 ![[Pasted image 20260313192534.png]]
 - in the following table, 2nd column comes from COMA, 3rd comes from lumicalc with link to the calculation result.
 
@@ -34,7 +35,7 @@
 	- From 400 bunches:
 		- HLT_j420_pf_ftf_preselj225_L1J100: [29,294.4 pb-1](https://atlas-lumicalc.cern.ch/results/1c4c93/result.html)
 		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: [29,294.4 pb-1](https://atlas-lumicalc.cern.ch/results/5fda56/result.html)
-	- so, unprescaled lumi should be 29,294.4 $\text{pb}^{-1}$
+	- #Question so, unprescaled lumi should be 29,294.4 $\text{pb}^{-1}$ ?
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
