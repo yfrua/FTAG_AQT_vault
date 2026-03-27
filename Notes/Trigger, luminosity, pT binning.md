@@ -35,7 +35,7 @@
 	- From 400 bunches:
 		- HLT_j420_pf_ftf_preselj225_L1J100: [29,294.4 pb-1](https://atlas-lumicalc.cern.ch/results/1c4c93/result.html)
 		- HLT_2j250c_j120c_pf_ftf_presel2j180XXj80_L1J100: [29,294.4 pb-1](https://atlas-lumicalc.cern.ch/results/5fda56/result.html)
-	- #Question so, unprescaled lumi should be 29,294.4 $\text{pb}^{-1}$ ?
+	- so, unprescaled lumi should be 29,294.4 $\text{pb}^{-1}$ ?
 
 | trigger name                                                                                                                                                                                 | PS Corr Ready Lumi ($\text{nb}^{-1}$) | Total Lumi in GRL ($\text{nb}^{-1}$)                                    | ratio |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------- | ----- |
@@ -44,11 +44,11 @@
 | [HLT_j85_L1J20](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j85_L1J20 "link to COMA Chain/Item Report for HLT_j85_L1J20")          | 11,672                                | [6,245.94](https://atlas-lumicalc.cern.ch/results/eeaaa8/result.html)   | 1.87  |
 | [HLT_j110_L1J30](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j110_L1J30 "link to COMA Chain/Item Report for HLT_j110_L1J30")       | 34,827                                | [18,667.1](https://atlas-lumicalc.cern.ch/results/1908f7/result.html)   | 1.86  |
 | [HLT_j175_L1J50](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j175_L1J50 "link to COMA Chain/Item Report for HLT_j175_L1J50")       | 172,445                               | [104,402](https://atlas-lumicalc.cern.ch/results/83ce6c/result.html)    | 1.65  |
+| [HLT_j420_L1jJ160](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j420_L1jJ160 "link to COMA Chain/Item Report for HLT_j420_L1jJ160") | 514,758                               | [244,434](https://atlas-lumicalc.cern.ch/results/ff6fce/result.html)    | 2.10  |
 | [HLT_j260_L1J75](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j260_L1J75 "link to COMA Chain/Item Report for HLT_j260_L1J75")       | 1,154,264                             | [709,172](https://atlas-lumicalc.cern.ch/results/9ac815/result.html)    | 1.63  |
 | [HLT_j360_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j360_L1J100 "link to COMA Chain/Item Report for HLT_j360_L1J100")    | 6,515,200                             | [4,525,930](https://atlas-lumicalc.cern.ch/results/5e4686/result.html)  | 1.44  |
 | [HLT_j420_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j420_L1J100 "link to COMA Chain/Item Report for HLT_j420_L1J100")    | 21,543,778                            | [14,647,200](https://atlas-lumicalc.cern.ch/results/52fc64/result.html) | 1.47  |
 | [HLT_j420_L1J120](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j420_L1J120 "link to COMA Chain/Item Report for HLT_j420_L1J120")    | 21,541,378                            | [14,647,200](https://atlas-lumicalc.cern.ch/results/ca62f4/result.html) | 1.47  |
-| [HLT_j420_L1jJ160](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j420_L1jJ160 "link to COMA Chain/Item Report for HLT_j420_L1jJ160") | 514,758                               | [244,434](https://atlas-lumicalc.cern.ch/results/ff6fce/result.html)    | 2.10  |
 | [HLT_j440_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j440_L1J100 "link to COMA Chain/Item Report for HLT_j440_L1J100")    | 21,541,378                            | [14,647,200](https://atlas-lumicalc.cern.ch/results/7d5dd9/result.html) | 1.47  |
 | [HLT_j450_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j450_L1J100 "link to COMA Chain/Item Report for HLT_j450_L1J100")    | 21,541,378                            | [14,647,200](https://atlas-lumicalc.cern.ch/results/49be5e/result.html) | 1.47  |
 | [HLT_j460_L1J100](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j460_L1J100 "link to COMA Chain/Item Report for HLT_j460_L1J100")    | 21,541,378                            | [14,647,200](https://atlas-lumicalc.cern.ch/results/ab030a/result.html) | 1.47  |
@@ -144,6 +144,19 @@
 | 8   | 900 - 1200     | same as above   | same as above   | same as above    |
 | 9   | 1200 - 1500    | same as above   | same as above   | same as above    |
 | 10  | 1500 - 3000    | same as above   | same as above   | same as above    |
+
+| bin | min pT [GeV] | 2022          | 2023 | 2024 |
+| --- | ------------ | ------------- | ---- | ---- |
+| 1   | 70           | HLT_j45_L1J15 |      |      |
+| 2   |              |               |      |      |
+| 3   |              |               |      |      |
+| 4   |              |               |      |      |
+| 5   |              |               |      |      |
+| 6   |              |               |      |      |
+| 7   |              |               |      |      |
+| 8   |              |               |      |      |
+| 9   |              |               |      |      |
+| 10  |              |               |      |      |
 ## total luminosity in GRL
 - in the unit of $\text{nb}^{-1}$
 
