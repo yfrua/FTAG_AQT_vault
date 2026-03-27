@@ -10,8 +10,7 @@
 - [x] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
-		- DL1r Z+jets pT binning: 20-50, 50-100, 100-150, 150-300
-		- [x] depend on the lowest pT trigger, check trigger efficiency plots.
+		- DL1r Z+jets pT binning: 20-50, 50-100, 100-150, 150-300.
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 	- [x] locally make sure selection code works fine
