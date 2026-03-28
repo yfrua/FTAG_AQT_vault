@@ -150,11 +150,11 @@ now
 
 | bin | pT range [GeV] | 2022            | 2023            | 2024             |
 | --- | -------------- | --------------- | --------------- | ---------------- |
-| 1   | 70 - 150       | HLT_j45_L1J15   | HLT_j45_L1J15   | HLT_j45_L1J15    |
-| 2   | 150 - 250      | HLT_j85_L1J20   | HLT_j85_L1J20   | HLT_j85_L1jJ50   |
-| 3   | 250 - 350      | HLT_j175_L1J50  | HLT_j175_L1J50  | HLT_j175_L1jJ90  |
-| 4   | 350 - 450      | HLT_j260_L1J75  | HLT_j260_L1J75  | HLT_j260_L1jJ125 |
-| 5   | 450 - 550      | HLT_j360_L1J100 | HLT_j360_L1J100 | HLT_j360_L1jJ160 |
+| 1   | 70 - 120       | HLT_j45_L1J15   | HLT_j45_L1J15   | HLT_j45_L1J15    |
+| 2   | 120 - 200      | HLT_j85_L1J20   | HLT_j85_L1J20   | HLT_j85_L1jJ50   |
+| 3   | 200 - 300      | HLT_j175_L1J50  | HLT_j175_L1J50  | HLT_j175_L1jJ90  |
+| 4   | 300 - 400      | HLT_j260_L1J75  | HLT_j260_L1J75  | HLT_j260_L1jJ125 |
+| 5   | 400 - 550      | HLT_j360_L1J100 | HLT_j360_L1J100 | HLT_j360_L1jJ160 |
 | 6   | 550 - 800      | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j420_L1jJ160 |
 | 7   | 800 - 1200     | same as above   | same as above   | same as above    |
 | 8   | 1200 - 1500    | same as above   | same as above   | same as above    |
@@ -180,11 +180,11 @@ now
 
 | bin | pT range [GeV] | 2022          | 2023          | 2024          |
 | --- | -------------- | ------------- | ------------- | ------------- |
-| 1   | 70 - 150       | 11.327        | 8.44288       | 17.72         |
-| 2   | 150 - 250      | 6,245.94      | 1,053.49      | 3,708.03      |
-| 3   | 250 - 350      | 104,402       | 25,106.8      | 88,415        |
-| 4   | 350 - 450      | 709,172       | 158,262       | 560,656       |
-| 5   | 450 - 550      | 4,525,930     | 808,37        | 2,818,510     |
+| 1   | 70 - 120       | 11.327        | 8.44288       | 17.72         |
+| 2   | 120 - 200      | 6,245.94      | 1,053.49      | 3,708.03      |
+| 3   | 200 - 300      | 104,402       | 25,106.8      | 88,415        |
+| 4   | 300 - 400      | 709,172       | 158,262       | 560,656       |
+| 5   | 400 - 550      | 4,525,930     | 808,37        | 2,818,510     |
 | 6   | 550 - 800      | 29,294,400    | 26,647,100    | 53,945,100    |
 | 7   | 800 - 1200     | same as above | same as above | same as above |
 | 8   | 1200 - 1500    | same as above | same as above | same as above |
@@ -265,6 +265,8 @@ CollectionTree->GetEntries()
 # Trigger Efficiency Plot
 ![[Pasted image 20260328100624.png]]
 
+- estimated full efficient pT from the plot:
+
 | threshold | full efficient pT | ratio |
 | --------- | ----------------- | ----- |
 | 25        | 45                | 1.80  |
@@ -274,6 +276,19 @@ CollectionTree->GetEntries()
 | 260       | 282               | 1.08  |
 | 360       | 395               | 1.10  |
 | 420       | 452               | 1.08  |
+- the interpolation and extrapolation of full efficient pT for some threshold of interest:
+
+| threshold | full efficient pT |
+| --------- | ----------------- |
+| 45        | 74                |
+| 60        | 90                |
+| 85        | 116               |
+| 110       | 142               |
+| 175       | 200               |
+| 260       | 282               |
+| 360       | 395               |
+| 420       | 452               |
+| 480       | 509               |
 
 # Ellen's case
 - latest
