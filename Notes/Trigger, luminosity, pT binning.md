@@ -262,6 +262,19 @@ CollectionTree->GetEntries()
 - downloaded run:
 	- [p] 473235
 
+# Trigger Efficiency Plot
+![[Pasted image 20260328100624.png]]
+
+| threshold | full efficient pT | ratio |
+| --------- | ----------------- | ----- |
+| 25        | 45                | 1.80  |
+| 35        | 64                | 1.83  |
+| 110       | 142               | 1.29  |
+| 175       | 200               | 1.14  |
+| 260       | 282               | 1.08  |
+| 360       | 395               | 1.10  |
+| 420       | 452               | 1.08  |
+
 # Ellen's case
 - latest
 ![[Pasted image 20260227181700.png|697]]
