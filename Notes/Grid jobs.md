@@ -1,4 +1,4 @@
 - grid job monitor: [PanDA](https://bigpanda.cern.ch/)
 - list of jobs submitted:
-	- data24: [CNF_2J_L_a743ad0](https://bigpanda.cern.ch/task/49457290/)
+	- data24: [CNF_2J_L_a743ad0](https://bigpanda.cern.ch/task/49457290/), output DID: `user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_a743ad0_output`
 	- 
