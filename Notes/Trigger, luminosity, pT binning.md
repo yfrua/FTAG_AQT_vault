@@ -263,7 +263,8 @@ CollectionTree->GetEntries()
 	- [p] 473235
 
 # Trigger Efficiency Plot
-![[Pasted image 20260328100624.png]]
+[link](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetTriggerPublicResults#Central_Jet_Trigger_Efficiency_P)
+![[Pasted image 20260330152326.png]]4
 
 - estimated full efficient pT from the plot:
 
