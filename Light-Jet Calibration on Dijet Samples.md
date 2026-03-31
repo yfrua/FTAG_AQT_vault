@@ -11,10 +11,11 @@
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- DL1r Z+jets pT binning: 20-50, 50-100, 100-150, 150-300.
+		- no need to use the same binning as Z+jets one.
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 	- [x] locally make sure selection code works fine
-- [ ] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
+- [x] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
 	- [x] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
@@ -26,7 +27,7 @@
 - [ ] make control plot
 	- leading jet pT
 	- SV mass
-	- leading jet NN discriminant
+	- leading jet NN score & discriminant
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] ask which software to use
@@ -40,3 +41,4 @@
 - Common Ntuple Framework: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [url](https://topcptoolkit.docs.cern.ch/latest/)
 - TRExFitter: [gitlab](https://gitlab.cern.ch/TRExStats/TRExFitter), [documentation](https://trexfitter-docs.web.cern.ch/trexfitter-docs/latest/)
+- light-jet calibration tool base on Z+jets events: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/ljets_ZJet)
