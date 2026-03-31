@@ -2,12 +2,12 @@
 # data
 - data24_legacy: used wrong trigger
 
-| name          | job tag                                                     | output DID                                                                            |
-| ------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| data24_legacy | [CNF_2J_L_a743ad0](https://bigpanda.cern.ch/task/49457290/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_a743ad0_output |
-| data22        | [CNF_2J_L_92acd4c](https://bigpanda.cern.ch/task/49507565/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L_92acd4c_output |
-| data23        | [CNF_2J_L_9c65653](https://bigpanda.cern.ch/task/49507569/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp23_v01_p6700.CNF_2J_L_9c65653_output |
-| data24        | [CNF_2J_L_9de3155](https://bigpanda.cern.ch/task/49507574/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_9de3155_output |
+| name          | task id                                                          | output DID                                                                            |
+| ------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| data24_legacy | [49457290](https://bigpanda.cern.ch/task/49457290/)              | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_a743ad0_output |
+| data22        | [49509382](https://prodtask-dev.cern.ch/prodtask/task/49509382/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L_cc70672_output |
+| data23        | [49509407](https://prodtask-dev.cern.ch/prodtask/task/49509407/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp23_v01_p6700.CNF_2J_L_5457b90_output |
+| data24        | [49509434](https://prodtask-dev.cern.ch/prodtask/task/49509434/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_d5c091d_output |
 
 # MC
 - use dataset in [[DAOD list]]
