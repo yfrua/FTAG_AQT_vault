@@ -131,23 +131,6 @@
 #TODO Find trigger efficiency plots?
 ## trigger
 
-before
-
-| bin | pT range [GeV] | 2022            | 2023            | 2024             |
-| --- | -------------- | --------------- | --------------- | ---------------- |
-| 1   | 50 - 100       | HLT_j45_L1J15   | HLT_j45_L1J15   | HLT_j45_L1J15    |
-| 2   | 100 - 150      | HLT_j85_L1J20   | HLT_j85_L1J20   | HLT_j85_L1jJ50   |
-| 3   | 150 - 300      | HLT_j110_L1J30  | HLT_j110_L1J30  | HLT_j110_L1jJ60  |
-| 4   | 300 - 400      | HLT_j260_L1J75  | HLT_j260_L1J75  | HLT_j260_L1jJ125 |
-| 5   | 400 - 500      | HLT_j360_L1J100 | HLT_j360_L1J100 | HLT_j360_L1jJ160 |
-| 6   | 500 - 700      | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j480_L1J100  |
-| 7   | 700 - 900      | HLT_j520_L1J100 | HLT_j520_L1J100 | HLT_j500_L1J100  |
-| 8   | 900 - 1200     | same as above   | same as above   | same as above    |
-| 9   | 1200 - 1500    | same as above   | same as above   | same as above    |
-| 10  | 1500 - 3000    | same as above   | same as above   | same as above    |
-
-now
-
 | bin | pT range [GeV] | 2022            | 2023            | 2024             |
 | --- | -------------- | --------------- | --------------- | ---------------- |
 | 1   | 80 - 120       | HLT_j45_L1J15   | HLT_j45_L1J15   | HLT_j45_L1J15    |
@@ -162,21 +145,6 @@ now
 
 ## total luminosity in GRL
 - in the unit of $\text{nb}^{-1}$
-before
-
-| bin | pT range [GeV] | 2022          | 2023          | 2024          |
-| --- | -------------- | ------------- | ------------- | ------------- |
-| 1   | 50 - 100       | 11.327        | 8.44288       | 17.7199       |
-| 2   | 100 - 150      | 6,245         | 1,053.49      | 3,708.03      |
-| 3   | 150 - 300      | 18,667.1      | 3,252.29      | 12,091.9      |
-| 4   | 300 - 400      | 709,172       | 158,262       | 560,656       |
-| 5   | 400 - 500      | 4,525,930     | 808,378       | 2,818,510     |
-| 6   | 500 - 700      | 29,294,400    | 26,647,100    | 22,533,400    |
-| 7   | 700 - 900      | same as above | same as above | same as above |
-| 8   | 900 - 1200     | same as above | same as above | same as above |
-| 9   | 1200 - 1500    | same as above | same as above | same as above |
-| 10  | 1500 - 3000    | same as above | same as above | same as above |
-now
 
 | bin | pT range [GeV] | 2022          | 2023          | 2024          |
 | --- | -------------- | ------------- | ------------- | ------------- |
