@@ -11,3 +11,42 @@
 
 # MC
 - use dataset in [[DAOD list]]
+## mc23a
+| name | task id | output DID |
+| ---- | ------- | ---------- |
+| JZ0  |         |            |
+| JZ1  |         |            |
+| JZ2  |         |            |
+| JZ3  |         |            |
+| JZ4  |         |            |
+| JZ5  |         |            |
+| JZ6  |         |            |
+| JZ7  |         |            |
+| JZ8  |         |            |
+| JZ9  |         |            |
+## mc23d
+| name | task id | output DID |
+| ---- | ------- | ---------- |
+| JZ0  |         |            |
+| JZ1  |         |            |
+| JZ2  |         |            |
+| JZ3  |         |            |
+| JZ4  |         |            |
+| JZ5  |         |            |
+| JZ6  |         |            |
+| JZ7  |         |            |
+| JZ8  |         |            |
+| JZ9  |         |            |$
+## mc23e
+| name | task id | output DID |
+| ---- | ------- | ---------- |
+| JZ0  |         |            |
+| JZ1  |         |            |
+| JZ2  |         |            |
+| JZ3  |         |            |
+| JZ4  |         |            |
+| JZ5  |         |            |
+| JZ6  |         |            |
+| JZ7  |         |            |
+| JZ8  |         |            |
+| JZ9  |         |            |
