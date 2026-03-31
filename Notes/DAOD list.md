@@ -39,7 +39,7 @@ data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.
 - What about `PHYSLITE`? 
 	- Better if it fits my task
 	- check if it lack some of vars
-		- Yse, it miss `SV1_masssvx`
+		- Yes, it miss `SV1_masssvx`
 	- Not to use this
 
 # MC
