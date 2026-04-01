@@ -8,11 +8,6 @@
 | data22        | [49509382](https://bigpanda.cern.ch/task/49509382/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L_cc70672_output |
 | data23        | [49514106](https://bigpanda.cern.ch/task/49514106/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp23_v01_p6700.CNF_2J_L_af02954_output |
 | data24        | [49509434](https://bigpanda.cern.ch/task/49509434/) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_d5c091d_output |
-downloaded locally?
-- [x] data24_legacy
-- [ ] data22
-- [ ] data23
-- [ ] data25
 
 # MC
 - use dataset in [[DAOD list]]
@@ -31,17 +26,6 @@ downloaded locally?
 | JZ7  | [49514414](https://bigpanda.cern.ch/task/49514414/) | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
 | JZ8  | [49514416](https://bigpanda.cern.ch/task/49514416/) | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
 | JZ9  | [49514418](https://bigpanda.cern.ch/task/49514418/) | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-downloaded locally?
-- [ ] JZ0
-- [ ] JZ1
-- [ ] JZ2
-- [ ] JZ3
-- [ ] JZ4
-- [ ] JZ5
-- [ ] JZ6
-- [ ] JZ7
-- [ ] JZ8
-- [ ] JZ9
 
 ## mc23d
 - r-tag=r15224
@@ -58,17 +42,6 @@ downloaded locally?
 | JZ7  | [49514442](https://bigpanda.cern.ch/task/49514442/) | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
 | JZ8  | [49514444](https://bigpanda.cern.ch/task/49514444/) | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
 | JZ9  | [49514446](https://bigpanda.cern.ch/task/49514446/) | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-downloaded locally?
-- [ ] JZ0
-- [ ] JZ1
-- [ ] JZ2
-- [ ] JZ3
-- [ ] JZ4
-- [ ] JZ5
-- [ ] JZ6
-- [ ] JZ7
-- [ ] JZ8
-- [ ] JZ9
 
 ## mc23e
 - r-tag=r16083
@@ -85,14 +58,3 @@ downloaded locally?
 | JZ7  | [49514470](https://bigpanda.cern.ch/task/49514470/) | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
 | JZ8  | [49514473](https://bigpanda.cern.ch/task/49514473/) | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
 | JZ9  | [49514474](https://bigpanda.cern.ch/task/49514474/) | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-downloaded locally?
-- [ ] JZ0
-- [ ] JZ1
-- [ ] JZ2
-- [ ] JZ3
-- [ ] JZ4
-- [ ] JZ5
-- [ ] JZ6
-- [ ] JZ7
-- [ ] JZ8
-- [ ] JZ9
