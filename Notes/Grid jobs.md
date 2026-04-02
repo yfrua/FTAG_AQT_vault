@@ -2,51 +2,53 @@
 # data
 - data24_legacy: used wrong trigger
 
-| name          | task id                                             | size      | output DID                                                                            |
-| ------------- | --------------------------------------------------- | --------- | ------------------------------------------------------------------------------------- |
-| data24_legacy | [49457290](https://bigpanda.cern.ch/task/49457290/) | 33.772 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_a743ad0_output |
-| data22        | [49509382](https://bigpanda.cern.ch/task/49509382/) |           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L_cc70672_output |
-| data23        | [49514106](https://bigpanda.cern.ch/task/49514106/) |           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp23_v01_p6700.CNF_2J_L_af02954_output |
-| data24        | [49509434](https://bigpanda.cern.ch/task/49509434/) |           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_d5c091d_output |
+| name          | task id                                             | size                | output DID                                                                            |
+| ------------- | --------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------- |
+| data24_legacy | [49457290](https://bigpanda.cern.ch/task/49457290/) | 33.772 GB           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_a743ad0_output |
+| data22        | [49509382](https://bigpanda.cern.ch/task/49509382/) | 43.852 GB           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L_cc70672_output |
+| data23        | [49514106](https://bigpanda.cern.ch/task/49514106/) | 20.606 GB (running) | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp23_v01_p6700.CNF_2J_L_af02954_output |
+| data24        | [49509434](https://bigpanda.cern.ch/task/49509434/) | (pending)           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp24_v01_p6700.CNF_2J_L_d5c091d_output |
 
 
 # MC
 - use dataset in [[DAOD list]]
 ## mc23a
 - r-tag=r14622
+- 2.058 TB in total.
 
-| name | task id                                             | size       | output DID                                                                         |
-| ---- | --------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------- |
-| JZ0  | [49514398](https://bigpanda.cern.ch/task/49514398/) | 129.492 MB | user.fye.801165.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ1  | [49514401](https://bigpanda.cern.ch/task/49514401/) | 38.803 MB  | user.fye.801166.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ2  | [49514403](https://bigpanda.cern.ch/task/49514403/) | 80.395 GB  | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ3  | [49514406](https://bigpanda.cern.ch/task/49514406/) | 517.231 GB | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ4  | [49514408](https://bigpanda.cern.ch/task/49514408/) | 634.955 GB | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ5  | [49514409](https://bigpanda.cern.ch/task/49514409/) | 324.878 GB | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ6  | [49514413](https://bigpanda.cern.ch/task/49514413/) | 194.944 GB | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ7  | [49514414](https://bigpanda.cern.ch/task/49514414/) | 129.007 GB | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ8  | [49514416](https://bigpanda.cern.ch/task/49514416/) |            | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
-| JZ9  | [49514418](https://bigpanda.cern.ch/task/49514418/) | 99.280 GB  | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| name | task id                                             | size                | output DID                                                                         |
+| ---- | --------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------- |
+| JZ0  | [49514398](https://bigpanda.cern.ch/task/49514398/) | 129.492 MB          | user.fye.801165.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ1  | [49514401](https://bigpanda.cern.ch/task/49514401/) | 38.803 MB (pending) | user.fye.801166.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ2  | [49514403](https://bigpanda.cern.ch/task/49514403/) | 80.395 GB           | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ3  | [49514406](https://bigpanda.cern.ch/task/49514406/) | 517.231 GB          | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ4  | [49514408](https://bigpanda.cern.ch/task/49514408/) | 634.955 GB          | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ5  | [49514409](https://bigpanda.cern.ch/task/49514409/) | 324.878 GB          | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ6  | [49514413](https://bigpanda.cern.ch/task/49514413/) | 194.944 GB          | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ7  | [49514414](https://bigpanda.cern.ch/task/49514414/) | 129.007 GB          | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ8  | [49514416](https://bigpanda.cern.ch/task/49514416/) | 126.039 GB          | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
+| JZ9  | [49514418](https://bigpanda.cern.ch/task/49514418/) | 99.280 GB           | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_871edd1_output |
 
 ## mc23d
 - r-tag=r15224
+- 5.305 TB in total.
 
-| name | task id                                             | size | output DID                                                                         |
-| ---- | --------------------------------------------------- | ---- | ---------------------------------------------------------------------------------- |
-| JZ0  | [49514430](https://bigpanda.cern.ch/task/49514430/) |      | user.fye.801165.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ1  | [49514431](https://bigpanda.cern.ch/task/49514431/) |      | user.fye.801166.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ2  | [49514434](https://bigpanda.cern.ch/task/49514434/) |      | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ3  | [49514435](https://bigpanda.cern.ch/task/49514435/) |      | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ4  | [49514437](https://bigpanda.cern.ch/task/49514437/) |      | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ5  | [49514439](https://bigpanda.cern.ch/task/49514439/) |      | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ6  | [49514441](https://bigpanda.cern.ch/task/49514441/) |      | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ7  | [49514442](https://bigpanda.cern.ch/task/49514442/) |      | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ8  | [49514444](https://bigpanda.cern.ch/task/49514444/) |      | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
-| JZ9  | [49514446](https://bigpanda.cern.ch/task/49514446/) |      | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| name | task id                                             | size               | output DID                                                                         |
+| ---- | --------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------- |
+| JZ0  | [49514430](https://bigpanda.cern.ch/task/49514430/) | 499.308 MB         | user.fye.801165.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ1  | [49514431](https://bigpanda.cern.ch/task/49514431/) | 520.122 MB         | user.fye.801166.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ2  | [49514434](https://bigpanda.cern.ch/task/49514434/) | 203.477 GB         | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ3  | [49514435](https://bigpanda.cern.ch/task/49514435/) | 1.303 TB           | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ4  | [49514437](https://bigpanda.cern.ch/task/49514437/) | 1.597 TB (running) | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ5  | [49514439](https://bigpanda.cern.ch/task/49514439/) | 817.311 GB         | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ6  | [49514441](https://bigpanda.cern.ch/task/49514441/) | 489.634 GB         | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ7  | [49514442](https://bigpanda.cern.ch/task/49514442/) | 324.647 GB         | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ8  | [49514444](https://bigpanda.cern.ch/task/49514444/) | 316.790 GB         | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
+| JZ9  | [49514446](https://bigpanda.cern.ch/task/49514446/) | 309.866 GB         | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p6697.CNF_2J_L2J_9b58101_output |
 
 ## mc23e
 - r-tag=r16083
-- 5.235 TB ntuples in total
+- 5.235 TB in total.
 
 | name | task id                                             | size       | output DID                                                                         |
 | ---- | --------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------- |
@@ -60,42 +62,3 @@
 | JZ7  | [49514470](https://bigpanda.cern.ch/task/49514470/) | 325.850 GB | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
 | JZ8  | [49514473](https://bigpanda.cern.ch/task/49514473/) | 318.210 GB | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
 | JZ9  | [49514474](https://bigpanda.cern.ch/task/49514474/) | 309.600 GB | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-
-# transfer checkbox
-## data
-- [ ] data22
-- [ ] data23
-- [ ] data24
-## mc23a
-- [ ] JZ0
-- [ ] JZ1
-- [ ] JZ2
-- [ ] JZ3
-- [ ] JZ4
-- [ ] JZ5
-- [ ] JZ6
-- [ ] JZ7
-- [ ] JZ8
-- [ ] JZ9
-## mc23d
-- [ ] JZ0
-- [ ] JZ1
-- [ ] JZ2
-- [ ] JZ3
-- [ ] JZ4
-- [ ] JZ5
-- [ ] JZ6
-- [ ] JZ7
-- [ ] JZ8
-- [ ] JZ9
-## mc23e
-- [x] JZ0
-- [ ] JZ1
-- [ ] JZ2
-- [ ] JZ3
-- [ ] JZ4
-- [ ] JZ5
-- [ ] JZ6
-- [ ] JZ7
-- [ ] JZ8
-- [ ] JZ9
