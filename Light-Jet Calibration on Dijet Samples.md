@@ -25,9 +25,12 @@
 			- ideally, only need to extract `mcEventWeight` in DAOD
 			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
 - [ ] make control plot
-	- leading jet pT
-	- SV mass
-	- leading jet NN score & discriminant
+	- need to do a distributed histogram calculation.
+		- use CERN batch service: [tutorial](https://atlas-software.docs.cern.ch/analysis/analysis_tutorial/AnalysisSWTutorial/batch_systems/), [doc](https://batchdocs.web.cern.ch/)
+	- variables
+		- leading jet pT
+		- SV mass
+		- leading jet NN score & discriminant
 - [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] ask which software to use
