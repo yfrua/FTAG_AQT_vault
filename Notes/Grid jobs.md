@@ -48,16 +48,54 @@
 - r-tag=r16083
 - 5.235 TB ntuples in total
 
-| name  | task id                                             | size       | output DID                                                                         |
-| ----- | --------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------- |
-| JZ0   | [49514457](https://bigpanda.cern.ch/task/49514457/) | 419.840 MB | user.fye.801165.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ1   | [49514459](https://bigpanda.cern.ch/task/49514459/) | 560.688 MB | user.fye.801166.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ2   | [49514461](https://bigpanda.cern.ch/task/49514461/) | 191.963 GB | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ3   | [49514462](https://bigpanda.cern.ch/task/49514462/) | 1.246 TB   | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ4   | [49514464](https://bigpanda.cern.ch/task/49514464/) | 1.592 TB   | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ5   | [49514466](https://bigpanda.cern.ch/task/49514466/) | 819.503 GB | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ6   | [49514468](https://bigpanda.cern.ch/task/49514468/) | 488.365 GB | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ7   | [49514470](https://bigpanda.cern.ch/task/49514470/) | 325.850 GB | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ8   | [49514473](https://bigpanda.cern.ch/task/49514473/) | 318.210 GB | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
-| JZ9   | [49514474](https://bigpanda.cern.ch/task/49514474/) | 309.600 GB | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| name | task id                                             | size       | output DID                                                                         |
+| ---- | --------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------- |
+| JZ0  | [49514457](https://bigpanda.cern.ch/task/49514457/) | 419.840 MB | user.fye.801165.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ1  | [49514459](https://bigpanda.cern.ch/task/49514459/) | 560.688 MB | user.fye.801166.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ2  | [49514461](https://bigpanda.cern.ch/task/49514461/) | 191.963 GB | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ3  | [49514462](https://bigpanda.cern.ch/task/49514462/) | 1.246 TB   | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ4  | [49514464](https://bigpanda.cern.ch/task/49514464/) | 1.592 TB   | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ5  | [49514466](https://bigpanda.cern.ch/task/49514466/) | 819.503 GB | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ6  | [49514468](https://bigpanda.cern.ch/task/49514468/) | 488.365 GB | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ7  | [49514470](https://bigpanda.cern.ch/task/49514470/) | 325.850 GB | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ8  | [49514473](https://bigpanda.cern.ch/task/49514473/) | 318.210 GB | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
+| JZ9  | [49514474](https://bigpanda.cern.ch/task/49514474/) | 309.600 GB | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4369_r16083_p6697.CNF_2J_L2J_d782b4b_output |
 
+# transfer checkbox
+## data
+- [ ] data22
+- [ ] data23
+- [ ] data24
+## mc23a
+- [ ] JZ0
+- [ ] JZ1
+- [ ] JZ2
+- [ ] JZ3
+- [ ] JZ4
+- [ ] JZ5
+- [ ] JZ6
+- [ ] JZ7
+- [ ] JZ8
+- [ ] JZ9
+## mc23d
+- [ ] JZ0
+- [ ] JZ1
+- [ ] JZ2
+- [ ] JZ3
+- [ ] JZ4
+- [ ] JZ5
+- [ ] JZ6
+- [ ] JZ7
+- [ ] JZ8
+- [ ] JZ9
+## mc23e
+- [ ] JZ0
+- [ ] JZ1
+- [ ] JZ2
+- [ ] JZ3
+- [ ] JZ4
+- [ ] JZ5
+- [ ] JZ6
+- [ ] JZ7
+- [ ] JZ8
+- [ ] JZ9
