@@ -128,7 +128,6 @@
 | [HLT_j450_L1jJ160](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j450_L1jJ160 "link to COMA Chain/Item Report for HLT_j450_L1jJ160") | 60,792,305                            | [53,945,100](https://atlas-lumicalc.cern.ch/results/4435a5/result.html) | 1.13  |
 
 # Leading jet pT binning and triggers
-#TODO Find trigger efficiency plots?
 ## trigger
 
 | bin | pT range [GeV] | 2022            | 2023            | 2024             |

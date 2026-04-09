@@ -3,11 +3,14 @@
 - [[Trigger, luminosity, pT binning|Trigger]]
 - Baseline Jvt Jet
 	- pT > 20 GeV, |eta| < 2.5
-	- At least two jets with pT > 20 GeV
-	- Leading jet pT > 110 GeV
+	- >= 2 jets with pT > 20 GeV
+	- Leading jet pT > 80 GeV
 	- <= 1 b-tagged jet
 		- use GN2v01 at WP=0.85
 - No electrons or muons 
+- #TODO (file size too large) tighter cut or thinning
+	- >= 2 jets with pT > 80 GeV
+	- only write one/two leading jets
 
 # In Ellen's case
 - Recommended basic selection  
