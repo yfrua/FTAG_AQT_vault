@@ -44,4 +44,5 @@
 - Common Ntuple Framework: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [url](https://topcptoolkit.docs.cern.ch/latest/)
 - TRExFitter: [gitlab](https://gitlab.cern.ch/TRExStats/TRExFitter), [documentation](https://trexfitter-docs.web.cern.ch/trexfitter-docs/latest/)
-- light-jet calibration tool base on Z+jets events: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/ljets_ZJet)
+- light-jet calibration base on Z+jets events: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/ljets_ZJet)
+- light-jet calibration base on dijet events: [gitlab](https://gitlab.cern.ch/fye/light-jet-calib-dijet)
