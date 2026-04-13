@@ -1,7 +1,7 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
-	- Use latest version: toptoolkit-ntuples v15.0.0 TopCPToolkit v2.23.0 AthAnalysis 25.2.74
+	- Use latest version: toptoolkit-ntuples v16.0.0 TopCPToolkit v2.24.0 AthAnalysis 25.2.85
 - [x] Get unfiltered di-jet samples, see [[DAOD list]].
 	- [x] download one MC DAOD for every JZx slice for all champaigns
 		- JZ0 to JZ9 for mc23a, mc23d, mc23e.
