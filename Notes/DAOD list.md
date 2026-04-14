@@ -1,12 +1,16 @@
 - [full list of p-tags and patterns r22](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
-
+# Bulk Production Releases
+- p6697-p6863: current in use.
+![[Pasted image 20260414131345.png]]
+- p7018-p7110: Not used yet.
+![[Pasted image 20260414131233.png]]
+- p7266-p7271: This one have `GN3EPCLV01` tagger information. 
+![[Pasted image 20260414130849.png]]
 # Data
 - [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
 - [Data and Monte Carlo Datasets for Analysis](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/DataMCForAnalysis)
 
 ## p6700
-![[Pasted image 20260309183431.png]]
-
 ### Sample used by Teresa:
 ```
 "data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v02_p6700",
@@ -144,7 +148,3 @@ mc23_13p6TeV.801947.Py8EG_A14N23LO_jetjet_JZ5WithSW_xAODMuFilt.deriv.DAOD_PHYS.e
 mc23_13p6TeV.801948.Py8EG_A14N23LO_jetjet_JZ6WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4369_r16083
 mc23_13p6TeV.801949.Py8EG_A14N23LO_jetjet_JZ7WithSW_xAODMuFilt.deriv.DAOD_PHYS.e8549_s4369_r16083
 ```
-
-## p7017
-AMI page:
-![[Pasted image 20260302212253.png]]
