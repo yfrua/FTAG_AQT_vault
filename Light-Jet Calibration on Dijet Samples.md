@@ -46,3 +46,4 @@
 - TRExFitter: [gitlab](https://gitlab.cern.ch/TRExStats/TRExFitter), [documentation](https://trexfitter-docs.web.cern.ch/trexfitter-docs/latest/)
 - light-jet calibration base on Z+jets events: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/ljets_ZJet)
 - light-jet calibration base on dijet events: [gitlab](https://gitlab.cern.ch/fye/light-jet-calib-dijet)
+- GN3 WPs definition: [explanation](https://indico.cern.ch/event/1619907/contributions/6826411/attachments/3192282/5681760/GN3%20WPs%20definition%20(Ftag%20Algo%20Meeting)%2011.12.25.pdf), [GN3EPCLV01](https://indico.cern.ch/event/1658474/contributions/6981262/attachments/3234411/5767066/GN3EPCLV01%20WPs%206.03.36.pdf)
