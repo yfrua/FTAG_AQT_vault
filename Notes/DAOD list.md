@@ -69,7 +69,7 @@ samples list below are up to JZ9.
 
 ## p6697
 AMI page for p6697: https://ami.in2p3.fr/?subapp=tagsShow&userdata=p6697
-![[Pasted image 20260302212326.png]]
+
 ### mc23a
 #### Unfiltered
 ```
