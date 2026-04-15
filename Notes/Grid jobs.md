@@ -1,6 +1,7 @@
 - grid job monitor: [PanDA](https://bigpanda.cern.ch/)
 # data
 - data24_legacy: used wrong trigger
+- made a rule to transfer data23 to local disk.
 
 | name          | task id                                             | size      | output DID                                                                            |
 | ------------- | --------------------------------------------------- | --------- | ------------------------------------------------------------------------------------- |
