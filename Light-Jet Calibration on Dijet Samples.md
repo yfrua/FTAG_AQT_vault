@@ -3,10 +3,8 @@
 	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 	- Use latest version: toptoolkit-ntuples v16.0.0 TopCPToolkit v2.24.0 AthAnalysis 25.2.85
 - [x] Get unfiltered di-jet samples, see [[DAOD list]].
-	- [x] download one MC DAOD for every JZx slice for all champaigns
-		- JZ0 to JZ9 for mc23a, mc23d, mc23e.
-	- [x]  one data DAOD for each data taking year
-		- data22, data23, data24
+	- p6697 for dijet MC, p6700 for data.
+	- Use MC sample of JZ2 to JZ9incl.
 - [x] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
@@ -14,7 +12,6 @@
 		- no need to use the same binning as Z+jets one.
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
-	- [x] locally make sure selection code works fine
 - [x] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
 	- [x] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- reweight data by trigger prescale.

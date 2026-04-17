@@ -49,7 +49,8 @@ data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYSLITE.
 # MC
 - DAOD with muon filtered request by Teresa: [jira](https://its.cern.ch/jira/projects/ATLFTAGDPD/issues/ATLFTAGDPD-473?filter=allissues)
 ## JZx slice definition
-samples list below are up to JZ9.
+- JZx greater than 9 are inclusive as JZ9incl.
+- ==Use JZ2 to JZ9incl==
 
 | JZx | pT_min | pT_max |
 | --- | ------ | ------ |
