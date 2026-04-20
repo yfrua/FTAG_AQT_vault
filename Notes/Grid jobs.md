@@ -1,4 +1,19 @@
 - grid job monitor: [PanDA](https://bigpanda.cern.ch/)
+
+# data
+
+| name   | task id | size | output DSID |
+| ------ | ------- | ---- | ----------- |
+| data22 |         |      |             |
+
+# MC
+## mc23a
+| name | task id | size | output DSID |
+| ---- | ------- | ---- | ----------- |
+|      |         |      |             |
+
+---
+Previous submission: 
 # data
 - data24_legacy: used wrong trigger
 - made a rule to transfer data23 to local disk.
