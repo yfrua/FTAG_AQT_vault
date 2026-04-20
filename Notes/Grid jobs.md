@@ -5,27 +5,27 @@
 
 # data
 
-| name   | task id | size | output DSID |
-| ------ | ------- | ---- | ----------- |
-| data22 |         |      |             |
-| data23 |         |      |             |
-| data24 |         |      |             |
+| name   | task id                                             | size | output DSID |
+| ------ | --------------------------------------------------- | ---- | ----------- |
+| data22 | [49865090](https://bigpanda.cern.ch/task/49865090/) |      |             |
+| data23 |                                                     |      |             |
+| data24 |                                                     |      |             |
 
 # MC
 ## mc23a
-| name    | task id | size | output DSID |
-| ------- | ------- | ---- | ----------- |
-| JZ2     |         |      |             |
-| JZ3     |         |      |             |
-| JZ4     |         |      |             |
-| JZ5     |         |      |             |
-| JZ6     |         |      |             |
-| JZ7     |         |      |             |
-| JZ8     |         |      |             |
-| JZ9incl |         |      |             |
+| name    | task id                                             | size | output DSID |
+| ------- | --------------------------------------------------- | ---- | ----------- |
+| JZ2     | [49865113](https://bigpanda.cern.ch/task/49865113/) |      |             |
+| JZ3     | [49865118](https://bigpanda.cern.ch/task/49865118/) |      |             |
+| JZ4     | [49865121](https://bigpanda.cern.ch/task/49865121/) |      |             |
+| JZ5     | [49865125](https://bigpanda.cern.ch/task/49865125/) |      |             |
+| JZ6     | [49865129](https://bigpanda.cern.ch/task/49865129/) |      |             |
+| JZ7     | [49865132](https://bigpanda.cern.ch/task/49865132/) |      |             |
+| JZ8     | [49865134](https://bigpanda.cern.ch/task/49865134/) |      |             |
+| JZ9incl | [49865137](https://bigpanda.cern.ch/task/49865137/) |      |             |
 
 ---
-Previous submission: 
+Previous submission (with wrong event selection): 
 # data
 - data24_legacy: used wrong trigger
 - made a rule to transfer data23 to local disk.
