@@ -1,23 +1,28 @@
 - grid job monitor: [PanDA](https://bigpanda.cern.ch/)
+- kill grid jobs:
+	- setupATLAS, lsetup panda, pbook
+	- kill(<jedTaskID>)
 
 # data
 
-| name   | task id                                             | size | output DSID |
-| ------ | --------------------------------------------------- | ---- | ----------- |
-| data22 | [49864650](https://bigpanda.cern.ch/task/49864650/) |      |             |
+| name   | task id | size | output DSID |
+| ------ | ------- | ---- | ----------- |
+| data22 |         |      |             |
+| data23 |         |      |             |
+| data24 |         |      |             |
 
 # MC
 ## mc23a
-| name    | task id                                             | size | output DSID |
-| ------- | --------------------------------------------------- | ---- | ----------- |
-| JZ2     | [49864534](https://bigpanda.cern.ch/task/49864534/) |      |             |
-| JZ3     | [49864540](https://bigpanda.cern.ch/task/49864540/) |      |             |
-| JZ4     | [49864556](https://bigpanda.cern.ch/task/49864556/) |      |             |
-| JZ5     | [49864570](https://bigpanda.cern.ch/task/49864570/) |      |             |
-| JZ6     | [49864572](https://bigpanda.cern.ch/task/49864572/) |      |             |
-| JZ7     | [49864574](https://bigpanda.cern.ch/task/49864574/) |      |             |
-| JZ8     | [49864576](https://bigpanda.cern.ch/task/49864576/) |      |             |
-| JZ9incl | [49864578](https://bigpanda.cern.ch/task/49864578/) |      |             |
+| name    | task id | size | output DSID |
+| ------- | ------- | ---- | ----------- |
+| JZ2     |         |      |             |
+| JZ3     |         |      |             |
+| JZ4     |         |      |             |
+| JZ5     |         |      |             |
+| JZ6     |         |      |             |
+| JZ7     |         |      |             |
+| JZ8     |         |      |             |
+| JZ9incl |         |      |             |
 
 ---
 Previous submission: 
