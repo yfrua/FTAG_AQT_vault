@@ -1,7 +1,7 @@
 - grid job monitor: [PanDA](https://bigpanda.cern.ch/)
 - kill grid jobs:
 	- setupATLAS, lsetup panda, pbook
-	- kill(<jedTaskID>)
+	- kill(`jedTaskID`), python syntax which `jedTaskID` can be a scalar or list.
 
 # data
 
