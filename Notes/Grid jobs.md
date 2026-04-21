@@ -20,7 +20,7 @@
 | name    | task id                                             | N_files | size       | output DSID                                                                        |
 | ------- | --------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------------------- |
 | JZ2     | [49865113](https://bigpanda.cern.ch/task/49865113/) | 123     | 153.483 GB | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
-| JZ3     | [49865118](https://bigpanda.cern.ch/task/49865118/) |         |            | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
+| JZ3     | [49865118](https://bigpanda.cern.ch/task/49865118/) | 168     | 522.130 GB | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
 | JZ4     | [49865121](https://bigpanda.cern.ch/task/49865121/) | 257     | 634.957 GB | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
 | JZ5     | [49865125](https://bigpanda.cern.ch/task/49865125/) | 137     | 324.916 GB | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
 | JZ6     | [49865129](https://bigpanda.cern.ch/task/49865129/) | 94      | 194.925 GB | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
