@@ -6,6 +6,7 @@
 	- lsetup rucio, voms-proxy-init -voms atlas
 	- rucio list-files `DSID` | grep Total
 - rucio Web UI: https://atlas-rucio-webui.cern.ch/
+- requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
 
 # data
 
@@ -19,7 +20,7 @@
 ## mc23a
 - Total size: 2.134 TB, total files: 938
 
-| name    | task id                                             | N_files | size       | output DSID                                                                        |
+| name    | task id                                             | N_files | size       | output DID                                                                         |
 | ------- | --------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------------------- |
 | JZ2     | [49865113](https://bigpanda.cern.ch/task/49865113/) | 123     | 153.483 GB | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
 | JZ3     | [49865118](https://bigpanda.cern.ch/task/49865118/) | 168     | 522.130 GB | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
