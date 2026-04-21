@@ -1,10 +1,9 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
-	- From Teresa: toptoolkit-ntuples v14.0.0, TopCPToolkit v2.22.0, AthAnalysis 25.2.66
 	- Use latest version: toptoolkit-ntuples v16.0.0 TopCPToolkit v2.24.0 AthAnalysis 25.2.85
 - [x] Get unfiltered di-jet samples, see [[DAOD list]].
 	- p6697 for dijet MC, p6700 for data.
-	- Use MC sample of JZ2 to JZ9incl.
+	- Use MC JZx sample of JZ2 to JZ9incl.
 - [x] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
@@ -23,7 +22,7 @@
 			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
 - [ ] make control plot
 	- need to do a distributed histogram calculation.
-		- use CERN batch service: [tutorial](https://atlas-software.docs.cern.ch/analysis/analysis_tutorial/AnalysisSWTutorial/batch_systems/), [doc](https://batchdocs.web.cern.ch/)
+		- use FastFrames, see resources below
 	- variables
 		- leading jet pT
 		- SV mass
@@ -32,7 +31,6 @@
 	- Use both direct tag and negative tag methods
 	- [ ] ask which software to use
 	- [ ] calculate [[SF Uncertainty]]
-		- #Question no systematic uncertainty found in ntuples production, only a list of systematic is shown.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
@@ -40,7 +38,6 @@
 - AQT jira (AFT-840): [[jira page]], [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [official](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples), [my fork](https://gitlab.cern.ch/fye/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [website](https://topcptoolkit.docs.cern.ch/latest/)
-- TRExFitter: [gitlab](https://gitlab.cern.ch/TRExStats/TRExFitter), [documentation](https://trexfitter-docs.web.cern.ch/trexfitter-docs/latest/)
-- light-jet calibration base on Z+jets events: [gitlab](https://gitlab.cern.ch/atlas-ftag-calibration/ljets_ZJet)
+- FastFrames for dijet samples: [gitlab](https://gitlab.cern.ch/fye/FTAG_ljetcali_FastFrames)
 - light-jet calibration base on dijet events: [gitlab](https://gitlab.cern.ch/fye/light-jet-calib-dijet)
 - GN3 WPs definition: [explanation](https://indico.cern.ch/event/1619907/contributions/6826411/attachments/3192282/5681760/GN3%20WPs%20definition%20(Ftag%20Algo%20Meeting)%2011.12.25.pdf), [GN3EPCLV01](https://indico.cern.ch/event/1658474/contributions/6981262/attachments/3234411/5767066/GN3EPCLV01%20WPs%206.03.36.pdf)
