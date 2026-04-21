@@ -5,6 +5,7 @@
 - check container file size:
 	- lsetup rucio, voms-proxy-init -voms atlas
 	- rucio list-files `DSID` | grep Total
+- rucio WebUI: https://atlas-rucio-webui.cern.ch/
 
 # data
 
