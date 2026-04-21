@@ -5,7 +5,7 @@
 - check container file size:
 	- lsetup rucio, voms-proxy-init -voms atlas
 	- rucio list-files `DSID` | grep Total
-- rucio WebUI: https://atlas-rucio-webui.cern.ch/
+- rucio Web UI: https://atlas-rucio-webui.cern.ch/
 
 # data
 
@@ -17,6 +17,8 @@
 
 # MC
 ## mc23a
+- Total size: 2.134 TB, total files: 938
+
 | name    | task id                                             | N_files | size       | output DSID                                                                        |
 | ------- | --------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------------------- |
 | JZ2     | [49865113](https://bigpanda.cern.ch/task/49865113/) | 123     | 153.483 GB | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
@@ -29,7 +31,7 @@
 | JZ9incl | [49865137](https://bigpanda.cern.ch/task/49865137/) | 46      | 99.280 GB  | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_b9e313b_output |
 
 ---
-Previous submission (with wrong event selection): 
+Previous submission (with wrong jet pT selection): 
 # data
 - data24_legacy: used wrong trigger
 - made a rule to transfer data23 to local disk.
