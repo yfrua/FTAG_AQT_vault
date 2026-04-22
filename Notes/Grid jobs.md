@@ -11,27 +11,27 @@
 
 # data
 
-| name   | task id                                             | N_files | size | output DSID |
-| ------ | --------------------------------------------------- | ------- | ---- | ----------- |
-| data22 | [49888309](https://bigpanda.cern.ch/task/49888309/) |         |      |             |
-| data23 |                                                     |         |      |             |
-| data24 |                                                     |         |      |             |
+| name   | task id                                             | N_files | size | output DSID                                                                             |
+| ------ | --------------------------------------------------- | ------- | ---- | --------------------------------------------------------------------------------------- |
+| data22 | [49888309](https://bigpanda.cern.ch/task/49888309/) |         |      | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L2J_0ad54d4_output |
+| data23 |                                                     |         |      |                                                                                         |
+| data24 |                                                     |         |      |                                                                                         |
 
 # MC
 ## mc23a
 - Total files: 
 - Total size: 
 
-| name    | task id                                             | N_files | size | output DID |
-| ------- | --------------------------------------------------- | ------- | ---- | ---------- |
-| JZ2     | [49888325](https://bigpanda.cern.ch/task/49888325/) |         |      |            |
-| JZ3     | [49888328](https://bigpanda.cern.ch/task/49888328/) |         |      |            |
-| JZ4     | [49888332](https://bigpanda.cern.ch/task/49888332/) |         |      |            |
-| JZ5     | [49888335](https://bigpanda.cern.ch/task/49888335/) |         |      |            |
-| JZ6     | [49888337](https://bigpanda.cern.ch/task/49888337/) |         |      |            |
-| JZ7     | [49888339](https://bigpanda.cern.ch/task/49888339/) |         |      |            |
-| JZ8     | [49888342](https://bigpanda.cern.ch/task/49888342/) |         |      |            |
-| JZ9incl | [49888345](https://bigpanda.cern.ch/task/49888345/) |         |      |            |
+| name    | task id                                             | N_files | size | output DID                                                                         |
+| ------- | --------------------------------------------------- | ------- | ---- | ---------------------------------------------------------------------------------- |
+| JZ2     | [49888325](https://bigpanda.cern.ch/task/49888325/) |         |      | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ3     | [49888328](https://bigpanda.cern.ch/task/49888328/) |         |      | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ4     | [49888332](https://bigpanda.cern.ch/task/49888332/) |         |      | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ5     | [49888335](https://bigpanda.cern.ch/task/49888335/) |         |      | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ6     | [49888337](https://bigpanda.cern.ch/task/49888337/) |         |      | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ7     | [49888339](https://bigpanda.cern.ch/task/49888339/) |         |      | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ8     | [49888342](https://bigpanda.cern.ch/task/49888342/) |         |      | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
+| JZ9incl | [49888345](https://bigpanda.cern.ch/task/49888345/) |         |      | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output |
 
 ---
 Previous submission (with wrong jet pT selection): 
