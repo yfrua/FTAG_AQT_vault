@@ -6,31 +6,32 @@
 	- lsetup rucio, voms-proxy-init -voms atlas
 	- rucio list-files `DSID` | grep Total
 - rucio Web UI: https://atlas-rucio-webui.cern.ch/
+- rucio UI: https://rucio-ui.cern.ch/
 - requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
 
 # data
 
-| name   | task id | N_files | size | output DSID |
-| ------ | ------- | ------- | ---- | ----------- |
-| data22 |         |         |      |             |
-| data23 |         |         |      |             |
-| data24 |         |         |      |             |
+| name   | task id                                             | N_files | size | output DSID |
+| ------ | --------------------------------------------------- | ------- | ---- | ----------- |
+| data22 | [49888309](https://bigpanda.cern.ch/task/49888309/) |         |      |             |
+| data23 |                                                     |         |      |             |
+| data24 |                                                     |         |      |             |
 
 # MC
 ## mc23a
 - Total files: 
 - Total size: 
 
-| name    | task id | N_files | size | output DID |
-| ------- | ------- | ------- | ---- | ---------- |
-| JZ2     |         |         |      |            |
-| JZ3     |         |         |      |            |
-| JZ4     |         |         |      |            |
-| JZ5     |         |         |      |            |
-| JZ6     |         |         |      |            |
-| JZ7     |         |         |      |            |
-| JZ8     |         |         |      |            |
-| JZ9incl |         |         |      |            |
+| name    | task id                                             | N_files | size | output DID |
+| ------- | --------------------------------------------------- | ------- | ---- | ---------- |
+| JZ2     | [49888325](https://bigpanda.cern.ch/task/49888325/) |         |      |            |
+| JZ3     | [49888328](https://bigpanda.cern.ch/task/49888328/) |         |      |            |
+| JZ4     | [49888332](https://bigpanda.cern.ch/task/49888332/) |         |      |            |
+| JZ5     | [49888335](https://bigpanda.cern.ch/task/49888335/) |         |      |            |
+| JZ6     | [49888337](https://bigpanda.cern.ch/task/49888337/) |         |      |            |
+| JZ7     | [49888339](https://bigpanda.cern.ch/task/49888339/) |         |      |            |
+| JZ8     | [49888342](https://bigpanda.cern.ch/task/49888342/) |         |      |            |
+| JZ9incl | [49888345](https://bigpanda.cern.ch/task/49888345/) |         |      |            |
 
 ---
 Previous submission (with wrong jet pT selection): 
