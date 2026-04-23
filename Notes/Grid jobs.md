@@ -11,11 +11,11 @@
 
 # data
 
-| name   | task id                                             | N_files | size | output DID                                                                              |
-| ------ | --------------------------------------------------- | ------- | ---- | --------------------------------------------------------------------------------------- |
-| data22 | [49888309](https://bigpanda.cern.ch/task/49888309/) |         |      | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L2J_0ad54d4_output |
-| data23 |                                                     |         |      |                                                                                         |
-| data24 |                                                     |         |      |                                                                                         |
+| name   | task id                                             | N_files | size      | output DID                                                                              |
+| ------ | --------------------------------------------------- | ------- | --------- | --------------------------------------------------------------------------------------- |
+| data22 | [49888309](https://bigpanda.cern.ch/task/49888309/) | 1240    | 45.400 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L2J_0ad54d4_output |
+| data23 |                                                     |         |           |                                                                                         |
+| data24 |                                                     |         |           |                                                                                         |
 
 # MC
 ## mc23a
