@@ -19,10 +19,10 @@
 		- reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
-			- `EventInfoAuxDyn.mcEventWeight` is a vector of length 27, need to sum up its elements.
 - [ ] make control plot
-	- need to do a distributed histogram calculation.
-		- use FastFrames, see resources below
+	- do histogram calculation via [[batch system]]
+		- use `FastFrames`, refer to the resources below
+		- 
 	- variables
 		- leading jet pT
 		- SV mass
