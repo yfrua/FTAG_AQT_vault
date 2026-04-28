@@ -48,3 +48,6 @@ module load lxbatch/share
 condor_submit <submit file > [...]
 ```
 Everything should work out fine for your job, and xrootd used transparently for all file transfers avoiding fuse or shared filesystems altogether.
+
+# The initialdir Parameter
+In the case where the files (input and output) are stored in an other directory than where the submission takes place, the initialdir command can be used in the submit description file. It is important to understand that initial directory is related to the input and output files and **not** related to the executable. This means that if the executable is in this directory, it is necessary to specify the fully qualified name of the _executable_. If just the name of the executable is set, it will not be found.
