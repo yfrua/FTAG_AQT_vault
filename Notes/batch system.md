@@ -2,6 +2,28 @@
 # Basic concept
 ![[Pasted image 20260424194200.png]]
 
+# Job Flavors
+```
+espresso     = 20 minutes 
+microcentury = 1 hour 
+longlunch    = 2 hours 
+workday      = 8 hours 
+tomorrow     = 1 day 
+testmatch    = 3 days 
+nextweek     = 1 week
+```
+The default job flavour for a job submitted with no other information is "espresso".
+
+Setting the job flavour in the submit file is achieved like this:
+```
++JobFlavour = "longlunch"
+```
+
+Setting manually can be achieved by placing the following in your submit file:
+```
++MaxRuntime = Number of seconds
+```
+
 # EosSubmit schedds
 - linked [here](https://batchdocs.web.cern.ch/local/eossubmit.html)
 The main point of EosSubmit schedds is that, contrary to standard schedds, all defined files related to the job must be located in EOS. This includes the executable, the user log, the stdout/err/input files, and the files to transfer as input. Also, the destination path of output files to transfer must be in EOS.
