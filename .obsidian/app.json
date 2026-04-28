@@ -5,5 +5,7 @@
   "focusNewTab": true,
   "spellcheck": true,
   "propertiesInDocument": "hidden",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }

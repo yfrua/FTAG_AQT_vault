@@ -22,7 +22,6 @@
 - [ ] make control plot
 	- do histogram calculation via [[batch system]]
 		- use `FastFrames`, refer to the resources below
-		- 
 	- variables
 		- leading jet pT
 		- SV mass
