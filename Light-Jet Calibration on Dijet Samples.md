@@ -22,6 +22,7 @@
 - [ ] make control plot
 	- do histogram calculation via [[batch system]]
 		- use `FastFrames`, refer to the resources below
+		- #Question trigger prescale not considered in histograming, will it affect calibration?
 	- variables
 		- leading jet pT
 		- SV mass
