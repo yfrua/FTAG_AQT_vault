@@ -12,6 +12,7 @@
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 - [x] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
+	- #Question Do I need to add other samples? What light-jet calibration used are: ttbar. single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 	- [x] Data reweighting, see [[Trigger, luminosity, pT binning]]
 		- reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
