@@ -4,13 +4,15 @@
 - Baseline Jvt Jet
 	- pT > 20 GeV, |eta| < 2.5
 	- >= 2 jets with pT > 20 GeV
-	- Leading jet pT > 80 GeV
+	- >= 1 jet with pT > 80 GeV
 	- <= 1 b-tagged jet
 		- use GN2v01 at WP=0.85
-- No electrons or muons 
+- No electrons or muons
+- #TODO add MET veto and select only two jets
 - #TODO (file size too large) tighter cut or thinning
 	- >= 2 jets with pT > 80 GeV
 	- only write one/two leading jets
+![](assets/Event%20selection/file-20260511130438871.png)
 
 # In Ellen's case
 - Recommended basic selection  
