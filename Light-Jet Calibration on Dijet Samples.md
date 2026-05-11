@@ -12,7 +12,7 @@
 	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 - [x] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
-	- #Question Do I need to add other samples? What light-jet calibration used are: ttbar. single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
+	- #Question Do I need to add other samples? What light-jet calibration used are: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 		- #TODO May need to add MET veto and only two jets to [Event selection](Notes/Event%20selection.md) for better background rejection.
 		- Z+jets: $Z\to \nu \nu$
 		- W+jets: $W\to q \bar{q}$, $W \to l \nu$ ($l$ not reconstructed)
