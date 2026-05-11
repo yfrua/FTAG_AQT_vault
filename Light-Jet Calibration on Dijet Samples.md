@@ -25,7 +25,7 @@
 		- reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
-- [ ] make control plot
+- [x] make control plot
 	- do histogram calculation via [[batch system]]
 		- use `FastFrames`, refer to the resources below
 		- #Question trigger prescale not considered in histograming, will it affect calibration?
