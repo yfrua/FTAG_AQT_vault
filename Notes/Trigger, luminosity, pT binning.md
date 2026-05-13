@@ -126,6 +126,7 @@
 | [HLT_j420_L1jJ180](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j420_L1jJ180 "link to COMA Chain/Item Report for HLT_j420_L1jJ180") | 60,792,306                            | [53,945,100](https://atlas-lumicalc.cern.ch/results/4435a5/result.html) | 1.13  |
 | [HLT_j440_L1jJ160](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j440_L1jJ160 "link to COMA Chain/Item Report for HLT_j440_L1jJ160") | 60,792,305                            | [53,945,100](https://atlas-lumicalc.cern.ch/results/4435a5/result.html) | 1.13  |
 | [HLT_j450_L1jJ160](https://atlas-tagservices.cern.ch/tagservices/RunBrowser/runBrowserReport/runBrowserReport.php?cn=HLT_j450_L1jJ160 "link to COMA Chain/Item Report for HLT_j450_L1jJ160") | 60,792,305                            | [53,945,100](https://atlas-lumicalc.cern.ch/results/4435a5/result.html) | 1.13  |
+|                                                                                                                                                                                              |                                       |                                                                         |       |
 
 # Leading jet pT binning and triggers
 ## trigger
