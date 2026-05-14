@@ -33,6 +33,9 @@
 		- leading jet pT
 		- SV mass
 		- leading jet NN score & discriminant
+	- reminder: cut efficiency changed for GN3
+		- GN2: 65, 70, 77, 85, 90
+		- GN3: 70, 75, 80, 85, 90
 - [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] ask which software to use
