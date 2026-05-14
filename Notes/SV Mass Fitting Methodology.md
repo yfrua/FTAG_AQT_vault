@@ -1,5 +1,5 @@
 Fitting formula:
-![[Pasted image 20260226182700.png]]
+![](assets/SV%20Mass%20Fitting%20Methodology/file-20260226182700.png)
 - i stands for i-th NN discriminant interval.
 - $N_{i, MC}$ is the predicted flavour-inclusive event yield for each discriminant interval; $C$ is a global normalization factor and $F^f$ are the jet-flavour fractions; $P^f_i (m_{SV})$ is the probability density function of $m_{SV}$ taken from simulation.
 - The $C$, $F^f$ and $SF^{b,light}_i$ parameters are allowed to float in the fit, while $N_{i, MC}$ and $\epsilon^f_{i, MC}$ are fixed to the predictions from simulated events and $SF^c_i$ is set to $1.0 \pm 0.3$. 

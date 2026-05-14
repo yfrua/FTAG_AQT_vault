@@ -21,7 +21,7 @@
 	- by default, jJ jets are defined in |eta|<3.1
 - ftf: fast track finding
 - New naming for Calo items (w.r.t. Run 2)
-![[Pasted image 20260313192534.png]]
+![](assets/Trigger,%20luminosity,%20pT%20binning/file-20260313192534.png)
 - in the following table, 2nd column comes from COMA, 3rd comes from lumicalc with link to the calculation result.
 
 ## data22_13p6TeV
@@ -232,7 +232,7 @@ CollectionTree->GetEntries()
 
 # Trigger Efficiency Plot
 [link](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetTriggerPublicResults#Central_Jet_Trigger_Efficiency_P)
-![[Pasted image 20260330152326.png]]
+![](assets/Trigger,%20luminosity,%20pT%20binning/file-20260330152326.png)
 
 - estimated full efficient pT from the plot:
 
@@ -261,6 +261,6 @@ CollectionTree->GetEntries()
 
 # Ellen's case
 - latest
-![[Pasted image 20260227181700.png|697]]
+![](assets/Trigger,%20luminosity,%20pT%20binning/file-20260227181700.png)
 - before
-![[Pasted image 20260226182439.png]]
+![](assets/Trigger,%20luminosity,%20pT%20binning/file-20260226182439.png)

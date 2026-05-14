@@ -47,7 +47,7 @@ FTAG_AQT_vault/
 - Plugin data stored under `.obsidian/plugins/` is tracked to preserve plugin configurations.
 - Tag #Question and #TODO are added to locate notes easier.
 - checkbox styles from theme (refer to [minimal guide](https://minimal.guide/home)):
-![[Pasted image 20260313024919.png|637]]
+![](assets/README/file-20260313024919.png)
 
 
 

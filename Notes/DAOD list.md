@@ -1,12 +1,12 @@
 - [full list of p-tags and patterns r22](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/**FullListOfPtagsAndPatternsR22)
 # Bulk Production Releases
 - p6697-p6863: current in use.
-![[Pasted image 20260414131345.png]]
+![](assets/DAOD%20list/file-20260414131345.png)
 - p7018-p7110: Not used yet.
-![[Pasted image 20260414131233.png]]
+![](assets/DAOD%20list/file-20260414131233.png)
 - p7266-p7271: This one have `GN3EPCLV01` tagger information.
 - #Question Adapt to use this?
-![[Pasted image 20260414130849.png]]
+![](assets/DAOD%20list/file-20260414130849.png)
 # Data
 - [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
 - [Data and Monte Carlo Datasets for Analysis](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/DataMCForAnalysis)

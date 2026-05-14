@@ -7,13 +7,13 @@ aliases:
 - The current b-tagging algorithms reject too much light jets to calibrate the mistag rate using data.  
 - Negative tag method:
 	- Tracks with negative IPs and secondary vertices with negative lifetimes are used by flipped taggers to obtain light-jet enriched tagged samples.  
-- [[Event selection]] 
-- [[Trigger, luminosity, pT binning|pT binning]]
+- [Event selection](Event%20selection.md)
+- [pT binning](Trigger,%20luminosity,%20pT%20binning.md)
 - Control plots (2021.10.04 slides):
 	- leading jet pT
 	- SV mass
 	- leading jet DL1r/DL1rFlip discriminant
-- Template fit, [[SV Mass Fitting Methodology]]
+- Template fit, [SV Mass Fitting Methodology](SV%20Mass%20Fitting%20Methodology.md)
 	- fit SV mass distribution in data, extract data light-jet efficiency.  
 	- fits are performed in bins of jet pT.
 	- get SF and uncertainty. 

@@ -1,24 +1,24 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
 	- Use latest version: toptoolkit-ntuples v16.0.0 TopCPToolkit v2.24.0 AthAnalysis 25.2.85
-- [x] Get unfiltered di-jet samples, see [[DAOD list]].
+- [x] Get unfiltered di-jet samples, see [DAOD list](Notes/DAOD%20list.md).
 	- p6697 for dijet MC, p6700 for data.
 	- Use MC JZx sample of JZ2 to JZ9incl.
-- [x] Study [[Ellen's presentations]] to understand which [[Event selection|event selection]] you want to apply.
+- [x] Study [Ellen's presentations](Notes/Ellen's%20presentations.md) to understand which [event selection](Notes/Event%20selection.md) you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- DL1r Z+jets pT binning: 20-50, 50-100, 100-150, 150-300.
 		- no need to use the same binning as Z+jets one.
-	- [x] separate data by jet pT, [[Trigger, luminosity, pT binning|pT binning]]
+	- [x] separate data by jet pT, [pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
-- [x] submit job to the Grid, produce a first set of nominal only ntuples. [[Grid jobs]]
+- [x] submit job to the Grid, produce a first set of nominal only ntuples. [Grid jobs](Notes/Grid%20jobs.md)
 	- #Question Do I need to add other samples? What light-jet calibration used are: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 		- #TODO May need to add MET veto and only two jets to [Event selection](Notes/Event%20selection.md) for better background rejection.
 		- Z+jets: $Z\to \nu \nu$
 		- W+jets: $W\to q \bar{q}$, $W \to l \nu$ ($l$ not reconstructed)
 		- single top: $t \to Wb$, $W\to qq$
 		- diboson: $WW\to qqqq$
-	- [x] Data reweighting, see [[Trigger, luminosity, pT binning]]
+	- [x] Data reweighting, see [Trigger, luminosity, pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
@@ -26,22 +26,22 @@
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
 - [x] make control plot
-	- do histogram calculation via [[batch system]]
+	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- #Question trigger prescale not considered in histograming, will it affect calibration?
 	- variables
 		- leading jet pT
 		- SV mass
 		- leading jet NN score & discriminant
-- [ ] Do [[SV Mass Fitting Methodology|template fit]] on secondary mass distribution, get SF 
+- [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] ask which software to use
-	- [ ] calculate [[SF Uncertainty]]
+	- [ ] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Resources
 - repo for this vault: [github](https://github.com/yfrua/FTAG_AQT_vault)
-- AQT jira (AFT-840): [[jira page]], [jira url](https://its.cern.ch/jira/browse/AFT-840)
+- AQT jira (AFT-840): [jira page](Notes/jira%20page.md), [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [official](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples), [my fork](https://gitlab.cern.ch/fye/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [website](https://topcptoolkit.docs.cern.ch/latest/)
 - FastFrames for dijet samples: [gitlab](https://gitlab.cern.ch/fye/FTAG_ljetcali_FastFrames)

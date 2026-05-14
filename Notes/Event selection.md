@@ -1,6 +1,6 @@
 # Current
 - GRL: Good Run List
-- [[Trigger, luminosity, pT binning|Trigger]]
+- [Trigger](Trigger,%20luminosity,%20pT%20binning.md)
 - Baseline Jvt Jet
 	- pT > 20 GeV, |eta| < 2.5
 	- >= 2 jets with pT > 20 GeV
@@ -26,4 +26,4 @@
 - No subleading b-tagged jets
 	- reduce the number of leading jets being truth b-jets since b-jets might be coming from gluon splitting
 
-![[Pasted image 20260226181049.png|300]]
+![](assets/Event%20selection/file-20260226181049.png)
