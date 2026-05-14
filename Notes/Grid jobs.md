@@ -73,32 +73,32 @@
 
 ## W+jets
 
-| name                          | task id                                             | N_files | size      | output DID                                                                       |
-| ----------------------------- | --------------------------------------------------- | ------- | --------- | -------------------------------------------------------------------------------- |
-| Wenu_maxHTpTV2_BFilter        | [50213537](https://bigpanda.cern.ch/task/50213537/) | 36      | 34.27 GB  | user.fye.700777.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wenu_maxHTpTV2_CFilterBVeto   | [50213539](https://bigpanda.cern.ch/task/50213539/) | 263     | 187.85 GB | user.fye.700778.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wenu_maxHTpTV2_CVetoBVeto     | [50213540](https://bigpanda.cern.ch/task/50213540/) | 977     | 628.52 GB | user.fye.700779.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wmunu_maxHTpTV2_BFilter       | [50213542](https://bigpanda.cern.ch/task/50213542/) | 31      | 26.15 GB  | user.fye.700780.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wmunu_maxHTpTV2_CFilterBVeto  | [50213543](https://bigpanda.cern.ch/task/50213543/) | 355     | 136.88 GB | user.fye.700781.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wmunu_maxHTpTV2_CVetoBVeto    | [50213544](https://bigpanda.cern.ch/task/50213544/) | 923     | 443.23 GB | user.fye.700782.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wtaunu_maxHTpTV2_BFilter      | [50213545](https://bigpanda.cern.ch/task/50213545/) | 19      | 38.09 GB  | user.fye.700783.Sh.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wtaunu_maxHTpTV2_CFilterBVeto | [50213546](https://bigpanda.cern.ch/task/50213546/) | 241     | 348.21 GB | user.fye.700784.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Wtaunu_maxHTpTV2_CVetoBVeto   | [50213548](https://bigpanda.cern.ch/task/50213548/) | 865     | 1.08 TB   | user.fye.700785.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| name                                                         | task id                                             | N_files | size      | output DID                                                                       |
+| ------------------------------------------------------------ | --------------------------------------------------- | ------- | --------- | -------------------------------------------------------------------------------- |
+| Wenu_maxHTpTV2_BFilter                                       | [50213537](https://bigpanda.cern.ch/task/50213537/) | 36      | 34.27 GB  | user.fye.700777.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wenu_maxHTpTV2_CFilterBVeto                                  | [50213539](https://bigpanda.cern.ch/task/50213539/) | 263     | 187.85 GB | user.fye.700778.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wenu_maxHTpTV2_CVetoBVeto                                    | [50213540](https://bigpanda.cern.ch/task/50213540/) | 977     | 628.52 GB | user.fye.700779.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wmunu_maxHTpTV2_BFilter                                      | [50213542](https://bigpanda.cern.ch/task/50213542/) | 31      | 26.15 GB  | user.fye.700780.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wmunu_maxHTpTV2_CFilterBVeto ==currently stuck on transfer== | [50213543](https://bigpanda.cern.ch/task/50213543/) | 355     | 136.88 GB | user.fye.700781.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wmunu_maxHTpTV2_CVetoBVeto                                   | [50213544](https://bigpanda.cern.ch/task/50213544/) | 923     | 443.23 GB | user.fye.700782.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wtaunu_maxHTpTV2_BFilter                                     | [50213545](https://bigpanda.cern.ch/task/50213545/) | 19      | 38.09 GB  | user.fye.700783.Sh.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wtaunu_maxHTpTV2_CFilterBVeto                                | [50213546](https://bigpanda.cern.ch/task/50213546/) | 241     | 348.21 GB | user.fye.700784.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Wtaunu_maxHTpTV2_CVetoBVeto                                  | [50213548](https://bigpanda.cern.ch/task/50213548/) | 865     | 1.08 TB   | user.fye.700785.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
 
 ## Z+jets
 
-| name                           | task id                                             | N_files | size      | output DID                                                                       |
-| ------------------------------ | --------------------------------------------------- | ------- | --------- | -------------------------------------------------------------------------------- |
-| Zee_maxHTpTV2_BFilter          | [50213549](https://bigpanda.cern.ch/task/50213549/) | 62      | 29.31 GB  | user.fye.700786.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Zee_maxHTpTV2_CFilterBVeto     | [50213551](https://bigpanda.cern.ch/task/50213551/) | 177     | 59.85 GB  | user.fye.700787.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Zee_maxHTpTV2_CVetoBVeto       | [50213552](https://bigpanda.cern.ch/task/50213552/) | 1238    | 400.54 GB | user.fye.700788.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Zmumu_maxHTpTV2_BFilter        | [50213555](https://bigpanda.cern.ch/task/50213555/) | 98      | 18.41 GB  | user.fye.700789.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Zmumu_maxHTpTV2_CFilterBVeto   | [50213556](https://bigpanda.cern.ch/task/50213556/) | 119     | 33.3 GB   | user.fye.700790.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Zmumu_maxHTpTV2_CVetoBVeto     | [50213558](https://bigpanda.cern.ch/task/50213558/) | 863     | 211.48 GB | user.fye.700791.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Ztautau_maxHTpTV2_BFilter      | [50213559](https://bigpanda.cern.ch/task/50213559/) | 83      | 94.21 GB  | user.fye.700792.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Ztautau_maxHTpTV2_CFilterBVeto | [50213561](https://bigpanda.cern.ch/task/50213561/) | 117     | 187.37 GB | user.fye.700793.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Ztautau_maxHTpTV2_CVetoBVeto   | [50213563](https://bigpanda.cern.ch/task/50213563/) | 888     | 1.2 TB    | user.fye.700794.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Znunu_pTV2_BFilter             | [50213565](https://bigpanda.cern.ch/task/50213565/) | 78      | 84.82 GB  | user.fye.700795.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Znunu_pTV2_CFilterBVeto        | [50213568](https://bigpanda.cern.ch/task/50213568/) | 234     | 224.68 GB | user.fye.700796.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
-| Znunu_pTV2_CVetoBVeto          | [50213569](https://bigpanda.cern.ch/task/50213569/) | 1043    | 1.25 TB   | user.fye.700797.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| name                                                         | task id                                             | N_files | size      | output DID                                                                       |
+| ------------------------------------------------------------ | --------------------------------------------------- | ------- | --------- | -------------------------------------------------------------------------------- |
+| Zee_maxHTpTV2_BFilter                                        | [50213549](https://bigpanda.cern.ch/task/50213549/) | 62      | 29.31 GB  | user.fye.700786.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Zee_maxHTpTV2_CFilterBVeto                                   | [50213551](https://bigpanda.cern.ch/task/50213551/) | 177     | 59.85 GB  | user.fye.700787.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Zee_maxHTpTV2_CVetoBVeto                                     | [50213552](https://bigpanda.cern.ch/task/50213552/) | 1238    | 400.54 GB | user.fye.700788.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Zmumu_maxHTpTV2_BFilter                                      | [50213555](https://bigpanda.cern.ch/task/50213555/) | 98      | 18.41 GB  | user.fye.700789.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Zmumu_maxHTpTV2_CFilterBVeto                                 | [50213556](https://bigpanda.cern.ch/task/50213556/) | 119     | 33.3 GB   | user.fye.700790.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Zmumu_maxHTpTV2_CVetoBVeto                                   | [50213558](https://bigpanda.cern.ch/task/50213558/) | 863     | 211.48 GB | user.fye.700791.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Ztautau_maxHTpTV2_BFilter                                    | [50213559](https://bigpanda.cern.ch/task/50213559/) | 83      | 94.21 GB  | user.fye.700792.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Ztautau_maxHTpTV2_CFilterBVeto                               | [50213561](https://bigpanda.cern.ch/task/50213561/) | 117     | 187.37 GB | user.fye.700793.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Ztautau_maxHTpTV2_CVetoBVeto ==currently stuck on transfer== | [50213563](https://bigpanda.cern.ch/task/50213563/) | 888     | 1.2 TB    | user.fye.700794.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Znunu_pTV2_BFilter                                           | [50213565](https://bigpanda.cern.ch/task/50213565/) | 78      | 84.82 GB  | user.fye.700795.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Znunu_pTV2_CFilterBVeto                                      | [50213568](https://bigpanda.cern.ch/task/50213568/) | 234     | 224.68 GB | user.fye.700796.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
+| Znunu_pTV2_CVetoBVeto                                        | [50213569](https://bigpanda.cern.ch/task/50213569/) | 1043    | 1.25 TB   | user.fye.700797.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
 
