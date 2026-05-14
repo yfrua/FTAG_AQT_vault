@@ -34,7 +34,8 @@
 | JZ9incl | [49888345](https://bigpanda.cern.ch/task/49888345/) | 46      | 79.186 GB  | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output/ |
 
 ## ttbar
-2 samples
+- line starts with: 0
+- 2 samples
 
 | name      | task id                                             | N_files | size      | output DID                                                                            |
 | --------- | --------------------------------------------------- | ------- | --------- | ------------------------------------------------------------------------------------- |
@@ -42,7 +43,8 @@
 | DiLep     | [50213505](https://bigpanda.cern.ch/task/50213505/) | 153     | 49.53 GB  | user.fye.601230.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
 
 ## single top
-6 samples
+- line starts with: 2
+- 6 samples
 
 | name                   | task id                                             | N_files | size     | output DID                                                                                        |
 | ---------------------- | --------------------------------------------------- | ------- | -------- | ------------------------------------------------------------------------------------------------- |
@@ -54,7 +56,8 @@
 | tW_dyn_DR_incl_top     | [50213513](https://bigpanda.cern.ch/task/50213513/) | 34      | 39.43 GB | user.fye.601355.PhPy8EG.DAOD_PHYS.e8551_s4162_r14622_p6697.CNF_2J_L2J_0c6744b_output/             |
 
 ## diboson
-15 samples
+- line starts with: 8
+- 15 samples
 
 | name    | task id                                             | N_files | size      | output DID                                                                                    |
 | ------- | --------------------------------------------------- | ------- | --------- | --------------------------------------------------------------------------------------------- |
@@ -75,6 +78,9 @@
 | WlvWqq  | [50213536](https://bigpanda.cern.ch/task/50213536/) | 81      | 65.48 GB  | user.fye.701125.Sh_2214_WlvWqq.DAOD_PHYS.e8543_s4162_r14622_p6697.CNF_2J_L2J_0c6744b_output/  |
 
 ## W+jets
+- line starts with: 23
+- 9 samples
+- [!] line 28 skipped.
 
 | name                                                         | task id                                             | N_files | size      | output DID                                                                       |
 | ------------------------------------------------------------ | --------------------------------------------------- | ------- | --------- | -------------------------------------------------------------------------------- |
@@ -89,6 +95,9 @@
 | Wtaunu_maxHTpTV2_CVetoBVeto                                  | [50213548](https://bigpanda.cern.ch/task/50213548/) | 865     | 1.08 TB   | user.fye.700785.Sh.DAOD_PHYS.e8514_s4162_r15540_p6697.CNF_2J_L2J_0c6744b_output/ |
 
 ## Z+jets
+- line starts with: 32
+- 12 samples
+- [!] line 39 skipped
 
 | name                                                         | task id                                             | N_files | size      | output DID                                                                       |
 | ------------------------------------------------------------ | --------------------------------------------------- | ------- | --------- | -------------------------------------------------------------------------------- |
