@@ -18,7 +18,7 @@ This repository serves as a backup for the FTAG_AQT Obsidian vault. It stores no
 
 ### Syncing Changes
 
-To mannally back up your latest notes, commit and push your changes:
+To manually back up your latest notes, commit and push your changes:
 
 ```bash
 git add .
