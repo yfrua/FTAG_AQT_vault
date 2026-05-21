@@ -24,6 +24,28 @@ Setting manually can be achieved by placing the following in your submit file:
 +MaxRuntime = Number of seconds
 ```
 
+# Submit Template
+```
+executable              = .sh
+arguments               = $(ClusterId)$(ProcId)
+output                  = BatchSubmission/output/.$(ClusterId).$(ProcId).out
+error                   = BatchSubmission/error/.$(ClusterId).$(ProcId).err
+log                     = BatchSubmission/log/.$(ClusterId).log
+getenv                  = True
+preserve_relative_paths = True
+stream_error            = False
+stream_output           = False
+initialdir = 
+RequestCpus = 1
++JobFlavour = "workday"
+transfer_input_files  = 
+transfer_output_files = 
+use_x509userproxy = True
+x509userproxy     = $ENV(X509_USER_PROXY)
+
+queue arguments from 
+```
+
 # EosSubmit schedds
 - linked [here](https://batchdocs.web.cern.ch/local/eossubmit.html)
 The main point of EosSubmit schedds is that, contrary to standard schedds, all defined files related to the job must be located in EOS. This includes the executable, the user log, the stdout/err/input files, and the files to transfer as input. Also, the destination path of output files to transfer must be in EOS.
