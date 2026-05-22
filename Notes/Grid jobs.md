@@ -32,15 +32,6 @@
 | JZ7     | [49888339](https://bigpanda.cern.ch/task/49888339/) | 51      | 103.603 GB | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output/ |
 | JZ8     | [49888342](https://bigpanda.cern.ch/task/49888342/) | 61      | 100.870 GB | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output/ |
 | JZ9incl | [49888345](https://bigpanda.cern.ch/task/49888345/) | 46      | 79.186 GB  | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p6697.CNF_2J_L2J_9fa9dd6_output/ |
-## list of samples that sum of weight did not produce
-- 7 samples 
-- [ ] Wjets_3, line 26
-- [ ] Wjets_6, line 29
-- [ ] Wjets_9, line 32
-- [ ] Zjets_3, line 35
-- [ ] Zjets_6, line 38
-- [ ] Zjets_9, line 41
-- [ ] Zjets_12, line 44
 
 ## ttbar
 - line starts with: 0
