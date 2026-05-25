@@ -6,5 +6,5 @@ Fitting formula:
 - There are $5\times 3=15$ data points (100-85%, 85-77%, 77-70%, 70-65%, 65-0% for WPs and no SV, 0-3 GeV, 3-6 GeV for SV mass) with 2 constraint of $\sum_i \epsilon_{i, MC}^f \times SF_i^f = 1, f=l, b$ (data efficiency adds up to unity) and one one $\sum_f F^f=1$, and $1+3+6*2=16$ parameters to fit. And everything above goes down to a DoF of $15-16+3=2$.
 	- #TODO Need to check correlation to avoid degeneracy.
 
-- #Question This formula is different from $SF=\epsilon_{data}/\epsilon_{MC}$, can we deduce it from the fitting formula?
-	- 
+- This formula is different from $SF=\epsilon_{data}/\epsilon_{MC}$, can we deduce it from the fitting formula?
+	- No, they are two different formulas, fitting formula is trying to fit MC into data from 3 different level, 0-D scalar $C$, 1-D vector $F^f$ and 2-D tensor $SF_i^f$, while the last one can be interpreted as scale factor.
