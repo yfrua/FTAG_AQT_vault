@@ -12,8 +12,7 @@
 	- [x] separate data by jet pT, [pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
 - [x] submit job to the Grid, produce a first set of nominal only ntuples. [Grid jobs](Notes/Grid%20jobs.md)
-	- #Question Do I need to add other samples? What light-jet calibration used are: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
-		- #TODO May need to add MET veto and only two jets to [Event selection](Notes/Event%20selection.md) for better background rejection.
+	- add other samples from standard calibration: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 		- Z+jets: $Z\to \nu \nu$
 		- W+jets: $W\to q \bar{q}$, $W \to l \nu$ ($l$ not reconstructed)
 		- single top: $t \to Wb$, $W\to qq$
@@ -29,6 +28,7 @@
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- #Question trigger prescale not considered in histograming, will it affect calibration?
+			- #TODO solve this.
 	- variables
 		- leading jet pT
 		- SV mass

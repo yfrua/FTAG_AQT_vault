@@ -2,10 +2,9 @@
 # Bulk Production Releases
 - p6697-p6863: current in use.
 ![](assets/DAOD%20list/file-20260414131345.png)
-- p7018-p7110: Not used yet.
+- p7018-p7110: #TODO should adapt to this.
 ![](assets/DAOD%20list/file-20260414131233.png)
 - p7266-p7271: This one have `GN3EPCLV01` tagger information.
-- #Question Adapt to use this?
 ![](assets/DAOD%20list/file-20260414130849.png)
 # Data
 - [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
