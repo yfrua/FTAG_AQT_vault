@@ -10,6 +10,26 @@
 - [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
 - [Data and Monte Carlo Datasets for Analysis](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/DataMCForAnalysis)
 
+## p7019
+what to use:
+```
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v01_p7019
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p7019
+```
+
+data22:
+```
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v01_p7019          
+data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYS.grp22_v01_p7019    
+```
+data23:
+```
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p7019
+data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYS.grp23_v01_p7019    
+```
+data24:
+
+
 ## p6700
 ### Sample used by Teresa:
 ```
