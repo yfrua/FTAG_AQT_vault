@@ -15,6 +15,7 @@ what to use:
 ```
 data22_13p6TeV:data22_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp22_v01_p7019
 data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp23_v01_p7019
+data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p7019
 ```
 
 data22:
@@ -28,7 +29,10 @@ data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp2
 data23_13p6TeV:data23_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYS.grp23_v01_p7019    
 ```
 data24:
-
+```
+data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_Main.PhysCont.DAOD_PHYS.grp24_v01_p7019
+data24_13p6TeV:data24_13p6TeV.periodAllYear.physics_VBFDelayed.PhysCont.DAOD_PHYS.grp24_v01_p7019
+```
 
 ## p6700
 ### Sample used by Teresa:
