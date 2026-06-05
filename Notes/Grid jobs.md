@@ -9,13 +9,15 @@
 - rucio UI: https://rucio-ui.cern.ch/
 - requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
 
+---
+==obsolete p-tag used!!==
 # data
 
-| name   | task id                                             | N_files | size      | output DID                                                                               |
-| ------ | --------------------------------------------------- | ------- | --------- | ---------------------------------------------------------------------------------------- |
-| data22 | [49888309](https://bigpanda.cern.ch/task/49888309/) | 1240    | 45.400 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L2J_0ad54d4_output/ |
-| data23 |                                                     |         |           |                                                                                          |
-| data24 |                                                     |         |           |                                                                                          |
+| name              | task id                                             | N_files | size      | output DID                                                                               |
+| ----------------- | --------------------------------------------------- | ------- | --------- | ---------------------------------------------------------------------------------------- |
+| data22            | [49888309](https://bigpanda.cern.ch/task/49888309/) | 1240    | 45.400 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L2J_0ad54d4_output/ |
+| data22_unprescale | [50682356](https://bigpanda.cern.ch/task/50682356/) |         |           | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v02_p6700.CNF_2J_L2J_a5aa9f7_output/ |
+
 
 # mc23a
 - Total number of files: 11,954
