@@ -9,6 +9,62 @@
 - rucio UI: https://rucio-ui.cern.ch/
 - requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
 
+# data
+
+# mc23a
+## dijet
+
+| name    | task id | N_files | size | output DID |
+| ------- | ------- | ------- | ---- | ---------- |
+| JZ2     |         |         |      |            |
+| JZ3     |         |         |      |            |
+| JZ4     |         |         |      |            |
+| JZ5     |         |         |      |            |
+| JZ6     |         |         |      |            |
+| JZ7     |         |         |      |            |
+| JZ8     |         |         |      |            |
+| JZ9incl |         |         |      |            |
+
+## ttbar
+
+| name      | task id | N_files | size | output DID |
+| --------- | ------- | ------- | ---- | ---------- |
+| SingleLep |         |         |      |            |
+| DiLep     |         |         |      |            |
+
+
+## Wjets
+
+| name                          | task id | N_files | size | output DID |
+| ----------------------------- | ------- | ------- | ---- | ---------- |
+| Wenu_maxHTpTV2_BFilter        |         |         |      |            |
+| Wenu_maxHTpTV2_CFilterBVeto   |         |         |      |            |
+| Wenu_maxHTpTV2_CVetoBVeto     |         |         |      |            |
+| Wmunu_maxHTpTV2_BFilter       |         |         |      |            |
+| Wmunu_maxHTpTV2_CFilterBVeto  |         |         |      |            |
+| Wmunu_maxHTpTV2_CVetoBVeto    |         |         |      |            |
+| Wtaunu_maxHTpTV2_BFilter      |         |         |      |            |
+| Wtaunu_maxHTpTV2_CFilterBVeto |         |         |      |            |
+| Wtaunu_maxHTpTV2_CVetoBVeto   |         |         |      |            |
+
+## Zjets
+
+| name                           | task id | N_files | size | output DID |
+| ------------------------------ | ------- | ------- | ---- | ---------- |
+| Zee_maxHTpTV2_BFilter          |         |         |      |            |
+| Zee_maxHTpTV2_CFilterBVeto     |         |         |      |            |
+| Zee_maxHTpTV2_CVetoBVeto       |         |         |      |            |
+| Zmumu_maxHTpTV2_BFilter        |         |         |      |            |
+| Zmumu_maxHTpTV2_CFilterBVeto   |         |         |      |            |
+| Zmumu_maxHTpTV2_CVetoBVeto     |         |         |      |            |
+| Ztautau_maxHTpTV2_BFilter      |         |         |      |            |
+| Ztautau_maxHTpTV2_CFilterBVeto |         |         |      |            |
+| Ztautau_maxHTpTV2_CVetoBVeto   |         |         |      |            |
+| Znunu_pTV2_BFilter             |         |         |      |            |
+| Znunu_pTV2_CFilterBVeto        |         |         |      |            |
+| Znunu_pTV2_CVetoBVeto          |         |         |      |            |
+
+
 ---
 ==obsolete p-tag used!!==
 # data
