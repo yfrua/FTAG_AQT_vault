@@ -71,44 +71,50 @@ Main flow:
 ## 4. DoFit.cxx — Performing the Fit
 
 Purpose: Fits the workspace model to data, extracting scale factors for all flavors across all pT bins and tag bins.
+
 Main flow:
 Process — For each workspace:
-- Retrieves fitted parameters (SFs, efficiencies, f_b, f_c, Scale)
-- Constructs FixedCut SFs via RooFormulaVar: SF_FixedCut_i = Sum(SF_Neg_j * Eff_j for j>=i) / Sum(Eff_j for j>=i), converting from tag-bin definition to fixed-efficiency working point (90%, 85%, 80%, 75%, 70%)
-- Constructs TagBin1 SF as (1 - Sum(SF_j * Eff_j)) / Eff_1
+- Retrieves fitted parameters (`SFs`, `efficiencies`, `f_b`, `f_c`, `Scale`)
+- Constructs `FixedCut SFs` via `RooFormulaVar: SF_FixedCut_i = Sum(SF_Neg_j * Eff_j for j>=i) / Sum(Eff_j for j>=i)`, converting from tag-bin definition to fixed-efficiency working point (90%, 85%, 80%, 75%, 70%)
+- Constructs `TagBin1 SF` as `(1 - Sum(SF_j * Eff_j)) / Eff_1`
+
 Fit — For each fit option (NOM, MC_STAT, DATA_STAT, CSF_UP/DOWN, BSF_UP/DOWN):
 - Resets nuisance parameters to nominal snapshot
 - Fixes/selective free based on fit option:
-- MC_STAT: all gamma (stat) nuisance params fixed
-- DATA_STAT: only light-flavour SFs free
-- CSF_UP/DOWN: charm SFs shifted ±30%
-- BSF_UP/DOWN: b SFs shifted ±30% (if fixBSF)
-- For non-nominal systematics, all SFs fixed except those matching the systematic
-- Runs pdf->fitTo() with retry logic (strategy 2, Minuit) if status ≠ 0
+	- MC_STAT: all gamma (stat) nuisance params fixed
+	- DATA_STAT: only light-flavour SFs free
+	- CSF_UP/DOWN: charm SFs shifted ±30%
+	- BSF_UP/DOWN: b SFs shifted ±30% (if `fixBSF`)
+	- For non-nominal systematics, all SFs fixed except those matching the systematic
+- Runs `pdf->fitTo()` with retry logic (strategy 2, Minuit) if status ≠ 0
 - Plots post-fit distributions (data, stacked components, fit uncertainty band, ratio plot)
 - Correlation plots
-- Saves SF values, efficiencies, f_b, f_c, and Scale into 2D result histograms (pT × tagbin) with errors from both RooFitResult::error() and propagated errors for derived quantities
+- Saves SF values, efficiencies, f_b, f_c, and Scale into 2D result histograms (pT × tagbin) with errors from both `RooFitResult::error()` and propagated errors for derived quantities
+
 ## 5. DoResults.cxx — Uncertainty Decomposition & Output
+
 Purpose: Assembles final scale factors, decomposes uncertainties, and produces output files and plots for the CDI (Calibration Decision Interface).
+
 Main flow:
-ProcessUncertainties — For each observable (SF_b, SF_l, f_b, f_c):
-6. Reads result histograms from all fit options (NOM, MC_STAT, DATA_STAT, CSF±, BSF±, alternative generator, template systematics)
-7. Reads MC efficiency uncertainties from MistagEffMC file
-8. Reads double-ratio correction histograms for flip→direct extrapolation (from tracking systematics comparison)
-9. Decomposes total uncertainty by subtracting in quadrature:
-- Syst_Gen: alternative generator difference (Sherpa vs MadGraph)
-- Syst_Charm: symmetrized CSF UP/DOWN variation
-- Syst_BSF: symmetrized BSF UP/DOWN variation
-- Syst_EffMC: MC efficiency relative error × SF value
-- Syst_TRK_*: tracking template systematics (TRK_RES_D0Z0_MEAS, s4415-4417)
-- Stat_Data: from DATA_STAT fit
-- Stat_MC: MC stat inferred from NOM² - MC_STAT²
-- Syst_Total: total systematic
-5. Delta method: For SF extrapolation beyond fitted range (TagBin6→TagBin7 for light, TagBin3→TagBin4 for c in Continuous2D), uses SF_new = SF_old * alpha where alpha is a constrained nuisance parameter. Uncertainties are propagated from the reference bin.
-6. PlotScaleFactor — Plots SF vs pT for each working point
-7. PlotUncertainties — Plots uncertainty breakdown (stat, syst, per-source)
-8. PlotFlavour — Plots flavour fractions f_b, f_c vs pT
-9. MakeInputFileCont — Generates CDI input file with signed systematic variations (preserving sign for unitarity)
+`ProcessUncertainties` — For each observable (SF_b, SF_l, f_b, f_c):
+1. Reads result histograms from all fit options (NOM, MC_STAT, DATA_STAT, CSF±, BSF±, alternative generator, template systematics)
+2. Reads MC efficiency uncertainties from `MistagEffMC` file
+3. Reads double-ratio correction histograms for flip-to-direct extrapolation (from tracking systematics comparison)
+4. Decomposes total uncertainty by subtracting in quadrature:
+	- `Syst_Gen`: alternative generator difference (Sherpa vs MadGraph)
+	- `Syst_Charm`: symmetrized CSF UP/DOWN variation
+	- `Syst_BSF`: symmetrized BSF UP/DOWN variation
+	- `Syst_EffMC`: MC efficiency relative error × SF value
+	- `Syst_TRK_*`: tracking template systematics (TRK_RES_D0Z0_MEAS, s4415-4417)
+	- `Stat_Data`: from DATA_STAT fit
+	- `Stat_MC`: MC stat inferred from NOM² - MC_STAT²
+	- `Syst_Total`: total systematic
+5. Delta method: For SF extrapolation beyond fitted range (TagBin6→TagBin7 for light, TagBin3→TagBin4 for c in Continuous2D), uses `SF_new = SF_old * alpha` where `alpha` is a constrained nuisance parameter. Uncertainties are propagated from the reference bin.
+6. `PlotScaleFactor` — Plots SF vs pT for each working point
+7. `PlotUncertainties` — Plots uncertainty breakdown (stat, syst, per-source)
+8. `PlotFlavour` — Plots flavour fractions f_b, f_c vs pT
+9. `MakeInputFileCont` — Generates CDI input file with signed systematic variations (preserving sign for unitarity)
+
 Key outputs:
 - Result root file with decomposed uncertainty histograms
 - Plots of SFs, uncertainties, flavour fractions
