@@ -42,7 +42,17 @@
 	- [ ] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
-# Resources
+# Vault Navigation
+- How CERN batch system works: [batch system](Notes/batch%20system.md)
+- DAOD list used in this analysis: [DAOD list](Notes/DAOD%20list.md)
+- Run 2 analysis for this topic: [Ellen's presentations](Notes/Ellen's%20presentations.md)
+- Which event selection to apply: [Event selection](Notes/Event%20selection.md)
+- Ntuple making grid jobs submission history and output DIDs: [Grid jobs](Notes/Grid%20jobs.md)
+- What does scale factor uncertainty come from: [SF Uncertainty](Notes/SF%20Uncertainty.md)
+- [SV Mass Fitting Methodology](Notes/SV%20Mass%20Fitting%20Methodology.md)
+- [Trigger, luminosity, pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
+
+# External Resources
 - repo for this vault: [github](https://github.com/yfrua/FTAG_AQT_vault)
 - AQT jira (AFT-840): [jira page](Notes/jira%20page.md), [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [official](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples), [my fork](https://gitlab.cern.ch/fye/toptoolkit-ntuples) 
