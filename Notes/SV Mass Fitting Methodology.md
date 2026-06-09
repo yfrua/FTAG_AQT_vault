@@ -62,12 +62,14 @@ Main flow:
 - Parameters: `N_Inc_Pretag` (normalization), `Eff_MC_TagBin*_flavor` (MC efficiencies), `SF_Neg_TagBin*_flavor` (scale factors to float), `f_b`, `f_c` (flavor fractions), `Scale`
 - Data: Observed data histograms (or MC for closure test mode)
 - Templates: Normalized MC templates per flavor per channel, with stat error activation
-- Efficiency computation: Calculates Eff = N_pass / N_pretag from MC histograms, with error propagation
+- Efficiency computation: Calculates `Eff = N_pass / N_pretag` from MC histograms, with error propagation
 - MCMC SF application: Optionally applies MCMC-based scale factors from calibration files to adjust MC efficiencies
 - Saves efficiency histograms and 2D efficiency maps
-ComputeFlavorFractions — Saves pre-fit flavor fractions (f_b, f_c) and yields per pT bin and pT-tagbin combination.
+
+`ComputeFlavorFractions` — Saves pre-fit flavor fractions (`f_b`, `f_c`) and yields per pT bin and pT-tagbin combination.
 
 ## 4. DoFit.cxx — Performing the Fit
+
 Purpose: Fits the workspace model to data, extracting scale factors for all flavors across all pT bins and tag bins.
 Main flow:
 Process — For each workspace:
