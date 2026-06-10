@@ -27,8 +27,8 @@
 - [x] make control plot
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
-		- #Question trigger prescale not considered in histograming, will it affect calibration?
-			- #TODO solve this.
+		- trigger prescale not considered in histograming, will it affect calibration?
+			- [ ] solve this by [LumiCalc](Notes/LumiCalc.md) and ntuple unprescale.
 	- variables
 		- leading jet pT
 		- SV mass
@@ -38,7 +38,7 @@
 		- GN3: 70, 75, 80, 85, 90
 - [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
-	- [ ] ask which software to use
+	- [ ] adjust the y-range to fit the whole plot in.
 	- [ ] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
