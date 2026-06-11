@@ -14,6 +14,8 @@
 	- **PS Corr Ready Lumi:** is the PS Corr Stable Lumi, but only during LB Ranges when the ATLAS Ready flag was true.
 - Error "unrecognized run+lumiblock number" from `pileupReweightingTool`
 	- #TODO [[LumiCalc]]
+	- Root cause: `CP::PileupReweightingTool` expects `LumiBlock` branch; `iLumiCalc` produces `LBStart`
+	- Fix: `scripts/lumifixer.py` renamed `LBStart` → `LumiBlock`, `IntLumi` → `LumiWeight`.
 
  
 # Available triggers
