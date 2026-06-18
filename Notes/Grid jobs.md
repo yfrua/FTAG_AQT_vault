@@ -10,59 +10,62 @@
 - requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
 
 # data
+| name   | task id                                             | N_files | size | output DID                                                                               |
+| ------ | --------------------------------------------------- | ------- | ---- | ---------------------------------------------------------------------------------------- |
+| data22 | [51006534](https://bigpanda.cern.ch/task/51006534/) |         |      | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v01_p7019.CNF_2J_L2J_ab6d1b1_output/ |
 
 # mc23a
 ## dijet
 
-| name    | task id | N_files | size | output DID |
-| ------- | ------- | ------- | ---- | ---------- |
-| JZ2     |         |         |      |            |
-| JZ3     |         |         |      |            |
-| JZ4     |         |         |      |            |
-| JZ5     |         |         |      |            |
-| JZ6     |         |         |      |            |
-| JZ7     |         |         |      |            |
-| JZ8     |         |         |      |            |
-| JZ9incl |         |         |      |            |
+| name    | task id                                             | N_files | size | output DID                                                                          |
+| ------- | --------------------------------------------------- | ------- | ---- | ----------------------------------------------------------------------------------- |
+| JZ2     | [51006630](https://bigpanda.cern.ch/task/51006630/) |         |      | user.fye.801167.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ3     | [51006632](https://bigpanda.cern.ch/task/51006632/) |         |      | user.fye.801168.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ4     | [51006634](https://bigpanda.cern.ch/task/51006634/) |         |      | user.fye.801169.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ5     | [51006636](https://bigpanda.cern.ch/task/51006636/) |         |      | user.fye.801170.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ6     | [51006638](https://bigpanda.cern.ch/task/51006638/) |         |      | user.fye.801171.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ7     | [51006641](https://bigpanda.cern.ch/task/51006641/) |         |      | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ8     | [51006645](https://bigpanda.cern.ch/task/51006645/) |         |      | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| JZ9incl | [51006647](https://bigpanda.cern.ch/task/51006647/) |         |      | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
 
 ## ttbar
 
-| name      | task id | N_files | size | output DID |
-| --------- | ------- | ------- | ---- | ---------- |
-| SingleLep |         |         |      |            |
-| DiLep     |         |         |      |            |
+| name      | task id                                             | N_files | size | output DID                                                                            |
+| --------- | --------------------------------------------------- | ------- | ---- | ------------------------------------------------------------------------------------- |
+| SingleLep | [51006572](https://bigpanda.cern.ch/task/51006572/) |         |      | user.fye.601229.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| DiLep     | [51006574](https://bigpanda.cern.ch/task/51006574/) |         |      | user.fye.601230.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
 
 
 ## Wjets
 
-| name                          | task id | N_files | size | output DID |
-| ----------------------------- | ------- | ------- | ---- | ---------- |
-| Wenu_maxHTpTV2_BFilter        |         |         |      |            |
-| Wenu_maxHTpTV2_CFilterBVeto   |         |         |      |            |
-| Wenu_maxHTpTV2_CVetoBVeto     |         |         |      |            |
-| Wmunu_maxHTpTV2_BFilter       |         |         |      |            |
-| Wmunu_maxHTpTV2_CFilterBVeto  |         |         |      |            |
-| Wmunu_maxHTpTV2_CVetoBVeto    |         |         |      |            |
-| Wtaunu_maxHTpTV2_BFilter      |         |         |      |            |
-| Wtaunu_maxHTpTV2_CFilterBVeto |         |         |      |            |
-| Wtaunu_maxHTpTV2_CVetoBVeto   |         |         |      |            |
+| name                          | task id                                             | N_files | size | output DID                                                                       |
+| ----------------------------- | --------------------------------------------------- | ------- | ---- | -------------------------------------------------------------------------------- |
+| Wenu_maxHTpTV2_BFilter        | [51006578](https://bigpanda.cern.ch/task/51006578/) |         |      | user.fye.700777.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wenu_maxHTpTV2_CFilterBVeto   | [51006580](https://bigpanda.cern.ch/task/51006580/) |         |      | user.fye.700778.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wenu_maxHTpTV2_CVetoBVeto     | [51006583](https://bigpanda.cern.ch/task/51006583/) |         |      | user.fye.700779.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wmunu_maxHTpTV2_BFilter       | [51006586](https://bigpanda.cern.ch/task/51006586/) |         |      | user.fye.700780.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wmunu_maxHTpTV2_CFilterBVeto  | [51006590](https://bigpanda.cern.ch/task/51006590/) |         |      | user.fye.700781.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wmunu_maxHTpTV2_CVetoBVeto    | [51006593](https://bigpanda.cern.ch/task/51006593/) |         |      | user.fye.700782.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wtaunu_maxHTpTV2_BFilter      | [51006597](https://bigpanda.cern.ch/task/51006597/) |         |      | user.fye.700783.Sh.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wtaunu_maxHTpTV2_CFilterBVeto | [51006599](https://bigpanda.cern.ch/task/51006599/) |         |      | user.fye.700784.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Wtaunu_maxHTpTV2_CVetoBVeto   | [51006601](https://bigpanda.cern.ch/task/51006601/) |         |      | user.fye.700785.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
 
 ## Zjets
 
-| name                           | task id | N_files | size | output DID |
-| ------------------------------ | ------- | ------- | ---- | ---------- |
-| Zee_maxHTpTV2_BFilter          |         |         |      |            |
-| Zee_maxHTpTV2_CFilterBVeto     |         |         |      |            |
-| Zee_maxHTpTV2_CVetoBVeto       |         |         |      |            |
-| Zmumu_maxHTpTV2_BFilter        |         |         |      |            |
-| Zmumu_maxHTpTV2_CFilterBVeto   |         |         |      |            |
-| Zmumu_maxHTpTV2_CVetoBVeto     |         |         |      |            |
-| Ztautau_maxHTpTV2_BFilter      |         |         |      |            |
-| Ztautau_maxHTpTV2_CFilterBVeto |         |         |      |            |
-| Ztautau_maxHTpTV2_CVetoBVeto   |         |         |      |            |
-| Znunu_pTV2_BFilter             |         |         |      |            |
-| Znunu_pTV2_CFilterBVeto        |         |         |      |            |
-| Znunu_pTV2_CVetoBVeto          |         |         |      |            |
+| name                           | task id                                             | N_files | size | output DID                                                                       |
+| ------------------------------ | --------------------------------------------------- | ------- | ---- | -------------------------------------------------------------------------------- |
+| Zee_maxHTpTV2_BFilter          | [51006603](https://bigpanda.cern.ch/task/51006603/) |         |      | user.fye.700786.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Zee_maxHTpTV2_CFilterBVeto     | [51006606](https://bigpanda.cern.ch/task/51006606/) |         |      | user.fye.700787.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Zee_maxHTpTV2_CVetoBVeto       | [51006608](https://bigpanda.cern.ch/task/51006608/) |         |      | user.fye.700788.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Zmumu_maxHTpTV2_BFilter        | [51006610](https://bigpanda.cern.ch/task/51006610/) |         |      | user.fye.700789.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Zmumu_maxHTpTV2_CFilterBVeto   | [51006612](https://bigpanda.cern.ch/task/51006612/) |         |      | user.fye.700790.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Zmumu_maxHTpTV2_CVetoBVeto     | [51006614](https://bigpanda.cern.ch/task/51006614/) |         |      | user.fye.700791.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Ztautau_maxHTpTV2_BFilter      | [51006617](https://bigpanda.cern.ch/task/51006617/) |         |      | user.fye.700792.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Ztautau_maxHTpTV2_CFilterBVeto | [51006619](https://bigpanda.cern.ch/task/51006619/) |         |      | user.fye.700793.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Ztautau_maxHTpTV2_CVetoBVeto   | [51006621](https://bigpanda.cern.ch/task/51006621/) |         |      | user.fye.700794.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Znunu_pTV2_BFilter             | [51006623](https://bigpanda.cern.ch/task/51006623/) |         |      | user.fye.700795.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Znunu_pTV2_CFilterBVeto        | [51006626](https://bigpanda.cern.ch/task/51006626/) |         |      | user.fye.700796.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
+| Znunu_pTV2_CVetoBVeto          | [51006628](https://bigpanda.cern.ch/task/51006628/) |         |      | user.fye.700797.Sh.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_50846f3_output/ |
 
 
 ---
