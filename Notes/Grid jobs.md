@@ -10,9 +10,9 @@
 - requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
 
 # data
-| name   | task id                                             | N_files | size | output DID                                                                               |
-| ------ | --------------------------------------------------- | ------- | ---- | ---------------------------------------------------------------------------------------- |
-| data22 | [51006534](https://bigpanda.cern.ch/task/51006534/) |         |      | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v01_p7019.CNF_2J_L2J_ab6d1b1_output/ |
+| name   | task id                                             | N_files | size     | output DID                                                                               |
+| ------ | --------------------------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- |
+| data22 | [51006534](https://bigpanda.cern.ch/task/51006534/) | 605     | 53.52 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v01_p7019.CNF_2J_L2J_ab6d1b1_output/ |
 
 # mc23a
 - without systematics.
