@@ -16,8 +16,6 @@
 
 # mc23a
 - without systematics.
-- missing metadata production
-	- 
 ## dijet
 
 | name    | task id                                             | N_files | size     | output DID                                                                          |
