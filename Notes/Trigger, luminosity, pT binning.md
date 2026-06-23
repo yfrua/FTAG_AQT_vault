@@ -143,9 +143,9 @@
 | 4   | 300 - 400      | HLT_j260_L1J75  | HLT_j260_L1J75  | HLT_j260_L1jJ125 |
 | 5   | 400 - 550      | HLT_j360_L1J100 | HLT_j360_L1J100 | HLT_j360_L1jJ160 |
 | 6   | 550 - 800      | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j420_L1jJ160 |
-| 7   | 800 - 1200     | same as above   | same as above   | same as above    |
-| 8   | 1200 - 1500    | same as above   | same as above   | same as above    |
-| 9   | 1500 - 3000    | same as above   | same as above   | same as above    |
+| 7   | 800 - 1200     | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j420_L1jJ160 |
+| 8   | 1200 - 1500    | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j420_L1jJ160 |
+| 9   | 1500 - 3000    | HLT_j480_L1J100 | HLT_j480_L1J100 | HLT_j420_L1jJ160 |
 
 ## total luminosity in GRL
 - in the unit of $\text{nb}^{-1}$
