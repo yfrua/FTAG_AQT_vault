@@ -21,8 +21,8 @@
 
 | name      | task id                                             | N_files | size | output DID                                                                            |
 | --------- | --------------------------------------------------- | ------- | ---- | ------------------------------------------------------------------------------------- |
-| SingleLep | [51157169](https://bigpanda.cern.ch/task/51157169/) |         |      | user.fye.601229.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_3ca963d_output/ |
-| DiLep     | [51157171](https://bigpanda.cern.ch/task/51157171/) |         |      | user.fye.601230.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_3ca963d_output/ |
+| SingleLep | [51157169](https://bigpanda.cern.ch/task/51157169/) | 169     |      | user.fye.601229.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_3ca963d_output/ |
+| DiLep     | [51157171](https://bigpanda.cern.ch/task/51157171/) | 150     |      | user.fye.601230.PhPy8EG.DAOD_PHYS.e8514_s4162_r15540_p7017.CNF_2J_L2J_3ca963d_output/ |
 
 ## Wjets
 
