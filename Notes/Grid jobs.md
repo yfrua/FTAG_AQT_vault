@@ -11,9 +11,9 @@
 - append the line number at the end of each line in vim: `:%s/$/\=line('.')`
 
 # data
-| name   | task id                                             | N_files | size | output DID                                                                               |
-| ------ | --------------------------------------------------- | ------- | ---- | ---------------------------------------------------------------------------------------- |
-| data22 | [51157138](https://bigpanda.cern.ch/task/51157138/) | 451     |      | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v01_p7019.CNF_2J_L2J_859e186_output/ |
+| name   | task id                                             | N_files | size     | output DID                                                                               |
+| ------ | --------------------------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- |
+| data22 | [51157138](https://bigpanda.cern.ch/task/51157138/) | 451     | 59.83 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v01_p7019.CNF_2J_L2J_859e186_output/ |
 
 # mc23a
 - without systematics.
