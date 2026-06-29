@@ -8,6 +8,7 @@
 - rucio Web UI: https://atlas-rucio-webui.cern.ch/
 - rucio UI: https://rucio-ui.cern.ch/
 - requested RSE: BEIJING-LCG2-EOS_LOCALGROUPDISK
+- append the line number at the end of each line in vim: `:%s/$/\=line('.')`
 
 # data
 | name   | task id                                             | N_files | size     | output DID                                                                               |
