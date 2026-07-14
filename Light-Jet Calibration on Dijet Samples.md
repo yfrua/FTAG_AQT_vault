@@ -36,7 +36,7 @@
 	- reminder: cut efficiency changed for GN3
 		- GN2: 65, 70, 77, 85, 90
 		- GN3: 70, 75, 80, 85, 90
-- [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
+- [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] adjust the y-range to fit the whole plot in.
 	- [ ] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
