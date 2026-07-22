@@ -38,8 +38,8 @@
 		- GN3: 70, 75, 80, 85, 90
 - [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
-	- [ ] adjust the y-range to fit the whole plot in.
-	- [ ] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
+	- [x] adjust the y-range to fit the whole plot in.
+	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
 
 # Vault Navigation
