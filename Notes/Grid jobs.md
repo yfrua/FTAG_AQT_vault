@@ -15,6 +15,7 @@
 | ------ | --------------------------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- |
 | data22 | [51157138](https://bigpanda.cern.ch/task/51157138/) | 451     | 59.83 GB | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp22_v01_p7019.CNF_2J_L2J_859e186_output/ |
 | data23 | [51677650](https://bigpanda.cern.ch/task/51677650/) |         |          | user.fye.periodAllYear.physics_Main.DAOD_PHYS.grp23_v01_p7019.CNF_2J_L2J_c212480_output/ |
+| data24 |                                                     |         |          |                                                                                          |
 
 # mc23a
 - without systematics.
@@ -70,6 +71,7 @@
 | JZ7     | [51157217](https://bigpanda.cern.ch/task/51157217/) | 59      | 6.73 GB  | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_3ca963d_output/ |
 | JZ8     | [51157218](https://bigpanda.cern.ch/task/51157218/) | 49      | 6.58 GB  | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_3ca963d_output/ |
 | JZ9incl | [51157219](https://bigpanda.cern.ch/task/51157219/) | 42      | 5.14 GB  | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4162_r14622_p7017.CNF_2J_L2J_3ca963d_output/ |
+
 # mc23d
 - without systematics.
 - total: 
@@ -124,3 +126,58 @@
 | JZ7     | [51677784](https://bigpanda.cern.ch/task/51677784/) |         |      | user.fye.801172.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p7017.CNF_2J_L2J_f6a173e_output/ |
 | JZ8     | [51677785](https://bigpanda.cern.ch/task/51677785/) |         |      | user.fye.801173.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p7017.CNF_2J_L2J_f6a173e_output/ |
 | JZ9incl | [51677787](https://bigpanda.cern.ch/task/51677787/) |         |      | user.fye.801174.Py8EG.DAOD_PHYS.e8514_s4159_r15224_p7017.CNF_2J_L2J_f6a173e_output/ |
+
+# mc23e
+- without systematics.
+- total: 
+
+## ttbar
+
+| name      | task id | N_files | size | output DID |
+| --------- | ------- | ------- | ---- | ---------- |
+| SingleLep |         |         |      |            |
+| DiLep     |         |         |      |            |
+
+## Wjets
+
+| name                          | task id | N_files | size | output DID |
+| ----------------------------- | ------- | ------- | ---- | ---------- |
+| Wenu_maxHTpTV2_BFilter        |         |         |      |            |
+| Wenu_maxHTpTV2_CFilterBVeto   |         |         |      |            |
+| Wenu_maxHTpTV2_CVetoBVeto     |         |         |      |            |
+| Wmunu_maxHTpTV2_BFilter       |         |         |      |            |
+| Wmunu_maxHTpTV2_CFilterBVeto  |         |         |      |            |
+| Wmunu_maxHTpTV2_CVetoBVeto    |         |         |      |            |
+| Wtaunu_maxHTpTV2_BFilter      |         |         |      |            |
+| Wtaunu_maxHTpTV2_CFilterBVeto |         |         |      |            |
+| Wtaunu_maxHTpTV2_CVetoBVeto   |         |         |      |            |
+
+## Zjets
+
+| name                           | task id | N_files | size | output DID |
+| ------------------------------ | ------- | ------- | ---- | ---------- |
+| Zee_maxHTpTV2_BFilter          |         |         |      |            |
+| Zee_maxHTpTV2_CFilterBVeto     |         |         |      |            |
+| Zee_maxHTpTV2_CVetoBVeto       |         |         |      |            |
+| Zmumu_maxHTpTV2_BFilter        |         |         |      |            |
+| Zmumu_maxHTpTV2_CFilterBVeto   |         |         |      |            |
+| Zmumu_maxHTpTV2_CVetoBVeto     |         |         |      |            |
+| Ztautau_maxHTpTV2_BFilter      |         |         |      |            |
+| Ztautau_maxHTpTV2_CFilterBVeto |         |         |      |            |
+| Ztautau_maxHTpTV2_CVetoBVeto   |         |         |      |            |
+| Znunu_pTV2_BFilter             |         |         |      |            |
+| Znunu_pTV2_CFilterBVeto        |         |         |      |            |
+| Znunu_pTV2_CVetoBVeto          |         |         |      |            |
+
+## dijet
+
+| name    | task id | N_files | size | output DID |
+| ------- | ------- | ------- | ---- | ---------- |
+| JZ2     |         |         |      |            |
+| JZ3     |         |         |      |            |
+| JZ4     |         |         |      |            |
+| JZ5     |         |         |      |            |
+| JZ6     |         |         |      |            |
+| JZ7     |         |         |      |            |
+| JZ8     |         |         |      |            |
+| JZ9incl |         |         |      |            |
