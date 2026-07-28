@@ -1,6 +1,6 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
-	- Use latest version: toptoolkit-ntuples v16.0.0 TopCPToolkit v2.24.0 AthAnalysis 25.2.85
+	- Use latest version: toptoolkit-ntuples v17.0.0 TopCPToolkit v3.3.0 AthAnalysis 25.2.97
 - [x] Get unfiltered di-jet samples, see [DAOD list](Notes/DAOD%20list.md).
 	- p6697 for dijet MC, p6700 for data.
 	- Use MC JZx sample of JZ2 to JZ9incl.
@@ -11,6 +11,8 @@
 		- no need to use the same binning as Z+jets one.
 	- [x] separate data by jet pT, [pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
+	- [ ] check if b-veto is need/working
+		- check flavor fraction changes with/without it.
 - [x] submit job to the Grid, produce a first set of nominal only ntuples. [Grid jobs](Notes/Grid%20jobs.md)
 	- add other samples from standard calibration: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 		- Z+jets: $Z\to \nu \nu$
@@ -27,20 +29,23 @@
 - [x] make control plot
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
-		- trigger prescale not considered in histograming, will it affect calibration?
-			- [ ] solve this by [LumiCalc](Notes/LumiCalc.md) and ntuple unprescale.
+		- apply trigger unprescale via [LumiCalc](Notes/LumiCalc.md) and `FastFrames` .
 	- variables
 		- leading jet pT
 		- SV mass
 		- leading jet NN score & discriminant
 	- reminder: cut efficiency changed for GN3
-		- GN2: 65, 70, 77, 85, 90
-		- GN3: 70, 75, 80, 85, 90
+		- GN2: 65, 70, 77, 85, 90%
+		- GN3: 70, 75, 80, 85, 90%
+	- [ ] inclusive leading jet pT distribution have some bumps
+		- understand where do they come from
+		- apply pT cut for JZ slices around its edges
 - [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [x] adjust the y-range to fit the whole plot in.
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
-- [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated.
+	- [ ] check GN2 SF for validation. 
+- [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
 
 # Vault Navigation
 - How CERN batch system works: [batch system](Notes/batch%20system.md)
