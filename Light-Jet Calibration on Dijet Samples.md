@@ -1,9 +1,8 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
-	- Use latest version: toptoolkit-ntuples v17.0.0 TopCPToolkit v3.3.0 AthAnalysis 25.2.97
 - [x] Get unfiltered di-jet samples, see [DAOD list](Notes/DAOD%20list.md).
-	- p6697 for dijet MC, p6700 for data.
-	- Use MC JZx sample of JZ2 to JZ9incl.
+	- p7017 for MC, p7019 for data.
+	- Use MC JZx sample of JZ2 to JZ8.
 - [x] Study [Ellen's presentations](Notes/Ellen's%20presentations.md) to understand which [event selection](Notes/Event%20selection.md) you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
@@ -37,9 +36,9 @@
 	- reminder: cut efficiency changed for GN3
 		- GN2: 65, 70, 77, 85, 90%
 		- GN3: 70, 75, 80, 85, 90%
-	- [ ] inclusive leading jet pT distribution have some bumps
+	- [x] inclusive leading jet pT distribution have some bumps
 		- understand where do they come from
-		- apply pT cut for JZ slices around its edges
+		- gonna skip this, per-pT-bin distribution is fine.
 - [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [x] adjust the y-range to fit the whole plot in.
