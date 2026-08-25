@@ -10,8 +10,6 @@
 		- no need to use the same binning as Z+jets one.
 	- [x] separate data by jet pT, [pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
-	- [ ] check if b-veto is need/working
-		- check flavor fraction changes with/without it.
 - [x] submit job to the Grid, produce a first set of nominal only ntuples. [Grid jobs](Notes/Grid%20jobs.md)
 	- add other samples from standard calibration: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 		- Z+jets: $Z\to \nu \nu$
