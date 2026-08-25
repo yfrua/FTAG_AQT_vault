@@ -51,6 +51,9 @@
 			- nominal histograms requires `pass_dijet_NOSYS && pass_SUBbveto_NOSYS`.
 			- without b-veto: just `pass_dijet_NOSYS`.
 			- [ ] make histograms for those two.
+				- Append `_nonBVeto` to the end of `custom_name_tagger` in the histograms.
+				- Downstream consumption of both families simultaneously = one extra comma-separated .ini entry: 
+					- Taggers = GN3PflowMuonsV00Flip_Continuous,GN3PflowMuonsV00Flip_Continuous_nonBVeto
 		- events get b-vetoed: $4684/116885=4.01\%$.
 
 # Vault Navigation
