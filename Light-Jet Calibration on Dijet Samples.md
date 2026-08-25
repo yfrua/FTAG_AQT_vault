@@ -27,7 +27,7 @@
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- apply trigger unprescale via [LumiCalc](Notes/LumiCalc.md) and `FastFrames` .
-	- variables
+	- variables 
 		- leading jet pT
 		- SV mass
 		- leading jet NN score & discriminant
@@ -46,7 +46,7 @@
 		- use the same pT binning as GN2
 			- first bin 20-50 GeV is likely to have no entries.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
-	- [ ] check the influence of b-veto
+	- [ ] check the influence of b-veto (<= 1 b-tagged jet)
 		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
 			- nominal histograms requires `pass_dijet_NOSYS && pass_SUBbveto_NOSYS`.
 			- without b-veto: just `pass_dijet_NOSYS`.
