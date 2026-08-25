@@ -41,10 +41,16 @@
 		- gonna skip this, per-pT-bin distribution is fine.
 - [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
-	- [x] adjust the y-range to fit the whole plot in.
+	- [ ] adjust the y-range to fit the whole plot in.
+		- flavor fraction fit result plot didn't scaled yet
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 	- [ ] check GN2 SF for validation. 
+		- use the same pT binning as GN2
+			- first bin 20-50 GeV is likely to have no entries.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
+	- [ ] check the influence of b-veto
+		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
+		- events get b-vetoed: $4684/116885=4.01\%$.
 
 # Vault Navigation
 - How CERN batch system works: [batch system](Notes/batch%20system.md)
