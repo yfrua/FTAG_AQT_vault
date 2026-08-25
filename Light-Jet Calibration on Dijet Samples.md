@@ -48,6 +48,9 @@
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
 	- [ ] check the influence of b-veto
 		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
+			- nominal histograms requires `pass_dijet_NOSYS && pass_SUBbveto_NOSYS`.
+			- without b-veto: just `pass_dijet_NOSYS`.
+			- [ ] make histograms for those two.
 		- events get b-vetoed: $4684/116885=4.01\%$.
 
 # Vault Navigation
