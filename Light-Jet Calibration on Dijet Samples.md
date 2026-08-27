@@ -37,6 +37,7 @@
 	- [x] inclusive leading jet pT distribution have some bumps
 		- understand where do they come from
 		- gonna skip this, per-pT-bin distribution is fine.
+	- [ ] adjust the right margin of pT plots
 - [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] adjust the y-range to fit the whole plot in.
