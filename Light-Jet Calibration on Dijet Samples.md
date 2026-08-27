@@ -54,6 +54,7 @@
 				- Append `_nonBVeto` to the end of `custom_name_tagger` in the histograms.
 				- Downstream consumption of both families simultaneously = one extra comma-separated .ini entry: 
 					- Taggers = GN3PflowMuonsV00Flip_Continuous,GN3PflowMuonsV00Flip_Continuous_nonBVeto
+				- [ ] see how it works in period A by fitting
 		- events get b-vetoed: $4684/116885=4.01\%$.
 
 # Vault Navigation
