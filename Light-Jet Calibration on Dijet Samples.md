@@ -23,7 +23,7 @@
 		- reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
-- [x] make control plot
+- [ ] make control plot
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- apply trigger unprescale via [LumiCalc](Notes/LumiCalc.md) and `FastFrames` .
@@ -38,7 +38,7 @@
 		- understand where do they come from
 		- gonna skip this, per-pT-bin distribution is fine.
 	- [ ] adjust the right margin of pT plots
-- [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
+- [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] adjust the y-range to fit the whole plot in.
 		- flavor fraction fit result plot didn't scaled yet
