@@ -51,12 +51,10 @@
 		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
 			- nominal histograms requires `pass_dijet_NOSYS && pass_SUBbveto_NOSYS`.
 			- without b-veto: just `pass_dijet_NOSYS`.
-			- [ ] make histograms for those two.
-				- Append `_nonBVeto` to the end of `custom_name_tagger` in the histograms.
-				- Downstream consumption of both families simultaneously = one extra comma-separated .ini entry: 
-					- Taggers = GN3PflowMuonsV00Flip_Continuous,GN3PflowMuonsV00Flip_Continuous_nonBVeto
-				- [ ] see how it works in period A by fitting
-		- events get b-vetoed: $4684/116885=4.01\%$.
+		- [x] make histograms for those two.
+			- Append `_nonBVeto` to the end of `custom_name_tagger` in the histograms.
+			- Downstream consumption of both families simultaneously = one extra comma-separated .ini entry: `Taggers = GN3PflowMuonsV00Flip_Continuous,GN3PflowMuonsV00Flip_Continuous_nonBVeto`
+		- events get b-vetoed: $4,684/116,885=4.01\%$.
 
 # Vault Navigation
 - How CERN batch system works: [batch system](Notes/batch%20system.md)
