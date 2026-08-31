@@ -27,7 +27,7 @@
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- apply trigger unprescale via [LumiCalc](Notes/LumiCalc.md) and `FastFrames` .
-	- variables 
+	- variables
 		- leading jet pT
 		- SV mass
 		- leading jet NN score & discriminant
