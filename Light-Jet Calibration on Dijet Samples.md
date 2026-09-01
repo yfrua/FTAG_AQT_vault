@@ -34,19 +34,14 @@
 	- reminder: cut efficiency changed for GN3
 		- GN2: 65, 70, 77, 85, 90%
 		- GN3: 70, 75, 80, 85, 90%
-	- [x] inclusive leading jet pT distribution have some bumps
-		- understand where do they come from
-		- gonna skip this, per-pT-bin distribution is fine.
-	- [x] adjust the right margin of pT plots
-		- archived by disable exponent
 - [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
-	- [ ] adjust the y-range to fit the whole plot in.
-		- flavor fraction fit result plot didn't scaled yet
+	- [x] adjust the y-range to fit the whole plot in.
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 	- [ ] check GN2 SF for validation. 
 		- use the same pT binning as GN2
 			- first bin 20-50 GeV is likely to have no entries.
+		- [ ] produce histograms.
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
 	- [ ] check the influence of b-veto (<= 1 b-tagged jet)
 		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
@@ -56,6 +51,7 @@
 			- Append `_nonBVeto` to the end of `custom_name_tagger` in the histograms.
 			- Downstream consumption of both families simultaneously = one extra comma-separated .ini entry: `Taggers = GN3PflowMuonsV00Flip_Continuous,GN3PflowMuonsV00Flip_Continuous_nonBVeto`
 		- events get b-vetoed: $4,684/116,885=4.01\%$.
+		- [ ] make flavor fraction plot with/without b-veto
 
 # Vault Navigation
 - How CERN batch system works: [batch system](Notes/batch%20system.md)
