@@ -23,7 +23,7 @@
 		- reweight MC by JZx slice.
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
-- [ ] make control plot
+- [x] make control plot
 	- do histogram calculation via [batch system](Notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- apply trigger unprescale via [LumiCalc](Notes/LumiCalc.md) and `FastFrames` .
@@ -37,7 +37,8 @@
 	- [x] inclusive leading jet pT distribution have some bumps
 		- understand where do they come from
 		- gonna skip this, per-pT-bin distribution is fine.
-	- [ ] adjust the right margin of pT plots
+	- [x] adjust the right margin of pT plots
+		- archived by disable exponent
 - [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [ ] adjust the y-range to fit the whole plot in.
