@@ -41,7 +41,10 @@
 	- [ ] check GN2 SF for validation. 
 		- use the same pT binning as GN2
 			- first bin 20-50 GeV is likely to have no entries.
-		- [ ] produce histograms.
+		- [x] produce histograms.
+		- [ ] fit and plot
+			- [ ] adjust ylim
+			- how to deal with failed fit? (fit status != 0)
 - [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
 	- [ ] check the influence of b-veto (<= 1 b-tagged jet)
 		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
