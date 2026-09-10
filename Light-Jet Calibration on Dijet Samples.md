@@ -40,7 +40,7 @@
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
 	- [ ] check GN2 SF for validation. 
 		- use the same pT binning as GN2
-			- first bin 20-50 GeV is likely to have no entries.
+			- first bin 20-50 GeV is empty due to trigger selection.
 		- [x] produce histograms.
 		- [ ] fit and plot
 			- (tag bin, pT bin) pair to take care of after the fit
@@ -49,7 +49,9 @@
 			- [ ] adjust the WP used and things related to it (previous one is for GN3)
 			- [ ] deal with failed fit (fit status != 0)
 				- failed fits (pT bin, sys unc type): (3, nom), (3, mc stat), (3, data stat), (4, c SF up)
-- [ ] Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. Suggest a better event selection condition to reduce the contamination of single or double-b jets.
+- [ ] quark/gluon splitting study 
+	- Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. 
+	- Suggest a better event selection condition to reduce the contamination of single or double-b jets.
 	- [ ] check the influence of b-veto (<= 1 b-tagged jet)
 		- write b-veto condition in a sub-region in ntuples making, yield a `pass_SUBbveto_NOSYS` for histograming.
 			- nominal histograms requires `pass_dijet_NOSYS && pass_SUBbveto_NOSYS`.
