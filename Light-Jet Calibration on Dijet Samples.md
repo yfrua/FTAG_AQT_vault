@@ -38,18 +38,22 @@
 	- Use both direct tag and negative tag methods
 	- [x] adjust the y-range to fit the whole plot in.
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
-	- [ ] check GN2 SF for validation. 
-		- use the same pT binning as GN2
-			- first bin 20-50 GeV is empty due to trigger selection.
-			- [x] produce histograms.
-			- [ ] fit and plot
-				- (tag bin, pT bin) pair to take care of after the fit
-				- (2, 5), (4, 3), (4, 5), (5, 3), (5, 5), (6 ,3), (6, 4)
-			- [ ] adjust y-axis range
-			- [ ] adjust the WP used and things related to it (previous one is for GN3)
-			- [ ] deal with failed fit (fit status != 0)
-				- failed fits (pT bin, sys unc type): (3, nom), (3, mc stat), (3, data stat), (4, c SF up)
-		- use current pT binning (truncate at 300 GeV) to get more physically correct result
+- [ ] check GN2 SF for validation. 
+	- use the same pT binning as GN2 (==GN2_nomi==)
+		- binning: 20-50, 50-100, 100-150, 150-300.
+			- first bin 20-50 GeV is empty due to trigger threshold.
+		- [x] produce histograms.
+		- [ ] fit and plot
+			- (tag bin, pT bin) pair to take care of after the fit
+			- (2, 5), (4, 3), (4, 5), (5, 3), (5, 5), (6 ,3), (6, 4)
+		- [ ] adjust y-axis range
+		- [ ] adjust the WP used and things related to it (previous one is for GN3)
+		- [ ] deal with failed fit (fit status != 0)
+			- failed fits (pT bin, sys unc type): (3, nom), (3, mc stat), (3, data stat), (4, c SF up)
+	- use current pT binning (truncate at 300 GeV) to get more physically correct result (==GN2_rebin==)
+		- binning: 80-120, 120-200, 200-300.
+		- [ ] produce histograms.
+		- [ ] fit and plot.
 - [ ] quark/gluon splitting study 
 	- Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. 
 	- Suggest a better event selection condition to reduce the contamination of single or double-b jets.
