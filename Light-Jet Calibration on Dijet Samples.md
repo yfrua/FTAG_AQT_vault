@@ -34,7 +34,7 @@
 	- reminder: cut efficiency changed for GN3
 		- GN2: 65, 70, 77, 85, 90%
 		- GN3: 70, 75, 80, 85, 90%
-- [ ] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
+- [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [x] adjust the y-range to fit the whole plot in.
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
@@ -43,7 +43,7 @@
 		- binning: 20-50, 50-100, 100-150, 150-300.
 			- first bin 20-50 GeV is empty due to trigger threshold.
 		- [x] produce histograms.
-		- [ ] fit and plot
+		- [x] fit and plot
 			- (tag bin, pT bin) pair to take care of after the fit
 			- (2, 5), (4, 3), (4, 5), (5, 3), (5, 5), (6 ,3), (6, 4)
 		- [ ] adjust y-axis range
