@@ -38,7 +38,7 @@
 	- Use both direct tag and negative tag methods
 	- [x] adjust the y-range to fit the whole plot in.
 	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
-	- [ ] check if Discriminant Quantile plots from `DoRsults` are plotting a wrong tagger (should be flip one, but plot the nominal one)
+	- [ ] check if post-fit plots from are reading pre-fit distribution wrong.
 - [ ] check GN2 SF for validation. 
 	- use the same pT binning as GN2 (==GN2_nomi==)
 		- binning: 20-50, 50-100, 100-150, 150-300.
