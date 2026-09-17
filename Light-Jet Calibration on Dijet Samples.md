@@ -45,15 +45,20 @@
 		- [x] produce histograms.
 		- [x] fit and plot
 			- (tag bin, pT bin) pair to take care of after the fit
-			- (2, 5), (4, 3), (4, 5), (5, 3), (5, 5), (6 ,3), (6, 4)
-		- [ ] adjust y-axis range
-		- [ ] adjust the WP used and things related to it (previous one is for GN3)
-		- [ ] deal with failed fit (fit status != 0)
-			- failed fits (pT bin, sys unc type): (3, nom), (3, mc stat), (3, data stat), (4, c SF up)
+				- (2, 5), (4, 3), (4, 5), (5, 3), (5, 5), (6 ,3), (6, 4)
+			- failed fit (fit status != 0), (pT bin, sys unc type):
+				- (3, nom), (3, mc stat), (3, data stat), (4, c SF up)		
+	    - [ ] adjust y-axis range
+		- [x] adjust the WP used and things related to it (previous one is for GN3)
 	- use current pT binning (truncate at 300 GeV) to get more physically correct result (==GN2_rebin==)
 		- binning: 80-120, 120-200, 200-300.
-		- [ ] produce histograms.
-		- [ ] fit and plot.
+		- [x] produce histograms.
+		- [x] fit and plot.
+			- (tag bin, pT bin) pair to take care of after the fit:
+				- (4, 3), (5, 3), (6, 2), (6, 3), (6, 4)
+			- failed fit (fit status != 0), (pT bin, sys unc type):
+				- (2, nom)
+		- [ ] set y-axis range the same as official one
 - [ ] quark/gluon splitting study 
 	- Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. 
 	- Suggest a better event selection condition to reduce the contamination of single or double-b jets.
