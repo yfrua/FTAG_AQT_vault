@@ -1,6 +1,6 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
-- [x] Get unfiltered di-jet samples, see [DAOD list](Notes/DAOD%20list.md).
+- [x] Get di-jet samples, see [DAOD list](Notes/DAOD%20list.md).
 	- p7017 for MC, p7019 for data.
 	- Use MC JZx sample of JZ2 to JZ8.
 - [x] Study [Ellen's presentations](Notes/Ellen's%20presentations.md) to understand which [event selection](Notes/Event%20selection.md) you want to apply.
