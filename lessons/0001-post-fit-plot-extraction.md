@@ -45,10 +45,10 @@ When `ModelTool` is constructed (`ModelTool.cxx:157-161`), before any fit runs, 
 The old comment in `DoFit.cxx` blamed the `RooRealSumPdf` coefficients ("not initialized to the prefit integrals"). **That diagnosis was wrong.** Diagnostic on the real workspace (TagBin1, pre-fit values):
 
 | flavor | coef (= model formula ✓) | raw MC template |
-| ------ | ------------------------ | --------------- |
-| light  | 199.4e9                  | 418.3e9         |
-| charm  | **211.4e9**              | **26.7e9**      |
-| b      | 17.7e9                   | 5.6e9           |
+|---|---|---|
+| light | 199.4e9 | 418.3e9 |
+| charm | **211.4e9** | **26.7e9** |
+| b | 17.7e9 | 5.6e9 |
 
 The coefficients faithfully evaluate the model formula — the formula's *inputs* were wrong. In `BuildWS.cxx`:
 
@@ -82,13 +82,13 @@ From `DataSample->plotOn()` (`DoFit.cxx:1270`), with error bars **overwritten** 
 
 ## What each plot element represents
 
-| Element       | Source                                              | Parameters         |
-| ------------- | --------------------------------------------------- | ------------------ |
-| Data points   | `obsData` + SumW2 from `gTemplateDataFile`          | observed           |
-| Stacked l/c/b | `GetHistogram()` — shape × post-fit coefficient     | post-fit           |
-| Red line      | `GetTotal()` — sum of components                    | post-fit           |
-| Grey band     | `GetYieldTotalBin()` — integral + error propagation | post-fit ± σ       |
-| Blue dashed   | `GetTotalPrefit()` — model at pre-fit values        | pre-fit (= raw MC) |
+| Element | Source | Parameters |
+|---|---|---|
+| Data points | `obsData` + SumW2 from `gTemplateDataFile` | observed |
+| Stacked l/c/b | `GetHistogram()` — shape × post-fit coefficient | post-fit |
+| Red line | `GetTotal()` — sum of components | post-fit |
+| Grey band | `GetYieldTotalBin()` — integral + error propagation | post-fit ± σ |
+| Blue dashed | `GetTotalPrefit()` — model at pre-fit values | pre-fit (= raw MC) |
 
 ## A real example
 
