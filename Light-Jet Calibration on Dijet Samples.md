@@ -1,22 +1,22 @@
 # TODO
 - [x] Check out the Common Ntuple Framework
-- [x] Get di-jet samples, see [DAOD list](Notes/DAOD%20list.md).
+- [x] Get di-jet samples, see [DAOD list](notes/DAOD%20list.md).
 	- p7017 for MC, p7019 for data.
 	- Use MC JZx sample of JZ2 to JZ8.
-- [x] Study [Ellen's presentations](Notes/Ellen's%20presentations.md) to understand which [event selection](Notes/Event%20selection.md) you want to apply.
+- [x] Study [Ellen's presentations](notes/Ellen's%20presentations.md) to understand which [event selection](notes/Event%20selection.md) you want to apply.
 	- selection will be adapted to the current recommendations.
 	- investigate how low in pT the selection can be expanded to have maximum overlap with the Z+jets calibration.
 		- DL1r Z+jets pT binning: 20-50, 50-100, 100-150, 150-300.
 		- no need to use the same binning as Z+jets one.
-	- [x] separate data by jet pT, [pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
+	- [x] separate data by jet pT, [pT binning](notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- setup a series of triggers, do trigger selection at analysis step, so that there is no need to split files.
-- [x] submit job to the Grid, produce a first set of nominal only ntuples. [Grid jobs](Notes/Grid%20jobs.md)
+- [x] submit job to the Grid, produce a first set of nominal only ntuples. [Grid jobs](notes/Grid%20jobs.md)
 	- add other samples from standard calibration: ttbar, single top, diboson (VBS, ZW, ZZ, WW), W+jets, Z+jets. 
 		- Z+jets: $Z\to \nu \nu$
 		- W+jets: $W\to q \bar{q}$, $W \to l \nu$ ($l$ not reconstructed)
 		- single top: $t \to Wb$, $W\to qq$
 		- diboson: $WW\to qqqq$
-	- [x] Data reweighting, see [Trigger, luminosity, pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
+	- [x] Data reweighting, see [Trigger, luminosity, pT binning](notes/Trigger,%20luminosity,%20pT%20binning.md)
 		- reweight data by trigger prescale.
 			- prescale = lumi(trigger) / lumi(unprescaled trigger), a value < 1
 			- take the largest prescale value of passed trigger, assuming higher pT trigger covers the lower ones.
@@ -24,7 +24,7 @@
 			- normally, use cross section and data lumi to scale.
 			- ideally, only need to extract `mcEventWeight` in DAOD
 - [x] make control plot
-	- do histogram calculation via [batch system](Notes/batch%20system.md)
+	- do histogram calculation via [batch system](notes/batch%20system.md)
 		- use `FastFrames`, refer to the resources below
 		- apply trigger unprescale via [LumiCalc](Notes/LumiCalc.md) and `FastFrames` .
 	- variables
@@ -34,10 +34,10 @@
 	- reminder: cut efficiency changed for GN3
 		- GN2: 65, 70, 77, 85, 90%
 		- GN3: 70, 75, 80, 85, 90%
-- [x] Do [template fit](Notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
+- [x] Do [template fit](notes/SV%20Mass%20Fitting%20Methodology.md) on secondary mass distribution, get SF 
 	- Use both direct tag and negative tag methods
 	- [x] adjust the y-range to fit the whole plot in.
-	- [x] calculate [SF Uncertainty](Notes/SF%20Uncertainty.md)
+	- [x] calculate [SF Uncertainty](notes/SF%20Uncertainty.md)
 	- [ ] check if post-fit plots from are reading pre-fit distribution wrong.
 - [ ] check GN2 SF for validation. 
 	- use the same pT binning as GN2 (==GN2_nomi==)
@@ -73,18 +73,18 @@
 		- [ ] make flavor fraction plot with/without b-veto
 
 # Vault Navigation
-- How CERN batch system works: [batch system](Notes/batch%20system.md)
-- DAOD list used in this analysis: [DAOD list](Notes/DAOD%20list.md)
-- Run 2 analysis for this topic: [Ellen's presentations](Notes/Ellen's%20presentations.md)
-- Which event selection to apply: [Event selection](Notes/Event%20selection.md)
-- Ntuple making grid jobs submission history and output DIDs: [Grid jobs](Notes/Grid%20jobs.md)
-- What does scale factor uncertainty come from: [SF Uncertainty](Notes/SF%20Uncertainty.md)
-- [SV Mass Fitting Methodology](Notes/SV%20Mass%20Fitting%20Methodology.md)
-- [Trigger, luminosity, pT binning](Notes/Trigger,%20luminosity,%20pT%20binning.md)
+- How CERN batch system works: [batch system](notes/batch%20system.md)
+- DAOD list used in this analysis: [DAOD list](notes/DAOD%20list.md)
+- Run 2 analysis for this topic: [Ellen's presentations](notes/Ellen's%20presentations.md)
+- Which event selection to apply: [Event selection](notes/Event%20selection.md)
+- Ntuple making grid jobs submission history and output DIDs: [Grid jobs](notes/Grid%20jobs.md)
+- What does scale factor uncertainty come from: [SF Uncertainty](notes/SF%20Uncertainty.md)
+- [SV Mass Fitting Methodology](notes/SV%20Mass%20Fitting%20Methodology.md)
+- [Trigger, luminosity, pT binning](notes/Trigger,%20luminosity,%20pT%20binning.md)
 
 # External Resources
 - repo for this vault: [github](https://github.com/yfrua/FTAG_AQT_vault)
-- AQT jira (AFT-840): [jira page](Notes/jira%20page.md), [jira url](https://its.cern.ch/jira/browse/AFT-840)
+- AQT jira (AFT-840): [jira page](notes/jira%20page.md), [jira url](https://its.cern.ch/jira/browse/AFT-840)
 - Common Ntuple Framework: [official](https://gitlab.cern.ch/atlas-ftag-calibration/toptoolkit-ntuples), [my fork](https://gitlab.cern.ch/fye/toptoolkit-ntuples) 
 - TopCPToolkit documentation: [website](https://topcptoolkit.docs.cern.ch/latest/)
 - FastFrames for dijet samples: [gitlab](https://gitlab.cern.ch/fye/FTAG_ljetcali_FastFrames)

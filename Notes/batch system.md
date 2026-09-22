@@ -1,6 +1,6 @@
 - batch docs: https://batchdocs.web.cern.ch/index.html
 # Basic concept
-![](assets/batch%20system/file-20260424194200.png)
+![](assets/batch%20system/file-20260922174705900.png)
 
 # Job Flavors
 ```

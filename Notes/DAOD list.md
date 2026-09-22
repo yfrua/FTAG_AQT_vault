@@ -2,11 +2,11 @@
 - AMI: https://ami.in2p3.fr/?subapp=tagsShow
 # Bulk Production Releases
 - p6697-p6863: current in use.
-![](assets/DAOD%20list/file-20260414131345.png)
+![](assets/DAOD%20list/file-20260922174706101.png)
 - p7018-p7110: #TODO should adapt to this.
-![](assets/DAOD%20list/file-20260414131233.png)
+![](assets/DAOD%20list/file-20260922174706100.png)
 - p7266-p7271: This one have `GN3EPCLV01` tagger information.
-![](assets/DAOD%20list/file-20260414130849.png)
+![](assets/DAOD%20list/file-20260922174706101_1.png)
 # Data
 - [Check List for Physics Analyses](https://twiki.cern.ch/twiki/bin/viewauth/Atlas/DataPreparationCheckListForPhysicsAnalysis)
 - [Data and Monte Carlo Datasets for Analysis](https://twiki.cern.ch/twiki/bin/view/AtlasProtected/DataMCForAnalysis)

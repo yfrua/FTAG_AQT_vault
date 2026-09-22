@@ -8,7 +8,7 @@
 	- <= 1 b-tagged jet
 		- use GN2v01 at WP=0.85
 - No electrons or muons
-![](assets/Event%20selection/file-20260511130438871.png)
+![](assets/Event%20selection/file-20260922174706284_1.png)
 
 # In Ellen's case
 - Recommended basic selection  
@@ -22,4 +22,4 @@
 - No subleading b-tagged jets
 	- reduce the number of leading jets being truth b-jets since b-jets might be coming from gluon splitting
 
-![](assets/Event%20selection/file-20260226181049.png)
+![](assets/Event%20selection/file-20260922174706284.png)
