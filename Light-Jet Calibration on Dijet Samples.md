@@ -55,7 +55,7 @@
 		- [x] produce histograms.
 		- [x] fit and plot.
 			- (tag bin, pT bin) pair to take care of after the fit:
-				- (4, 3), (5, 3), (6, 2), (6, 3), (6, 4)
+				- (6, 2), (6, 3)
 			- failed fit (fit status != 0), (pT bin, sys unc type):
 				- (2, nom)
 		- [x] set y-axis range the same as official one.
