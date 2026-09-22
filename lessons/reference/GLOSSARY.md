@@ -56,10 +56,11 @@ Sum of per-flavor components from `GetHistogram()`: shape renormalized to unit i
 _Avoid_: total
 
 **Fit-result line (red)**:
-`GetTotal()` / `GetYieldTotal()`: gamma-**included** PDF integral per bin; the fit's actual prediction. Data/Fit panels divide by this, never the stack.
+Plot-type dependent. mSV plot: `GetTotal()` — sum of the same gamma-stripped components as the stack, so it hugs the stack top **by construction**. TagBin plot: `GetYieldTotal()` — gamma-included full-PDF integral, the fit's actual prediction.
+_Avoid_: one definition for both plot types
 
 **Fit band (grey)**:
-`getPropagatedError(FitRes)` around the fit-result line: post-fit ± σ.
+The only gamma-**included** element of the mSV plot: per-bin PDF integral ± `getPropagatedError(FitRes)`. Never drawn in TagBin plots — the band histogram is cloned but never filled there.
 
 **TagBin1 (complement bin)**:
 Loosest quantile: yield = pre-tag total minus all tagged contributions, `N_Inc_Pretag × f × (1 − Σ Eff·SF)`. Makes the fit self-normalizing.
@@ -81,5 +82,5 @@ Pseudo-continuous b-tagging / c-tagging quantile schemes; CTight and BTight labe
 
 ## Conventions in this workspace
 
-- "Stack" always means the gamma-stripped component sum; "fit result" or "red line" always means the gamma-included total.
+- "Stack" always means the gamma-stripped component sum. "Fit result" or "red line" is plot-type dependent: gamma-stripped in mSV plots (≡ stack top), gamma-included in TagBin plots.
 - Example fits: GN2v01 Flip, period ADE (163 fb⁻¹), unless stated otherwise.

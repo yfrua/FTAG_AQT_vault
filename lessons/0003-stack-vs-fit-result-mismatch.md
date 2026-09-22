@@ -29,6 +29,35 @@ In a GN2-rebin fit (80–120 GeV, fit status 0 = converged), the TagBin plot sho
 
 **When all gammas = 1, stack top ≡ red line exactly.** Any gap is the fit's gamma pull. A *huge* gap means weakly-constrained gammas or something pathological in the coefficients themselves.
 
+> [!warning] This recap is the **TagBin plot** wiring
+> The mSV plot (`Plot()`) is wired differently: its red line is `GetTotal()` — the sum of the *same* gamma-stripped components as the stack (`DoFit.cxx:1205`), so red ≡ stack top there **by construction**. In mSV plots the gammas surface only in the grey band (`GetYieldTotalBin`, gamma-included, `DoFit.cxx:1135`) and the Data/Fit panel divides by the gamma-**stripped** total (`DoFit.cxx:1416`) — so in a pathological category the mSV panel goes empty (points at ≈0.17 fall below the 0.9–1.1 pad) while the TagBin panel stays flat at 1.0.
+
+## The cast: coefᵢ, funcᵢ, shape, γ
+
+All four live in one object: the category model `<Cat>_model`, a RooRealSumPdf over the three flavors, `<Cat>_model = Σᵢ coefᵢ · funcᵢ`, i ∈ {l, c, b}. ModelTool reads both lists straight from the workspace (`funcList()`, `coefList()`, `ModelTool.cxx:94–142`), and every DoFit log prints them. From the log, TagBin6:
+
+| Ingredient | Workspace object | What it is |
+|---|---|---|
+| funcᵢ | RooProduct `l_Chan_TagBin6_shapes` = `l_Chan_TagBin6_Hist_alphanominal × mc_stat_Chan_TagBin6 × Chan_TagBin6_model_binWidth` | Flavor i's mSV shape as a function of mSV: nominal MC template × MC-stat factor × bin-width normalisation |
+| γ | `gamma_stat_Chan_TagBin6_bin_{0,1,2}`, Gaussian-constrained around global observables `nom_gamma_stat_...` = 1 | Per (tag bin × mSV bin) MC-statistics multipliers, width = that bin's relative MC stat error. They sit inside `mc_stat_<Cat>`, which multiplies **all three flavors alike** |
+| coefᵢ | RooProduct `b_Chan_TagBin6_scaleFactors` = `b_Chan_TagBin6_epsilon × N_TagBin6_b × Lumi` | Flavor i's expected yield in the category: efficiency × normalization equation (carries `Scale`, `f`, and the `SF_Neg_*` POIs). Pre-fit in TagBin6: l 1.8e7, c 1.6e7, b 1.4e8 |
+| shape | — | funcᵢ **renormalized to unit integral** inside `GetHistogram()` (`ModelTool.cxx:209`), then scaled by coefᵢ |
+
+Two consequences do all the work in this lesson:
+
+**Renormalization strips any overall scale in funcᵢ — including the γ level.** Stack component *i* is `coefᵢ × funcᵢ(center_b) / Σ_b funcᵢ(center_b)`: the sum over mSV bins equals coefᵢ no matter what the gammas do — a global γ level, the bin-width factor, all cancel in the ratio. That is what "gammas stripped" means: ==the stack top is Σᵢ coefᵢ by construction; γ can only redistribute relative heights *between* mSV bins, never change a component's total.== The PDF-side quantities (`GetYieldTotal(Bin)`) integrate funcᵢ as-is, so they keep the γ level linearly — γ ≈ 0.17 drags them to 0.17× while Σᵢ coefᵢ stays put. The stack-vs-red gap *is* the γ pull, made visible.
+
+**The runaway and the compensation live on opposite sides of the product.** `SF_Neg_TagBin6_b` enters only through coef_b (inside `N_TagBin6_b`); the gammas enter only through funcᵢ (inside `mc_stat`). (SF_b × 7.46, γ × 0.17) is a pure product trade — coef_b inflated while every func is crushed — a near-flat direction of the likelihood, and exactly the valley the minimizer settled into below.
+
+> [!tip] Not all gammas float
+> HistFactory keeps a γ floating only where the bin's relative MC stat error exceeds the configured threshold (`SetStatErrorConfig`, `BuildWS.cxx:432`; `ActivateStatError`, `BuildWS.cxx:472`). In this build only `gamma_stat_Chan_TagBin5/6_bin_*` appear in the fit's Nuisance Parameters (DoFit log) — the TagBins 1–4 gammas exist but are pinned at 1. A second, config-level reason the stack-vs-red gap can only light up in the tightest bins. `FitOption = "MC_STAT"` fixes even those (`DoFit.cxx:4,770`) — a built-in cross-check.
+
+> [!question] γ is shared by all flavors (one `mc_stat` per category). What does γ ≈ 0.17 therefore do to (a) the stack top, (b) the TagBin red line, (c) the l:c:b composition *within* one mSV bin?
+> Answer from memory first, then unfold to check.
+>
+> > [!success]- Answer
+> > (a) Nothing — component totals stay Σᵢ coefᵢ. (b) Suppresses it ≈0.17×, since the integral keeps the γ level. (c) Nothing — γ_b multiplies l, c and b equally inside a bin, so the per-bin flavor composition is γ-invariant; only the relative weight of *different* mSV bins (SV bins vs no-SV) is distorted.
+
 ## The diagnosis, step by step
 
 ### 1. Decompose the two quantities
