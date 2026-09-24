@@ -39,6 +39,7 @@
 	- [x] adjust the y-range to fit the whole plot in.
 	- [x] calculate [SF Uncertainty](notes/SF%20Uncertainty.md)
 	- [ ] check if post-fit plots from are reading pre-fit distribution wrong.
+	- [ ] do a closture test.
 - [ ] check GN2 SF for validation. 
 	- use the same pT binning as GN2 (==GN2_nomi==)
 		- binning: 20-50, 50-100, 100-150, 150-300.
@@ -55,7 +56,7 @@
 		- [x] produce histograms.
 		- [x] fit and plot.
 			- (tag bin, pT bin) pair to take care of after the fit:
-				- (4, 3), (5, 3), (6, 2), (6, 3), (6, 4)
+				- (6, 2), (6, 3)
 			- failed fit (fit status != 0), (pT bin, sys unc type):
 				- (2, nom)
 		- [x] set y-axis range the same as official one.
