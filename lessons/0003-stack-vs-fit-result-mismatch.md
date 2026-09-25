@@ -20,12 +20,12 @@ In a GN2-rebin fit (80–120 GeV, fit status 0 = converged), the TagBin plot sho
 
 ## Recap: what each element is made of
 
-| Element | Formula |
-|---|---|
-| Stack component *i* | `GetHistogram()`: shape × coefᵢ, **renormalized** to unit integral |
-| Stack top | Σᵢ coefᵢ — gammas **stripped** by the renormalization |
-| Red line | `GetYieldTotal()`: Σᵢ coefᵢ × ∫funcᵢ — gammas **included** (they multiply the shapes) |
-| Blue dashed | Same machinery at pre-fit parameter values |
+| Element             | Formula                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------- |
+| Stack component *i* | `GetHistogram()`: shape × coefᵢ, **renormalized** to unit integral                    |
+| Stack top           | Σᵢ coefᵢ — gammas **stripped** by the renormalization                                 |
+| Red line            | `GetYieldTotal()`: Σᵢ coefᵢ × ∫funcᵢ — gammas **included** (they multiply the shapes) |
+| Blue dashed         | Same machinery at pre-fit parameter values                                            |
 
 **When all gammas = 1, stack top ≡ red line exactly.** Any gap is the fit's gamma pull. A *huge* gap means weakly-constrained gammas or something pathological in the coefficients themselves.
 
@@ -36,12 +36,12 @@ In a GN2-rebin fit (80–120 GeV, fit status 0 = converged), the TagBin plot sho
 
 All four live in one object: the category model `<Cat>_model`, a RooRealSumPdf over the three flavors, `<Cat>_model = Σᵢ coefᵢ · funcᵢ`, i ∈ {l, c, b}. ModelTool reads both lists straight from the workspace (`funcList()`, `coefList()`, `ModelTool.cxx:94–142`), and every DoFit log prints them. From the log, TagBin6:
 
-| Ingredient | Workspace object | What it is |
-|---|---|---|
-| funcᵢ | RooProduct `l_Chan_TagBin6_shapes` = `l_Chan_TagBin6_Hist_alphanominal × mc_stat_Chan_TagBin6 × Chan_TagBin6_model_binWidth` | Flavor i's mSV shape as a function of mSV: nominal MC template × MC-stat factor × bin-width normalisation |
-| γ | `gamma_stat_Chan_TagBin6_bin_{0,1,2}`, Gaussian-constrained around global observables `nom_gamma_stat_...` = 1 | Per (tag bin × mSV bin) MC-statistics multipliers, width = that bin's relative MC stat error. They sit inside `mc_stat_<Cat>`, which multiplies **all three flavors alike** |
-| coefᵢ | RooProduct `b_Chan_TagBin6_scaleFactors` = `b_Chan_TagBin6_epsilon × N_TagBin6_b × Lumi` | Flavor i's expected yield in the category: efficiency × normalization equation (carries `Scale`, `f`, and the `SF_Neg_*` POIs). Pre-fit in TagBin6: l 1.8e7, c 1.6e7, b 1.4e8 |
-| shape | — | funcᵢ **renormalized to unit integral** inside `GetHistogram()` (`ModelTool.cxx:209`), then scaled by coefᵢ |
+| Ingredient | Workspace object                                                                                                             | What it is                                                                                                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| funcᵢ      | RooProduct `l_Chan_TagBin6_shapes` = `l_Chan_TagBin6_Hist_alphanominal × mc_stat_Chan_TagBin6 × Chan_TagBin6_model_binWidth` | Flavor i's mSV shape as a function of mSV: nominal MC template × MC-stat factor × bin-width normalisation                                                                     |
+| γ          | `gamma_stat_Chan_TagBin6_bin_{0,1,2}`, Gaussian-constrained around global observables `nom_gamma_stat_...` = 1               | Per (tag bin × mSV bin) MC-statistics multipliers, width = that bin's relative MC stat error. They sit inside `mc_stat_<Cat>`, which multiplies **all three flavors alike**   |
+| coefᵢ      | RooProduct `b_Chan_TagBin6_scaleFactors` = `b_Chan_TagBin6_epsilon × N_TagBin6_b × Lumi`                                     | Flavor i's expected yield in the category: efficiency × normalization equation (carries `Scale`, `f`, and the `SF_Neg_*` POIs). Pre-fit in TagBin6: l 1.8e7, c 1.6e7, b 1.4e8 |
+| shape      | —                                                                                                                            | funcᵢ **renormalized to unit integral** inside `GetHistogram()` (`ModelTool.cxx:209`), then scaled by coefᵢ                                                                   |
 
 Two consequences do all the work in this lesson:
 
