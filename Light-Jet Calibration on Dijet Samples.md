@@ -49,8 +49,8 @@
 		- [x] fit and plot
 			- (tag bin, pT bin) pair to take care of after the fit
 				- tag bin ranges in $[1, 6]$, pT bin ranges in $[3, 5]$.
-				- (2, 3), (2, 5), (3, 3), (4, 3), (5, 3), (5, 5), (6, 3), (6, 4).
-				- failure rate: $8/18=44.4\%$.
+				- (2, 3), (2, 5), (3, 3), (4, 3), (5, 3), (6, 3).
+				- failure rate: $6/18=33.3\%$.
 			- failed fit (fit status != 0), (pT bin, sys unc type):
 				- (3, nominal), (3, C SF down), (4, C SF up).
 				- failure rate: $3/15=20\%$.
@@ -59,10 +59,7 @@
 		- binning: 80-120, 120-200, 200-300.
 		- [x] produce histograms.
 		- [x] fit and plot.
-			- (tag bin, pT bin) pair to take care of after the fit:
-				- tag bin ranges in $[1, 6]$, pT bin ranges in $[2, 4]$.
-				- (6, 2), (6, 3).
-				- failure rate: $2/18=11.1\%$.
+			- no (tag bin, pT bin) pair to take care of after the fit:
 			- failed fit (fit status != 0), (pT bin, sys unc type):
 				- (2, C SF up), (3, nominal), (3, C SF up).
 				- failure rate: $3/15=20\%$.
