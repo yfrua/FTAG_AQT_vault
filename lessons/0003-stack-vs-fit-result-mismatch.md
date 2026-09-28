@@ -29,8 +29,8 @@ In a GN2-rebin fit (80–120 GeV, fit status 0 = converged), the TagBin plot sho
 
 **When all gammas = 1, stack top ≡ red line exactly.** Any gap is the fit's gamma pull. A *huge* gap means weakly-constrained gammas or something pathological in the coefficients themselves.
 
-> [!warning] This recap is the **TagBin plot** wiring — the mSV plot changed on 2026-09-28
-> The mSV plot (`Plot()`) *used to* be wired differently: its red line was `GetTotal()` — the sum of the *same* gamma-stripped components as the stack (`DoFit.cxx:1205`), so red ≡ stack top **by construction**, γ surfaced only in the grey band (`DoFit.cxx:1135`), and the Data/Fit panel divided by the γ-**stripped** total (`DoFit.cxx:1416`) — going empty (≈0.17, off-panel) in pathological categories. Since 2026-09-28, `GetHistogram`/`GetTotal` take an `IntegralNorm` flag (`ModelTool.h:51,53`) and the mSV plot passes `true` (`DoFit.cxx:1205,1225`): ==stack and red are now per-bin γ-**included** integrals × coef== — the stack adds to the red line and Data/Fit ≈ 1 even when γ ≈ 0.17. The **TagBin plot keeps the original wiring**, so its stack-vs-red gap remains the γ-activity diagnostic (see [[0006-gamma-included-stack]]).
+> [!warning] Both plots now draw a γ-**included** stack (changed 2026-09-28)
+> When this story happened, the mSV plot (`Plot()`) was wired differently from the recap: its red line was `GetTotal()` — the sum of the *same* gamma-stripped components as the stack (`DoFit.cxx:1205`), so red ≡ stack top **by construction** there, γ surfaced only in the grey band (`DoFit.cxx:1135`), and the Data/Fit panel divided by the γ-**stripped** total (`DoFit.cxx:1416`) — going empty (≈0.17, off-panel) in pathological categories. ==Since 2026-09-28 `GetHistogram`/`GetTotal` take an `IntegralNorm` flag (`ModelTool.h:51,53`) and **both** plot types pass `true` (`DoFit.cxx:1225,1609`): every stack and red line is a per-bin γ-**included** integral × coef== — stacks add to the red line, Data/Fit ≈ 1 even when γ ≈ 0.17, and the stack-vs-red γ diagnostic is retired (γ now shows as prefit-vs-postfit gaps; see [[0006-gamma-included-stack]]).
 
 ## The cast: coefᵢ, funcᵢ, shape, γ
 
@@ -96,7 +96,7 @@ The delta method already fixes the *light* SF in the tightest bin (`SF_Neg_TagBi
 
 - ==**Converged ≠ healthy.**== Status 0 means a stationary point, not the one you want. Check parameter values against physics priors.
 - **Near-flat directions are the enemy.** Parameters multiplying the same bins (SF, γ) can trade off; constraint widths set the excursion scale.
-- **Plot artifacts carry information.** The stack-vs-red gap is a free gamma-activity diagnostic (TagBin plot only, since the 2026-09-28 mSV change — see the warning above); the flavor decomposition stays meaningful even when the absolute height doesn't.
+- **Plot artifacts carry information.** The stack-vs-red gap *was* a free gamma-activity diagnostic — retired on 2026-09-28 when all stacks became γ-included (`IntegralNorm`); γ activity now shows as prefit-vs-postfit differences. The flavor decomposition stays meaningful either way.
 - **Bin more ⇒ constrain less.** Rebinning improves shape resolution but thins per-bin MC statistics, loosening every gamma constraint.
 
 ## Check your understanding

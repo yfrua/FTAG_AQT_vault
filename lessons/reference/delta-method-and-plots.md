@@ -29,7 +29,7 @@ The two plot types are wired differently — check which one you are reading:
 
 | Element | mSV plot (`Plot`) | TagBin plot (`PlotTagBin`) |
 |---|---|---|
-| Stack l/c/b | `GetHistogram(..., IntegralNorm=true)`: per-bin γ-**included** integral × coef (changed 2026-09-28, `DoFit.cxx:1225`) | default `GetHistogram()`: shape (renormalized) × coef — gammas **stripped** (`DoFit.cxx:1632-1634`) |
+| Stack l/c/b | `GetHistogram(..., IntegralNorm=true)`: per-bin γ-**included** integral × coef (changed 2026-09-28, `DoFit.cxx:1225`) | same, integrated per tag bin — γ-**included** since 2026-09-28 (`DoFit.cxx:1609`) |
 | Red "Fit Result" | `GetTotal(..., true)`: sum of the *same* γ-included components — **≡ stack top, always** (`DoFit.cxx:1205`) | `GetYieldTotal()`: full-PDF integral — gammas **included** (`DoFit.cxx:1639`) |
 | Grey band | `GetYieldTotalBin()`: γ-included integral + `getPropagatedError(FitRes)` (`DoFit.cxx:1135`) — since 2026-09-28 its center coincides with the red line | never filled — **no band drawn** (`DoFit.cxx:1681`) |
 | Data/Fit panel | data / **γ-included** total (`DoFit.cxx:1416`) → ≈1.0 (changed 2026-09-28) | data / **γ-included** red (`DoFit.cxx:1796`) → 1.0 even in TagBin6 |
@@ -40,27 +40,25 @@ The two plot types are wired differently — check which one you are reading:
 
 ```mermaid
 flowchart TD
-    A[Gamma-activity signature in TagBin6] --> B{Which plot type?}
-    B --> C["TagBin plot:<br>stack top ≠ red line<br>(stack γ-stripped, red γ-included)"]
-    B --> D["mSV plot (since 2026-09-28):<br>stack & red γ-included integrals;<br>Data/Fit ≈ 1 always — γ invisible here"]
-    C --> E{Data/Fit flat at 1.0?}
-    E -- yes --> F[Check floated SFs against<br>physics priors e.g. SF_Neg_TagBin6_b]
-    D --> F
+    A[Gamma-activity signature] --> B["Since 2026-09-28 every stack is γ-included<br>(IntegralNorm flag): stack = red =<br>the post-fit prediction in BOTH plot types"]
+    B --> C["γ pull now visible as:<br>prefit dashed ≠ postfit red,<br>inflated fit uncertainties, γ pulls"]
+    C --> D{Data/Fit flat at 1.0?}
+    D -- yes --> E[Check floated SFs against<br>physics priors e.g. SF_Neg_TagBin6_b]
     G[Prefit ≠ raw MC] --> H[Flavor fraction init wrong<br>fixed 2026-09-18, see LR 0003]
 ```
 
 ## Diagnostic shortcuts
 
-- **Stack top ≠ red line** ⇒ gammas active in that category — **TagBin plot only**; size of gap = gamma pull. Since 2026-09-28 the mSV stack is γ-included (`IntegralNorm` flag), so its red ≡ stack carries no γ information and a TagBin-like gap can no longer appear there.
+- **Stack top ≠ red line** ⇒ *no longer possible* — since 2026-09-28 every stack is γ-included (`IntegralNorm` flag), so stack = red = post-fit prediction in both plot types. γ activity instead shows as prefit-vs-postfit differences and inflated fit uncertainties/pulls. The old γ-stripped diagnostic is revertible by passing `IntegralNorm = false`.
 - **Huge gap + Data/Fit flat at 1.0** ⇒ check floated SFs against physics priors (e.g. `SF_Neg_TagBin6_b`).
 - **Fit status**: 0 = converged; 4 = error matrix not pos-def (can still be at the minimum); the retry loop re-fits up to 800×.
 - **Prefit ≠ raw MC** ⇒ flavor fraction init wrong (see learning record 0003; fixed 2026-09-18).
 - **Which gammas float**: only where the bin's relative MC stat error exceeds the threshold (`BuildWS.cxx:432`) — in this build only TagBin5/6; `FitOption = "MC_STAT"` fixes those too (`DoFit.cxx:770`).
 
-> [!question]- Self-check: which two plot quantities differ only by gammas?
+> [!question]- Self-check: which two plot quantities USED to differ only by gammas?
 >
 > > [!success]- Answer
-> > In the **TagBin** plot: the stack top (Σ coef, gammas stripped by renormalization) and the red line (gamma-included PDF integral). Identical when all γ = 1. (In mSV plots both stack and red are γ-included since 2026-09-28, so that plot carries no such pair.)
+> > The TagBin stack top (Σ coef, gammas stripped by renormalization) and its red line (gamma-included PDF integral) — identical when all γ = 1, and the lesson-0003 diagnostic. Since 2026-09-28 the TagBin stack is γ-included too (`DoFit.cxx:1609`), so no current plot pair carries that relationship.
 
 ---
 **Sources:** `DoCalibration/src/DoFit.cxx` (Plot, NP loop), `DoCalibration/src/ModelTool.cxx` (GetHistogram, GetTotal*), `DoCalibration/src/DoResults.cxx` (delta-method reporting).

@@ -52,12 +52,11 @@ _Avoid_: fit histogram
 Model evaluated at fitted vs initial parameter values. The pre-fit equals the raw MC templates only when initial values are physically correct.
 
 **Stack**:
-Sum of per-flavor components from `GetHistogram()`. **Plot-type dependent since 2026-09-28**: mSV plot passes `IntegralNorm = true` — per-bin γ-**included** integral × coef; TagBin plot keeps the default renormalized shape × coef, which **strips** γ.
+Sum of per-flavor components from `GetHistogram()`. Since 2026-09-28 γ-**included** in **both** plot types (`IntegralNorm = true`: per-bin integral × coef) — the stack adds to the red line and tracks the post-fit prediction. Before that, the renormalized shape × coef stripped γ and the stack top stayed at Σ coef.
 _Avoid_: total
 
 **Fit-result line (red)**:
-Plot-type dependent. mSV plot: `GetTotal(..., true)` — sum of the same γ-included components as the stack, so it hugs the stack top **by construction**. TagBin plot: `GetYieldTotal()` — γ-included full-PDF integral; its gap to the γ-stripped stack is the γ pull.
-_Avoid_: one definition for both plot types
+mSV plot: `GetTotal(..., true)` — sum of the same γ-included components as the stack, so it hugs the stack top **by construction**. TagBin plot: `GetYieldTotal()` — full-PDF integral. Both γ-included since 2026-09-28; both track the post-fit prediction.
 
 **Fit band (grey)**:
 γ-included per-bin PDF integral ± `getPropagatedError(FitRes)` in the mSV plot; since 2026-09-28 its center coincides with the red line. Never drawn in TagBin plots — the band histogram is cloned but never filled there.
@@ -82,5 +81,5 @@ Pseudo-continuous b-tagging / c-tagging quantile schemes; CTight and BTight labe
 
 ## Conventions in this workspace
 
-- "Stack" is plot-type dependent since 2026-09-28: γ-included (per-bin integral × coef, `IntegralNorm`) in mSV plots, γ-stripped (renormalized shape × coef) in TagBin plots. The TagBin stack-vs-red gap remains the γ-activity diagnostic.
+- "Stack" is γ-included in both plot types since 2026-09-28 (`IntegralNorm`); the former stack-vs-red γ diagnostic is retired — γ activity shows as prefit-vs-postfit gaps and in fit uncertainties.
 - Example fits: GN2v01 Flip, period ADE (163 fb⁻¹), unless stated otherwise.
