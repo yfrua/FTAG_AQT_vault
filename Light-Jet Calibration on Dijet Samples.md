@@ -48,9 +48,12 @@
 		- [x] produce histograms.
 		- [x] fit and plot
 			- (tag bin, pT bin) pair to take care of after the fit
-				- (2, 5), (4, 3), (4, 5), (5, 3), (5, 5), (6 ,3), (6, 4)
+				- tag bin ranges in $[1, 6]$, pT bin ranges in $[3, 5]$.
+				- (2, 3), (2, 5), (3, 3), (4, 3), (5, 3), (5, 5), (6, 3), (6, 4).
+				- failure rate: $8/18=44.4\%$.
 			- failed fit (fit status != 0), (pT bin, sys unc type):
-				- (3, nom), (3, mc stat), (3, data stat), (4, c SF up)		
+				- (3, nom), (3, C SF down), (4, C SF up).
+				- failure rate: $3/15=20\%$.
 		- [x] adjust the WP used and things related to it (previous one is for GN3)
 	- use current pT binning (truncate at 300 GeV) to get more physically correct result (==GN2_rebin==)
 		- binning: 80-120, 120-200, 200-300.
