@@ -52,7 +52,7 @@
 				- (2, 3), (2, 5), (3, 3), (4, 3), (5, 3), (5, 5), (6, 3), (6, 4).
 				- failure rate: $8/18=44.4\%$.
 			- failed fit (fit status != 0), (pT bin, sys unc type):
-				- (3, nom), (3, C SF down), (4, C SF up).
+				- (3, nominal), (3, C SF down), (4, C SF up).
 				- failure rate: $3/15=20\%$.
 		- [x] adjust the WP used and things related to it (previous one is for GN3)
 	- use current pT binning (truncate at 300 GeV) to get more physically correct result (==GN2_rebin==)
@@ -60,10 +60,13 @@
 		- [x] produce histograms.
 		- [x] fit and plot.
 			- (tag bin, pT bin) pair to take care of after the fit:
-				- (6, 2), (6, 3)
+				- tag bin ranges in $[1, 6]$, pT bin ranges in $[2, 4]$.
+				- (6, 2), (6, 3).
+				- failure rate: $2/18=11.1\%$.
 			- failed fit (fit status != 0), (pT bin, sys unc type):
-				- (2, nom)
-		- [x] set y-axis range the same as official one.
+				- (2, C SF up), (3, nominal), (3, C SF up).
+				- failure rate: $3/15=20\%$.
+	- [x] set y-axis range the same as official one.
 - [ ] quark/gluon splitting study 
 	- Study whether effect of the quark/gluon composition of the sample on the Scale Factor can be estimated. 
 	- Suggest a better event selection condition to reduce the contamination of single or double-b jets.
