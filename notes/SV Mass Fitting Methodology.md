@@ -1,6 +1,6 @@
 # Prerequisite knowledge 
 Fitting formula:
-![](assets/SV%20Mass%20Fitting%20Methodology/file-20260922174706485.png)
+$$N_i (m_{\text{SV}}) = N_{i,\text{MC}} \times C \times \left[ \sum_{f=\text{light, c, b} } F^f \times \text{SF}_i^f \times \epsilon_{i,\text{MC}}^f \times P_i^f(m_{\text{SV}}) \right]$$
 - i stands for i-th NN discriminant interval (i.e. tag bin).
 - $N_{i, MC}$ is the predicted flavour-inclusive event yield for each discriminant interval; $C$ is a global normalization factor and $F^f$ are the jet-flavour fractions; $P^f_i (m_{SV})$ is the probability density function of $m_{SV}$ taken from simulation.
 - The $C$, $F^f$ and $SF^{b,light}_i$ parameters are allowed to float in the fit, while $N_{i, MC}$ and $\epsilon^f_{i, MC}$ are fixed to the predictions from simulated events and $SF^c_i$ is set to $1.0 \pm 0.3$. 
