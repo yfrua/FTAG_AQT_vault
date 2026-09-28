@@ -29,10 +29,10 @@ The two plot types are wired differently — check which one you are reading:
 
 | Element | mSV plot (`Plot`) | TagBin plot (`PlotTagBin`) |
 |---|---|---|
-| Stack l/c/b | `GetHistogram()`: shape (renormalized) × coef — gammas **stripped** | same, integrated per tag bin — gammas **stripped** (`DoFit.cxx:1632-1634`) |
-| Red "Fit Result" | `GetTotal()`: sum of the *same* components — **≡ stack top, always** (`DoFit.cxx:1205`) | `GetYieldTotal()`: full-PDF integral — gammas **included** (`DoFit.cxx:1639`) |
-| Grey band | `GetYieldTotalBin()`: γ-included integral + `getPropagatedError(FitRes)` (`DoFit.cxx:1135`) | never filled — **no band drawn** (`DoFit.cxx:1681`) |
-| Data/Fit panel | data / **γ-stripped** total (`DoFit.cxx:1416`) → ≈0.17, off-panel in TagBin6 | data / **γ-included** red (`DoFit.cxx:1796`) → 1.0 even in TagBin6 |
+| Stack l/c/b | `GetHistogram(..., IntegralNorm=true)`: per-bin γ-**included** integral × coef (changed 2026-09-28, `DoFit.cxx:1225`) | default `GetHistogram()`: shape (renormalized) × coef — gammas **stripped** (`DoFit.cxx:1632-1634`) |
+| Red "Fit Result" | `GetTotal(..., true)`: sum of the *same* γ-included components — **≡ stack top, always** (`DoFit.cxx:1205`) | `GetYieldTotal()`: full-PDF integral — gammas **included** (`DoFit.cxx:1639`) |
+| Grey band | `GetYieldTotalBin()`: γ-included integral + `getPropagatedError(FitRes)` (`DoFit.cxx:1135`) — since 2026-09-28 its center coincides with the red line | never filled — **no band drawn** (`DoFit.cxx:1681`) |
+| Data/Fit panel | data / **γ-included** total (`DoFit.cxx:1416`) → ≈1.0 (changed 2026-09-28) | data / **γ-included** red (`DoFit.cxx:1796`) → 1.0 even in TagBin6 |
 | Blue dashed | `GetTotalPrefit()` (pre-fit = raw MC) | `GetTotalPrefit()->Integral()` |
 | Data points | `obsData` + SumW2 errors from `ContNegTagInputs` | same |
 
@@ -42,7 +42,7 @@ The two plot types are wired differently — check which one you are reading:
 flowchart TD
     A[Gamma-activity signature in TagBin6] --> B{Which plot type?}
     B --> C["TagBin plot:<br>stack top ≠ red line<br>(stack γ-stripped, red γ-included)"]
-    B --> D["mSV plot:<br>red ≡ stack top always;<br>band floats near data level,<br>Data/Fit points off-panel"]
+    B --> D["mSV plot (since 2026-09-28):<br>stack & red γ-included integrals;<br>Data/Fit ≈ 1 always — γ invisible here"]
     C --> E{Data/Fit flat at 1.0?}
     E -- yes --> F[Check floated SFs against<br>physics priors e.g. SF_Neg_TagBin6_b]
     D --> F
@@ -51,7 +51,7 @@ flowchart TD
 
 ## Diagnostic shortcuts
 
-- **Stack top ≠ red line** ⇒ gammas active in that category — TagBin plot only; size of gap = gamma pull. In mSV plots red always hugs the stack; the γ signature there is the band sitting near the data plus an empty Data/Fit panel.
+- **Stack top ≠ red line** ⇒ gammas active in that category — **TagBin plot only**; size of gap = gamma pull. Since 2026-09-28 the mSV stack is γ-included (`IntegralNorm` flag), so its red ≡ stack carries no γ information and a TagBin-like gap can no longer appear there.
 - **Huge gap + Data/Fit flat at 1.0** ⇒ check floated SFs against physics priors (e.g. `SF_Neg_TagBin6_b`).
 - **Fit status**: 0 = converged; 4 = error matrix not pos-def (can still be at the minimum); the retry loop re-fits up to 800×.
 - **Prefit ≠ raw MC** ⇒ flavor fraction init wrong (see learning record 0003; fixed 2026-09-18).
@@ -60,7 +60,7 @@ flowchart TD
 > [!question]- Self-check: which two plot quantities differ only by gammas?
 >
 > > [!success]- Answer
-> > The stack top (Σ coef, gammas stripped by renormalization) and the red line (gamma-included PDF integral). Identical when all γ = 1.
+> > In the **TagBin** plot: the stack top (Σ coef, gammas stripped by renormalization) and the red line (gamma-included PDF integral). Identical when all γ = 1. (In mSV plots both stack and red are γ-included since 2026-09-28, so that plot carries no such pair.)
 
 ---
 **Sources:** `DoCalibration/src/DoFit.cxx` (Plot, NP loop), `DoCalibration/src/ModelTool.cxx` (GetHistogram, GetTotal*), `DoCalibration/src/DoResults.cxx` (delta-method reporting).

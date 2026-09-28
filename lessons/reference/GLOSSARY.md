@@ -52,15 +52,15 @@ _Avoid_: fit histogram
 Model evaluated at fitted vs initial parameter values. The pre-fit equals the raw MC templates only when initial values are physically correct.
 
 **Stack**:
-Sum of per-flavor components from `GetHistogram()`: shape renormalized to unit integral × post-fit coefficient. Gammas are **stripped** by the renormalization.
+Sum of per-flavor components from `GetHistogram()`. **Plot-type dependent since 2026-09-28**: mSV plot passes `IntegralNorm = true` — per-bin γ-**included** integral × coef; TagBin plot keeps the default renormalized shape × coef, which **strips** γ.
 _Avoid_: total
 
 **Fit-result line (red)**:
-Plot-type dependent. mSV plot: `GetTotal()` — sum of the same gamma-stripped components as the stack, so it hugs the stack top **by construction**. TagBin plot: `GetYieldTotal()` — gamma-included full-PDF integral, the fit's actual prediction.
+Plot-type dependent. mSV plot: `GetTotal(..., true)` — sum of the same γ-included components as the stack, so it hugs the stack top **by construction**. TagBin plot: `GetYieldTotal()` — γ-included full-PDF integral; its gap to the γ-stripped stack is the γ pull.
 _Avoid_: one definition for both plot types
 
 **Fit band (grey)**:
-The only gamma-**included** element of the mSV plot: per-bin PDF integral ± `getPropagatedError(FitRes)`. Never drawn in TagBin plots — the band histogram is cloned but never filled there.
+γ-included per-bin PDF integral ± `getPropagatedError(FitRes)` in the mSV plot; since 2026-09-28 its center coincides with the red line. Never drawn in TagBin plots — the band histogram is cloned but never filled there.
 
 **TagBin1 (complement bin)**:
 Loosest quantile: yield = pre-tag total minus all tagged contributions, `N_Inc_Pretag × f × (1 − Σ Eff·SF)`. Makes the fit self-normalizing.
@@ -82,5 +82,5 @@ Pseudo-continuous b-tagging / c-tagging quantile schemes; CTight and BTight labe
 
 ## Conventions in this workspace
 
-- "Stack" always means the gamma-stripped component sum. "Fit result" or "red line" is plot-type dependent: gamma-stripped in mSV plots (≡ stack top), gamma-included in TagBin plots.
+- "Stack" is plot-type dependent since 2026-09-28: γ-included (per-bin integral × coef, `IntegralNorm`) in mSV plots, γ-stripped (renormalized shape × coef) in TagBin plots. The TagBin stack-vs-red gap remains the γ-activity diagnostic.
 - Example fits: GN2v01 Flip, period ADE (163 fb⁻¹), unless stated otherwise.

@@ -20,28 +20,28 @@ In a GN2-rebin fit (80–120 GeV, fit status 0 = converged), the TagBin plot sho
 
 ## Recap: what each element is made of
 
-| Element             | Formula                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------- |
-| Stack component *i* | `GetHistogram()`: shape × coefᵢ, **renormalized** to unit integral                    |
-| Stack top           | Σᵢ coefᵢ — gammas **stripped** by the renormalization                                 |
-| Red line            | `GetYieldTotal()`: Σᵢ coefᵢ × ∫funcᵢ — gammas **included** (they multiply the shapes) |
-| Blue dashed         | Same machinery at pre-fit parameter values                                            |
+| Element | Formula |
+|---|---|
+| Stack component *i* | `GetHistogram()`: shape × coefᵢ, **renormalized** to unit integral |
+| Stack top | Σᵢ coefᵢ — gammas **stripped** by the renormalization |
+| Red line | `GetYieldTotal()`: Σᵢ coefᵢ × ∫funcᵢ — gammas **included** (they multiply the shapes) |
+| Blue dashed | Same machinery at pre-fit parameter values |
 
 **When all gammas = 1, stack top ≡ red line exactly.** Any gap is the fit's gamma pull. A *huge* gap means weakly-constrained gammas or something pathological in the coefficients themselves.
 
-> [!warning] This recap is the **TagBin plot** wiring
-> The mSV plot (`Plot()`) is wired differently: its red line is `GetTotal()` — the sum of the *same* gamma-stripped components as the stack (`DoFit.cxx:1205`), so red ≡ stack top there **by construction**. In mSV plots the gammas surface only in the grey band (`GetYieldTotalBin`, gamma-included, `DoFit.cxx:1135`) and the Data/Fit panel divides by the gamma-**stripped** total (`DoFit.cxx:1416`) — so in a pathological category the mSV panel goes empty (points at ≈0.17 fall below the 0.9–1.1 pad) while the TagBin panel stays flat at 1.0.
+> [!warning] This recap is the **TagBin plot** wiring — the mSV plot changed on 2026-09-28
+> The mSV plot (`Plot()`) *used to* be wired differently: its red line was `GetTotal()` — the sum of the *same* gamma-stripped components as the stack (`DoFit.cxx:1205`), so red ≡ stack top **by construction**, γ surfaced only in the grey band (`DoFit.cxx:1135`), and the Data/Fit panel divided by the γ-**stripped** total (`DoFit.cxx:1416`) — going empty (≈0.17, off-panel) in pathological categories. Since 2026-09-28, `GetHistogram`/`GetTotal` take an `IntegralNorm` flag (`ModelTool.h:51,53`) and the mSV plot passes `true` (`DoFit.cxx:1205,1225`): ==stack and red are now per-bin γ-**included** integrals × coef== — the stack adds to the red line and Data/Fit ≈ 1 even when γ ≈ 0.17. The **TagBin plot keeps the original wiring**, so its stack-vs-red gap remains the γ-activity diagnostic (see [[0006-gamma-included-stack]]).
 
 ## The cast: coefᵢ, funcᵢ, shape, γ
 
 All four live in one object: the category model `<Cat>_model`, a RooRealSumPdf over the three flavors, `<Cat>_model = Σᵢ coefᵢ · funcᵢ`, i ∈ {l, c, b}. ModelTool reads both lists straight from the workspace (`funcList()`, `coefList()`, `ModelTool.cxx:94–142`), and every DoFit log prints them. From the log, TagBin6:
 
-| Ingredient | Workspace object                                                                                                             | What it is                                                                                                                                                                    |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| funcᵢ      | RooProduct `l_Chan_TagBin6_shapes` = `l_Chan_TagBin6_Hist_alphanominal × mc_stat_Chan_TagBin6 × Chan_TagBin6_model_binWidth` | Flavor i's mSV shape as a function of mSV: nominal MC template × MC-stat factor × bin-width normalisation                                                                     |
-| γ          | `gamma_stat_Chan_TagBin6_bin_{0,1,2}`, Gaussian-constrained around global observables `nom_gamma_stat_...` = 1               | Per (tag bin × mSV bin) MC-statistics multipliers, width = that bin's relative MC stat error. They sit inside `mc_stat_<Cat>`, which multiplies **all three flavors alike**   |
-| coefᵢ      | RooProduct `b_Chan_TagBin6_scaleFactors` = `b_Chan_TagBin6_epsilon × N_TagBin6_b × Lumi`                                     | Flavor i's expected yield in the category: efficiency × normalization equation (carries `Scale`, `f`, and the `SF_Neg_*` POIs). Pre-fit in TagBin6: l 1.8e7, c 1.6e7, b 1.4e8 |
-| shape      | —                                                                                                                            | funcᵢ **renormalized to unit integral** inside `GetHistogram()` (`ModelTool.cxx:209`), then scaled by coefᵢ                                                                   |
+| Ingredient | Workspace object | What it is |
+|---|---|---|
+| funcᵢ | RooProduct `l_Chan_TagBin6_shapes` = `l_Chan_TagBin6_Hist_alphanominal × mc_stat_Chan_TagBin6 × Chan_TagBin6_model_binWidth` | Flavor i's mSV shape as a function of mSV: nominal MC template × MC-stat factor × bin-width normalisation |
+| γ | `gamma_stat_Chan_TagBin6_bin_{0,1,2}`, Gaussian-constrained around global observables `nom_gamma_stat_...` = 1 | Per (tag bin × mSV bin) MC-statistics multipliers, width = that bin's relative MC stat error. They sit inside `mc_stat_<Cat>`, which multiplies **all three flavors alike** |
+| coefᵢ | RooProduct `b_Chan_TagBin6_scaleFactors` = `b_Chan_TagBin6_epsilon × N_TagBin6_b × Lumi` | Flavor i's expected yield in the category: efficiency × normalization equation (carries `Scale`, `f`, and the `SF_Neg_*` POIs). Pre-fit in TagBin6: l 1.8e7, c 1.6e7, b 1.4e8 |
+| shape | — | funcᵢ **renormalized to unit integral** inside `GetHistogram()` (`ModelTool.cxx:209`), then scaled by coefᵢ |
 
 Two consequences do all the work in this lesson:
 
@@ -96,7 +96,7 @@ The delta method already fixes the *light* SF in the tightest bin (`SF_Neg_TagBi
 
 - ==**Converged ≠ healthy.**== Status 0 means a stationary point, not the one you want. Check parameter values against physics priors.
 - **Near-flat directions are the enemy.** Parameters multiplying the same bins (SF, γ) can trade off; constraint widths set the excursion scale.
-- **Plot artifacts carry information.** The stack-vs-red gap is a free gamma-activity diagnostic; the flavor decomposition stays meaningful even when the absolute height doesn't.
+- **Plot artifacts carry information.** The stack-vs-red gap is a free gamma-activity diagnostic (TagBin plot only, since the 2026-09-28 mSV change — see the warning above); the flavor decomposition stays meaningful even when the absolute height doesn't.
 - **Bin more ⇒ constrain less.** Rebinning improves shape resolution but thins per-bin MC statistics, loosening every gamma constraint.
 
 ## Check your understanding
